@@ -42,7 +42,7 @@
     "recommendedRamMb": 8192,
     "requiresFullModJarPackageBeforePublicRelease": true
   },
-  "visibility": "admin",
+  "visibility": "public",
   "protectedPaths": [
     "config/live_actions.local.json",
     "saves",
