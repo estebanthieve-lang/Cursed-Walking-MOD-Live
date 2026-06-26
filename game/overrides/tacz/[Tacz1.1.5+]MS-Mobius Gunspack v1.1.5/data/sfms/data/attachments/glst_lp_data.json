@@ -1,0 +1,38 @@
+{
+  "weight": -0.2,
+  "ads_addend": -0.1,
+  // 腰射精度配置，最终数值越小越精准（新方法，推荐使用）
+   "inaccuracy": {
+     "addend": -0.15
+   },
+  // 瞄准精度配置，最终数值越小越精准（新方法，推荐使用）
+   "aim_inaccuracy": {
+     "addend": -0.1
+   },
+   "explosion": {
+	"explode": true,
+	"radius": {
+		"addend": 0.1
+	},
+	"damage": {
+		"addend": 3.0
+	},
+	"knockback": false,
+	"destroy_block": false,
+	"delay": {
+		"addend": 1.0
+    }
+   },
+  // 子弹速度配置
+   "ammo_speed": {
+		"addend": -70
+   },
+  "recoil": {
+    "pitch": {
+	  "addend": -0.2
+    },
+    "yaw": {
+      "multiplier": -0.2
+    }
+  }
+}

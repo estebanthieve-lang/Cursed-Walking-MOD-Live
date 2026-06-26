@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:gun_smith_table"
+  },
+  "pattern": [
+    "OPO",
+    "LBL",
+    "IRI"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "O": {
+      "tag": "forge:plates/brass"
+    },
+    "P": {
+      "tag": "create:toolboxes"
+    },
+    "R":
+  "result": {
+    "type": "custom",
+    "group": "tacz:misc",
+    "item": {
+      "item": "minecraft:painting",
+      "nbt": {
+        "display": {
+          "Name": "{\"translate\":\"item.tacz.painting.blood_strike_1\"}"
+        },
+        "EntityTag": {
+          "variant": "tacz:blood_strike_1"
+        }
+      },
+      "count": 1
+    }
+  }
+}

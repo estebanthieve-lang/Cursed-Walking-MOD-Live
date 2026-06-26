@@ -1,0 +1,7 @@
+{
+  "slot": "bf1:attachment/slot/grip_light_bipods",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_b",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

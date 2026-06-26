@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:amethyst_block"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/brass"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "sfms:300ms",
+    "count": 60
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

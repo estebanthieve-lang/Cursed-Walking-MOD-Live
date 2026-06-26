@@ -1,0 +1,19 @@
+{
+  "slot": "bf1:attachment/slot/sight_fusion_holo",
+  "model": "bf1:attachment/sight_fusion_holo.geo",
+  "texture": "bf1:attachment/uv/sight_fusion_holo",
+  "lod": {
+    "model": "tacz:attachment/lod/sight_fastfire_pistol",
+    "texture": "tacz:attachment/lod/sight_fastfire_pistol"
+  },
+  "zoom": [
+    1.33
+  ],
+  "scope": false,
+  "sight": true,
+  "fov": 62,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

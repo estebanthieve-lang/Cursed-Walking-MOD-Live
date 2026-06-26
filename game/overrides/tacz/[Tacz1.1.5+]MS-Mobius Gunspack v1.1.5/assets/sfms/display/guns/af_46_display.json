@@ -1,0 +1,81 @@
+{
+    // 默认的模型，在包目录下的 models 文件夹中寻找，不可为空
+    "model": "sfms:gun/af_46_geo",
+    // 默认材质，不可为空
+    "texture": "sfms:gun/uv/af_46",
+    // GUI/HUD 界面的 2D 材质，在包目录下的 textures 文件夹中寻找，可为空，若为空，则对应位置不会渲染
+    "hud": "sfms:gun/hud/af_46",
+    // 背包/快捷栏等容器中槽位显示的 2D 材质，在包目录下的 textures 文件夹中寻找，不建议为空
+    "slot": "sfms:gun/slot/af_46",
+    // 调用的动画名，会在包目录下的 animations 文件夹中寻找，不建议为空
+    "animation": "sfms:af_57",
+    // 指定使用缺省动画，可为空。如果上文指定的动画文件里缺少某个动画，如 draw 动画，则会从缺省动画拷贝。
+    // 值可为 rifle、pistol
+    "use_default_animation": "rifle",
+    // 第三人称动画，硬编码，只能选择已有类型，默认只有 default
+    "third_person_animation": "default",
+    // 调整各个视角下模型的变换参数，可为空
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "offhand_show": {
+    "pos": [4, 13, -1],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, -1],
+      "rotate": [-90, -35, 90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+    "muzzle_flash": {
+      "texture": "tacz:flash/common_muzzle_flash",
+      "scale": 0.35
+    },
+    // 抛壳的渲染数据，可为空，若为空，则枪械不抛壳
+    "shell": {
+    "initial_velocity": [3.5, 4.0, -6],
+    "random_velocity": [1, 2, 4],
+    "acceleration": [0.0, -20, 0.0],
+    "angular_velocity": [360, -1200, 360],
+    "living_time": 1.0
+    },
+  // 枪械模型上的文本显示
+  "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "ammo_text": {
+      "scale": 0.22,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#a2fd5d",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  },
+    // 枪械音效，在包目录下 sounds 文件夹内寻找，不建议为空
+    "sounds": {
+        "shoot": "sfms:af_57/af_46_shoots",
+        "silence": "sfms:af_57/af_57_shoots1",
+        "reload_empty": "sfms:af_57/p250_reload_empty",
+        "reload_tactical": "sfms:af_57/p250_reload_tactical",
+        "inspect": "sfms:af_57/p250_inspect",
+        "inspect_empty": "sfms:af_57/p250_inspect1",
+        "draw": "sfms:af_57/p250_draw",
+        "put_away": "sfms:af_57/p250_put_away",
+        "shoot_3p": "sfms:af_57/af_46_shoots",
+        "silence_3p": "sfms:af_57/af_57_shoots1",
+		"melee_push": "sfms:emx_melee/emx_melee_01"
+    }
+}

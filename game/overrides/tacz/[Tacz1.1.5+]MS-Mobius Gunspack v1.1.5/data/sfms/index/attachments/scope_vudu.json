@@ -1,0 +1,9 @@
+{
+  "hidden": false,
+  "name": "sfms.attachment.scope_vudu.name",
+  "tooltip": "sfms.attachment.scope_vudu.tooltip",
+  "display": "sfms:scope_vudu_display",
+  "data": "sfms:scope_vudu_data",
+  "type": "scope",
+  "sort": 24080
+}

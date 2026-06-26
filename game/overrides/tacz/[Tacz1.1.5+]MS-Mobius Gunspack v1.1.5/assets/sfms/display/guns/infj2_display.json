@@ -1,0 +1,45 @@
+{
+  "model": "sfms:gun/infj_geo",
+  "texture": "sfms:gun/uv/inf_w1",
+  "hud": "sfms:gun/hud/infj2",
+  "slot": "sfms:gun/slot/infj2",
+  "animation": "sfms:inf",
+  "use_default_animation": "pistol",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "shell": {
+    "initial_velocity": [3.5, 4.0, -6],
+    "random_velocity": [1, 2, 4],
+    "acceleration": [0.0, -20, 0.0],
+    "angular_velocity": [360, -1200, 360],
+    "living_time": 1.0
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.55
+  },
+  "sounds": {
+    "shoot": "sfms:inf_x/inf_shootl1",
+    "shoot_3p": "sfms:inf_x/inf_shootl1",
+    "silence": "tacz:cz75/cz75_silence",
+    "silence_3p": "tacz:cz75/cz75_silence_3p"
+  },
+  "offhand_show": {
+    "pos": [4, 13, -1],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, -1],
+      "rotate": [-90, -35, 90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "bf1.attachment.laser_integrated.name",
+  "display": "bf1:laser_integrated_display",
+  "data": "tacz:laser_nightstick_data",
+  "type": "laser",
+  "sort": 18
+}

@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.muzzle_brake.name",
+	"tooltip": "sfms.attachment.muzzle_brake.tooltip",
+	"display": "sfms:muzzle_brake_display",
+	"data": "sfms:muzzle_brake_data",
+	"type": "muzzle",
+    "sort": 24080
+}

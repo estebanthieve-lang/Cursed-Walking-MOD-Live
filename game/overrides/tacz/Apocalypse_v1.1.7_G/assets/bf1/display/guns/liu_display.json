@@ -1,0 +1,65 @@
+{
+  "model": "bf1:gun/liu_geo",
+  "texture": "bf1:gun/uv/liu",
+  "lod": {
+    "model": "bf1:gun/lod/liu_lod",
+    "texture": "bf1:gun/lod/liu_lod"
+  },
+  "hud": "bf1:gun/hud/liu",
+  "slot": "bf1:gun/slot/liu",
+  "animation": "bf1:liu",
+  "default_animation": "bf1:rifle_default",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 2.0
+  },
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 30,
+  "shell": {
+    "initial_velocity": [6, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 0.8
+  },
+  "sounds": {
+    "shoot": "bf1:liu/shoot",
+    "shoot_3p": "bf1:liu/shoot",
+    "bolt": "bf1:liu/boltaction",
+    "draw": "bf1:draw2",
+    "put_away": "tacz:mk14/mk14_put_away",
+    "inspect": "tacz:mk14/mk14_inspect",
+    "inspect_empty": "bf1:vo/request_ammo",
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "no",
+
+    "head_hit": "bf1:head_hit",
+    "flesh_hit": "bf1:flesh_hit",
+    "kill": "bf1:kill"
+  },
+  "offhand_show": {
+    "pos": [0, 19, 4],
+    "rotate": [0, 0, 60],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 19, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },  
+  "state_machine": "bf1:liu_state_machine",
+  "state_machine_param": {
+    "bolt_shell_ejecting_time": 0.17,
+    "intro_shell_ejecting_time": 0.4
+  }
+}

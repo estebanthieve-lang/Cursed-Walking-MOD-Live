@@ -1,0 +1,120 @@
+{
+  "ammo": "tacz:556x45",
+  "ammo_amount": 75,
+  "extended_mag_ammo_amount": [
+    100,
+    125,
+    150
+  ],
+  "bolt": "closed_bolt",
+  "rpm": 750,
+  "bullet": {
+    "life": 0.75,
+    "bullet_amount": 1,
+    "damage": 11.6,
+    "tracer_count_interval": 0.2,
+    "extra_damage": {
+      "armor_ignore": 0.33,
+      "head_shot_multiplier": 1.80,
+      "damage_adjust": [
+        {"distance": 40, "damage": 11.6},
+        {"distance": 55, "damage": 10.9},
+        {"distance": 70, "damage": 9.5},
+        {"distance": "infinite", "damage": 8.5}
+      ]
+    },
+    "speed": 285,
+    "gravity": 0.0245,
+    "knockback": 0,
+    "friction": 0.01,
+    "ignite": false,
+    "pierce": 1
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.83,
+      "tactical": 1.21
+    },
+    "cooldown": {
+      "empty": 2.29,
+      "tactical": 2.25
+    }
+  },
+  "draw_time": 0.3,
+  "put_away_time": 0.6,
+  "aim_time": 0.45,
+  "sprint_time": 0.15,
+  "weight": 6.8,
+  "movement_speed": {
+    // 默认修正
+    "base": 0.0,
+    // 瞄准时
+    "aim": -0.2,
+    // 换弹时
+    "reload": -0.4
+  },
+  "fire_mode": [
+    "auto",
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.625, 0.625]},
+      {"time": 0.15, "value": [0.625, 0.625]},
+      {"time": 0.5, "value": [-0.125, -0.125]},
+      {"time": 0.65, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.3, 0.2]},
+      {"time": 0.15, "value": [-0.3, 0.2]},
+      {"time": 0.5, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 3.5,
+    "move": 4,
+    "sneak": 3.5,
+    "lie": 3,
+    "aim": 0.125
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 1.0,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 0,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 4,
+      // 击退效果
+      "knockback": 0.75,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "allow_attachment_types": [
+    "scope",
+    "stock",
+    "grip",
+    "muzzle",
+    "laser",
+    "extended_mag"
+  ],
+  // 配件槽的默认配件，当未安装配件时使用
+  // 默认配件的data将不会被应用，仅仅有外观效果
+  // 用于默认瞄具等特殊场合
+   "builtin_attachments": {
+     "scope": "sfms:scope_hamr"
+   },
+  "exclusive_attachments": {
+  }
+}

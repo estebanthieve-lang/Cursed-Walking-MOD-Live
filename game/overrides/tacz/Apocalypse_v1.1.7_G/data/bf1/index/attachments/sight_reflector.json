@@ -1,0 +1,7 @@
+{
+  "name": "bf1.attachment.sight_reflector.name",
+  "display": "bf1:sight_reflector_display",
+  "data": "tacz:sight_exp3_data",
+  "type": "scope",
+  "sort": 19
+}

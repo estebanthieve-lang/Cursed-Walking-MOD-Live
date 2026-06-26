@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	disable_toast: true
+	filename: "base_security"
+	group: "3AB3245D05E97FFD"
+	icon: {
+		Count: 1
+		id: "securitycraft:universal_block_reinforcer_lvl1"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "62613D08D1F42FBF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lStart reinforcing your base.&r"]
+			disable_toast: true
+			id: "72C9234D80267286"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4A910F826B8D652E"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72C9234D80267286"]
+			description: ["&lA more sturdy and reliable version of the reinforcer&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1C964F7D47E8627A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "29B250639933F5C4"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C964F7D47E8627A"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "27ECAA515328BA93"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "6B410A8FAE5605DF"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72C9234D80267286"]
+			description: [
+				"&lBlock reinforcing is a mechanic that makes it impossible for everyone except you to break blocks of your base, most vanilla blocks can be reinforced. In order to reinforce a block, right click with any tier of block reinforcer and drag into the only slot that there is and then after putting the items press esc. If you have a higher tier reinforcer you can simply just punch a block to auto reinforce it.&r"
+				""
+				"&6&lIn order to remove reinforced blocks you need a universal block reinforcer.&r&r"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "66349FA5A176FB8D"
+			size: 2.0d
+			tasks: [{
+				id: "50AB395559C55C9B"
+				title: "Block Reinforcing"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["72C9234D80267286"]
+			description: ["&lTo open one you will need a reinforced button, or perhaps a keypad&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "616E8AC4E841907C"
+			tasks: [{
+				id: "40C2B2EA59A54588"
+				item: {
+					Count: 1
+					id: "securitycraft:door_indestructible_iron_item"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["616E8AC4E841907C"]
+			description: ["&lFuse the keypad with the reinforced door, now you can set a code to easily open and close the door.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0044622C65379A2F"
+			tasks: [{
+				id: "136A4E9B6119D962"
+				item: {
+					Count: 1
+					id: "securitycraft:keypad_door_item"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0044622C65379A2F"]
+			description: ["&lThis door now will only scan your eyes and then it will let you through, making it the fastest door by far!&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7095346F63030A99"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6D78E1FF658CA888"
+				item: {
+					Count: 1
+					id: "securitycraft:scanner_door_item"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72C9234D80267286"]
+			description: ["&lAllows you to set up security cameras, click on one of them with the portable viewer and then you will be able to access it's view from anywhere you are.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7B7BDE34308B862B"
+			tasks: [
+				{
+					id: "7A6B02912D7B92E9"
+					item: {
+						Count: 1
+						id: "securitycraft:security_camera"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4ACF936F9FBDA80C"
+					item: {
+						Count: 1
+						id: "securitycraft:camera_monitor"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72C9234D80267286"]
+			description: ["&lSentries can be placed down and they will automatically attack nearby hostile mobs, you can control them a bunch with the control pad&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2D32D3CDD673E638"
+			tasks: [
+				{
+					id: "103C1C04BC59800A"
+					item: {
+						Count: 1
+						id: "securitycraft:sentry"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0023BBA84021DBAB"
+					item: {
+						Count: 1
+						id: "securitycraft:remote_access_sentry"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72C9234D80267286"]
+			description: ["&lMines, they explode, wow, incredible!&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "50063BEAECBC19A4"
+			tasks: [{
+				id: "09CFBC08AA2268E1"
+				item: {
+					Count: 1
+					id: "securitycraft:mine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72C9234D80267286"]
+			description: ["&l&lAllows you to break reinforced blocks &l&6placed by you&r, and only you.&r&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1EA677452E0E6AF4"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "234F940F18A7B39A"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_remover"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72C9234D80267286"]
+			description: [
+				"&lStrikes nearby foes with lightning.&r"
+				""
+				"&4&lDON'T USE NEAR VILLAGERS&r&4&r"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "06FF9F57E5F69F3F"
+			tasks: [{
+				id: "004250F473DDF752"
+				item: {
+					Count: 1
+					id: "securitycraft:protecto"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "Security Craft"
+}

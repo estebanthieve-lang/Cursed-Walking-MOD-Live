@@ -1,0 +1,513 @@
+[
+  {
+    "mob": [
+      "zombies_plus:runner_zombie"
+    ],
+    "result": "default",
+    "when": "finalize",
+    "speedmultiply": 0.9
+  },
+  {
+    "mob": [
+      "zombies_plus:brute_zombie"
+    ],
+    "result": "default",
+    "when": "finalize",
+    "speedmultiply": 1.2
+  },
+  {
+    "mob": [
+      "zombies_plus:crawler_zombie"
+    ],
+    "result": "default",
+    "when": "finalize",
+    "damagemultiply": 0.8
+  },
+  {
+    "mob": [
+      "feralzombie:feral_zombie"
+    ],
+    "result": "default",
+    "when": "finalize",
+    "healthmultiply": 3.0
+  },
+
+  {
+    "dimension": "the_deep_void:deep_void",
+    "mod": "the_deep_void",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "the_deep_void",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:phantom",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "zombies_plus:cave_zombie",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "zombies_plus:shrieker_zombie",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "result": "allow",
+    "random": 0.05,
+    "mindaycount": 40,
+    "armorhelmet": [
+      "mcore:steel_helmet"
+    ],
+    "armorchest": [
+      "mcore:steel_chestplate"
+    ],
+    "armorlegs": [
+      "mcore:steel_leggings"
+    ],
+    "armorboots": [
+      "mcore:steel_boots"
+    ],
+    "helditem": [
+      {
+        "empty": true
+      }
+    ]
+  },
+  {
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "result": "allow",
+    "random": 0.05,
+    "mindaycount": 40,
+    "armorhelmet": [
+      "marbledsarsenal:riot_armor_helmet"
+    ],
+    "armorchest": [
+      "marbledsarsenal:riot_armor_chestplate"
+    ],
+    "armorlegs": [
+      "marbledsarsenal:riot_armor_leggings"
+    ],
+    "armorboots": [
+      "marbledsarsenal:riot_armor_boots"
+    ],
+    "helditem": [
+      {
+        "empty": true
+      }
+    ]
+  },
+  {
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "result": "allow",
+    "random": 0.05,
+    "mindaycount": 40,
+    "armorhelmet": [
+      "marbledsarsenal:swat_armor_helmet"
+    ],
+    "armorchest": [
+      "marbledsarsenal:swat_armor_chestplate"
+    ],
+    "armorlegs": [
+      "marbledsarsenal:swat_armor_leggings"
+    ],
+    "armorboots": [
+      "marbledsarsenal:swat_armor_boots"
+    ],
+    "helditem": [
+      {
+        "empty": true
+      }
+    ]
+  },
+  {
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "result": "allow",
+    "random": 0.05,
+    "mindaycount": 80,
+    "armorhelmet": [
+      "marbledsarsenal:desert_military_armor_helmet"
+    ],
+    "armorchest": [
+      "marbledsarsenal:desert_military_armor_chestplate"
+    ],
+    "armorlegs": [
+      "marbledsarsenal:desert_military_armor_leggings"
+    ],
+    "armorboots": [
+      "marbledsarsenal:desert_military_armor_boots"
+    ],
+    "helditem": [
+      {
+        "empty": true
+      }
+    ]
+  },
+  {
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "result": "allow",
+    "random": 0.05,
+    "mindaycount": 80,
+    "armorhelmet": [
+      "mcore:titanium_helmet"
+    ],
+    "armorchest": [
+      "mcore:titanium_chestplate"
+    ],
+    "armorlegs": [
+      "mcore:titanium_leggings"
+    ],
+    "armorboots": [
+      "mcore:titanium_boots"
+    ],
+    "helditem": [
+      {
+        "empty": true
+      }
+    ]
+  },
+  {
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "result": "allow",
+    "random": 0.05,
+    "mindaycount": 80,
+    "armorhelmet": [
+      "marbledsarsenal:winter_military_armor_helmet"
+    ],
+    "armorchest": [
+      "marbledsarsenal:winter_military_armor_chestplate"
+    ],
+    "armorlegs": [
+      "marbledsarsenal:winter_military_armor_leggings"
+    ],
+    "armorboots": [
+      "marbledsarsenal:winter_military_armor_boots"
+    ],
+    "helditem": [
+      {
+        "empty": true
+      }
+    ]
+  },
+  {
+    "phase": "t1",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "t2",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+    {
+    "phase": "l2",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "z1",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie_villager",
+      "minecraft:zombie",
+      "minecraft:husk"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "c1",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:crawler_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "z2",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie_villager",
+      "minecraft:zombie",
+      "minecraft:husk"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "t4",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:sword_zombie",
+      "zombies_plus:axe_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "z3",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie_villager",
+      "minecraft:zombie",
+      "minecraft:husk"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "t5",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:sword_zombie",
+      "zombies_plus:axe_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "b1",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:leaper_zombie",
+      "zombies_plus:runner_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "z4",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie_villager",
+      "minecraft:zombie",
+      "minecraft:husk"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "t6",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:sword_zombie",
+      "zombies_plus:axe_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "z5",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie_villager",
+      "minecraft:zombie",
+      "minecraft:husk"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "t7",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:sword_zombie",
+      "zombies_plus:axe_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "c2",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:crawler_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "b3",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:runner_zombie",
+      "zombies_plus:leaper_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "d1",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:bow_zombie",
+      "zombies_plus:crossbow_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "z6",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie_villager",
+      "minecraft:zombie",
+      "minecraft:husk"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "t8",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:sword_zombie",
+      "zombies_plus:axe_zombie",
+      "zombies_plus:brute_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "b4",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:runner_zombie",
+      "zombies_plus:leaper_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "z7",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:zombie_villager",
+      "minecraft:zombie",
+      "minecraft:husk"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "t9",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:sword_zombie",
+      "zombies_plus:axe_zombie",
+      "zombies_plus:brute_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "m1",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "mutantmonsters:mutant_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+  {
+    "phase": "d2",
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "zombies_plus:bow_zombie",
+      "zombies_plus:crossbow_zombie"
+    ],
+    "when": "position",
+    "minlight": 0,
+    "maxlight": 4,
+    "result": "allow"
+  },
+   {
+    "hostile": true,
+    "result": "deny"
+  }
+]

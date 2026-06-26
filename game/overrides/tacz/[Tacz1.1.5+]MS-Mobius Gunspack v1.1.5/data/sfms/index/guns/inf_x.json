@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.inf_x.name",
+  "tooltip": "sfms.gun.inf_x.desc",
+  "display": "sfms:inf_x_display",
+  "data": "sfms:inf_x_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "pistol",
+  "sort": 24080
+}

@@ -1,0 +1,11 @@
+{
+  "slot": "sfms:attachment/slot/muzzle_vm1",
+  // 配件的默认模型，不可为空
+  "model": "sfms:attachment/muzzle_vm1_geo",
+  // 配件默认模型使用的材质，不可为空
+  "texture": "sfms:attachment/uv/muzzle_vm1",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

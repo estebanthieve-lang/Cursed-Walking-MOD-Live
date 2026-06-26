@@ -1,0 +1,1073 @@
+[
+  {
+    "mob": [
+      "feralzombie:feral_zombie"
+    ],
+    "persecond": 0.065,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "the_deeper_void:void_dimension",
+      "mindist": 30,
+      "maxdist": 80,
+      "maxthis": 20,
+      "norestrictions": true,
+      "minheight": -60,
+      "maxheight": 100,
+      "minverticaldist": 0,
+      "maxverticaldist": 60
+    }
+  },
+  {
+    "mob": [
+      "feralzombie:drone_zombie"
+    ],
+    "persecond": 0.15,
+    "attempts": 300,
+    "amount": {
+      "minimum": 2,
+      "maximum": 7
+    },
+    "conditions": {
+      "dimension": "the_deeper_void:void_dimension",
+      "mindist": 30,
+      "maxdist": 80,
+      "maxthis": 30,
+      "norestrictions": true,
+      "minheight": -60,
+      "maxheight": 100,
+      "minverticaldist": 0,
+      "maxverticaldist": 60
+    }
+  },
+  {
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "persecond": 0.3,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "the_deeper_void:void_dimension",
+      "mindist": 30,
+      "maxdist": 80,
+      "maxthis": 50,
+      "norestrictions": true,
+      "minheight": 0,
+      "maxheight": 200,
+      "minverticaldist": 0,
+      "maxverticaldist": 60
+    }
+  },
+  {
+    "mob": [
+      "zombies_plus:runner_zombie"
+    ],
+    "persecond": 0.01,
+    "attempts": 300,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "the_deeper_void:void_dimension",
+      "mindist": 30,
+      "maxdist": 80,
+      "maxthis": 15,
+      "norestrictions": true,
+      "minheight": -30,
+      "maxheight": 100,
+      "minverticaldist": 0,
+      "maxverticaldist": 60
+    }
+  },
+  {
+    "mob": [
+      "zombies_plus:leaper_zombie"
+    ],
+    "persecond": 0.01,
+    "attempts": 300,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "the_deeper_void:void_dimension",
+      "mindist": 30,
+      "maxdist": 80,
+      "maxthis": 15,
+      "norestrictions": true,
+      "minheight": -30,
+      "maxheight": 100,
+      "minverticaldist": 0,
+      "maxverticaldist": 60
+    }
+  },
+  {
+    "mob": [
+      "zombies_plus:brute_zombie"
+    ],
+    "persecond": 0.025,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "the_deeper_void:void_dimension",
+      "mindist": 30,
+      "maxdist": 80,
+      "maxthis": 20,
+      "norestrictions": true,
+      "minverticaldist": 0,
+      "maxverticaldist": 60,
+      "minheight": -60,
+      "maxheight": 150
+    }
+  },
+  {
+    "mob": [
+      "mutantmonsters:mutant_zombie"
+    ],
+    "persecond": 0.05,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "the_deeper_void:void_dimension",
+      "mindist": 40,
+      "maxdist": 80,
+      "maxthis": 2,
+      "norestrictions": true,
+      "minverticaldist": 0,
+      "maxverticaldist": 60,
+      "minheight": -60,
+      "maxheight": 50
+    }
+  },
+  {
+    "mob": [
+      "alexsmobs:fly"
+    ],
+    "persecond": 0.05,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 80,
+      "maxthis": 5,
+      "minheight": 64,
+      "and": {
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t1",
+    "mob": [
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie"
+    ],
+    "persecond": 0.3,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 15,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t1",
+    "mob": [
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie"
+    ],
+    "persecond": 0.5,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 40,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t2",
+    "mob": [
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie"
+    ],
+    "persecond": 0.5,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 20,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t2",
+    "mob": [
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie"
+    ],
+    "persecond": 0.5,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 40,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "l2",
+    "mob": [
+      "zombies_plus:weak_zombie",
+      "zombies_plus:slow_zombie"
+    ],
+    "persecond": 0.25,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 40,
+      "and": {
+        "minlight": 0,
+        "maxlight": 4,
+        "cave": true
+      }
+    }
+  },
+  {
+    "phase": "z1",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "persecond": 0.5,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 70,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+   {
+    "phase": "c1",
+    "mob": [
+      "zombies_plus:crawler_zombie"
+    ],
+    "persecond": 0.1,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 15,
+      "and": {
+        "minlight": 0,
+        "maxlight": 4,
+        "cave": true
+      }
+    }
+  },
+  {
+    "phase": "z2",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "persecond": 0.55,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 70,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t4",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie"
+    ],
+    "persecond": 0.1,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 15,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t4",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie"
+    ],
+    "persecond": 0.2,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 30,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "z3",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "persecond": 0.6,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 70,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t5",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie"
+    ],
+    "persecond": 0.2,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 15,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t5",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie"
+    ],
+    "persecond": 0.3,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 30,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "b1",
+    "mob": [
+      "zombies_plus:leaper_zombie",
+      "zombies_plus:runner_zombie"
+    ],
+    "persecond": 0.05,
+    "attempts": 300,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 10,
+      "and": {
+        "minlight": 0,
+        "maxlight": 4
+      }
+    }
+  },
+  {
+    "phase": "z4",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "persecond": 0.6,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 80,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t6",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie"
+    ],
+    "persecond": 0.25,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 15,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t6",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie"
+    ],
+    "persecond": 0.35,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 40,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+   {
+    "phase": "z5",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "persecond": 0.65,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 80,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t7",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie"
+    ],
+    "persecond": 0.25,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 25,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t7",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie"
+    ],
+    "persecond": 0.35,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 40,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "c1",
+    "mob": [
+      "zombies_plus:crawler_zombie"
+    ],
+    "persecond": 0.15,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 15,
+      "and": {
+        "minlight": 0,
+        "maxlight": 4,
+        "cave": true
+      }
+    }
+  },
+  {
+    "phase": "b3",
+    "mob": [
+      "zombies_plus:leaper_zombie",
+      "zombies_plus:runner_zombie"
+    ],
+    "persecond": 0.1,
+    "attempts": 300,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 5,
+      "and": {
+        "minlight": 0,
+        "maxlight": 4
+      }
+    }
+  },
+   {
+    "phase": "d1",
+    "mob": [
+      "zombies_plus:bow_zombie",
+      "zombies_plus:crossbow_zombie"
+    ],
+    "persecond": 0.02,
+    "attempts": 300,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 3,
+      "and": {
+        "minlight": 0,
+        "maxlight": 4
+      }
+    }
+  },
+   {
+    "phase": "z6",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "persecond": 0.7,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 80,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t8",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie",
+      "zombies_plus:brute_zombie"
+    ],
+    "persecond": 0.3,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 25,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t8",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie",
+      "zombies_plus:brute_zombie"
+    ],
+    "persecond": 0.4,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 50,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "b4",
+    "mob": [
+      "zombies_plus:leaper_zombie",
+      "zombies_plus:runner_zombie"
+    ],
+    "persecond": 0.15,
+    "attempts": 300,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 10,
+      "and": {
+        "minlight": 0,
+        "maxlight": 4
+      }
+    }
+  },
+   {
+    "phase": "z7",
+    "mob": [
+      "minecraft:zombie"
+    ],
+    "persecond": 0.7,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 80,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t9",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie",
+      "zombies_plus:brute_zombie"
+    ],
+    "persecond": 0.35,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 25,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "t9",
+    "mob": [
+      "zombies_plus:axe_zombie",
+      "zombies_plus:sword_zombie",
+      "zombies_plus:brute_zombie"
+    ],
+    "persecond": 0.45,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 50,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+   {
+    "phase": "m1",
+    "mob": [
+      "mutantmonsters:mutant_zombie"
+    ],
+    "persecond": 0.05,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 1,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13500,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "m1",
+    "mob": [
+      "mutantmonsters:mutant_zombie"
+    ],
+    "persecond": 0.1,
+    "attempts": 300,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 2,
+      "and": {
+        "mintime": 13500,
+        "maxtime": 24000,
+        "minlight": 0,
+        "maxlight": 4,
+        "seesky": true
+      }
+    }
+  },
+  {
+    "phase": "d2",
+    "mob": [
+      "zombies_plus:bow_zombie",
+      "zombies_plus:crossbow_zombie"
+    ],
+    "persecond": 0.05,
+    "attempts": 300,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minverticaldist": 0,
+      "maxverticaldist": 40,
+      "mindist": 60,
+      "maxdist": 110,
+      "maxthis": 5,
+      "and": {
+        "minlight": 0,
+        "maxlight": 4
+      }
+    }
+  }
+]

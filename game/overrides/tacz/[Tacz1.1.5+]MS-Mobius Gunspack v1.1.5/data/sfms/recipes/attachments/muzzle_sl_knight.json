@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "forge:glass"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "sfms:muzzle_sl_knight"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "createdeco:industrial_iron_sheet"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    },
+    {
+      "item":{
+        "item": "minecraft:blaze_rod"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:p90"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

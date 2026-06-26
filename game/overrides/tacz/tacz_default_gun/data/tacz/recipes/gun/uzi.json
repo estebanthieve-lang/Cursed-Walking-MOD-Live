@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:plates/iron"
+      },
+      "count": 22
+    },
+    {
+      "item":{
+        "tag":"forge:gems/quartz"
+      },
+      "count":32
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:uzi"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

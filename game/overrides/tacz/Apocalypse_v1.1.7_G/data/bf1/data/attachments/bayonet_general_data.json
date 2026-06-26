@@ -1,0 +1,29 @@
+{
+  "weight": 0.34,
+  // "ads_addend": 0.05,
+  "ads": {
+    "multiplier": 1.6
+    // "function": "if(x>20) then y=5 else y=x*10 end"
+  },
+  "melee": {
+    "distance": 1.5,
+    "cooldown": 0,
+    "range_angle": 45,
+    "damage": 6,
+    "knockback": 0.3,
+    "prep": 0.1,
+       "effects": [
+      // 可以添加多个效果
+       {
+      // 效果 ID
+       "id": "minecraft:weakness",
+      // 时长，秒
+       "time": 10,
+      // 效果等级
+       "amplifier": 1,
+      // 是否显示粒子效果
+       "hide_particles": true
+       }
+      ]
+  }
+}

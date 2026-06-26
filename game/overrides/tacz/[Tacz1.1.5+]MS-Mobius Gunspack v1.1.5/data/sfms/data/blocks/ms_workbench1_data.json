@@ -1,0 +1,154 @@
+{
+  // 配方过滤器，具体内容位于 data/<命名空间>/recipe_filters 下
+  // 如果没有指定，将使用默认过滤器 tacz:default
+  "filter": "sfms:ms_workbench1",
+  "tabs": [
+    {
+      "id": "tacz:ammo",
+      "name": "tacz.type.ammo.name",
+      "icon": {
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "sfms:300ms"
+        }
+      }
+    },
+    {
+      "id": "tacz:pistol",
+      "name": "tacz.type.pistol.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:g18"
+        }
+      }
+    },
+    {
+      "id": "tacz:sniper",
+      "name": "tacz.type.sniper.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:ar50"
+        }
+      }
+    },
+    {
+      "id": "tacz:rifle",
+      "name": "tacz.type.rifle.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:ats15"
+        }
+      }
+    },
+    {
+      "id": "tacz:shotgun",
+      "name": "tacz.type.shotgun.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:felix_12"
+        }
+      }
+    },
+    {
+      "id": "tacz:smg",
+      "name": "tacz.type.smg.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:tech635"
+        }
+      }
+    },
+    {
+      "id": "tacz:rpg",
+      "name": "tacz.type.rpg.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:mgl320"
+        }
+      }
+    },
+    {
+      "id": "tacz:mg",
+      "name": "tacz.type.mg.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:har50"
+        }
+      }
+    },
+    {
+      "id": "tacz:misc",
+      "name": "tacz.type.misc.name",
+      "icon": {
+        "item": "tacz:gun_smith_table"
+      }
+    },
+    {
+      "id": "tacz:scope",
+      "name": "tacz.type.scope.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "sfms:sight_ets108"
+        }
+      }
+    },
+    {
+      "id": "tacz:muzzle",
+      "name": "tacz.type.muzzle.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "sfms:muzzle_brake"
+        }
+      }
+    },
+    {
+      "id": "tacz:stock",
+      "name": "tacz.type.stock.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "sfms:stock_ebr"
+        }
+      }
+    },
+    {
+      "id": "tacz:grip",
+      "name": "tacz.type.grip.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "sfms:grip_ams"
+        }
+      }
+    },
+    {
+      "id": "tacz:extended_mag",
+      "name": "tacz.type.extended_mag.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "sfms:gl_ap"
+        }
+      }
+    },
+    {
+      "id": "tacz:laser",
+      "name": "tacz.type.laser.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "sfms:laser_x2"
+        }
+      }
+    }
+  ]
+}

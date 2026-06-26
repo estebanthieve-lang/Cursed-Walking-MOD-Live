@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.scope_oeg.name",
+	"tooltip": "sfms.attachment.scope_oeg.tooltip",
+	"display": "sfms:scope_oeg_display",
+	"data": "sfms:scope_oeg_data",
+	"type": "scope",
+    "sort": 24080
+}

@@ -1,0 +1,14 @@
+#Binoculars Mod Configuration
+#Minimum zoom level
+#Range: 1.0 ~ 1000.0
+minZoom = 4.0
+#Maximum zoom level
+#Range: 1.0 ~ 1000.0
+maxZoom = 20.0
+#Default zoom level when equipping binoculars
+#Range: 1.0 ~ 1000.0
+defaultZoom = 4.0
+#Zoom level change per scroll
+#Range: 0.1 ~ 100.0
+zoomStep = 0.5
+

@@ -1,0 +1,8 @@
+{
+  "name": "bf1.block.st_chamond",
+  "display": "bf1:st_chamond",
+  "data": "bf1:telegraph",
+  "tooltip": "bf1.block.tank.desc",
+  "id": "tacz:workbench_c",
+  "sort": 18
+}

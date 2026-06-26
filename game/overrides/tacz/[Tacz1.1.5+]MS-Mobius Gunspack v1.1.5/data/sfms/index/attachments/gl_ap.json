@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.gl_ap.name",
+	"tooltip": "sfms.attachment.gl_ap.tooltip",
+	"display": "sfms:gl_ap_display",
+	"data": "sfms:gl_ap_data",
+	"type": "extended_mag",
+    "sort": 24080
+}

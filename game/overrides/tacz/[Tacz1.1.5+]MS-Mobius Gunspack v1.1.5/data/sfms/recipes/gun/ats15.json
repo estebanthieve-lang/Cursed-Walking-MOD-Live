@@ -1,0 +1,49 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:polished_rose_quartz"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:plates/obsidian"
+      },
+      "count": 22
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/titanium"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "mcore:steel_ingot"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "tacz:spr15hb"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:ats15"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

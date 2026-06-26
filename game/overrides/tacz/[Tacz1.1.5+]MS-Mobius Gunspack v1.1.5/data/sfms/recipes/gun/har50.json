@@ -1,0 +1,46 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "tacz:m249"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:netherite_rhenium_ingot"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:plates/obsidian"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "create:polished_rose_quartz"
+        },
+        "count": 20
+      }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:har50",
+    "attachments": {
+      "scope": "sfms:scope_har50"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

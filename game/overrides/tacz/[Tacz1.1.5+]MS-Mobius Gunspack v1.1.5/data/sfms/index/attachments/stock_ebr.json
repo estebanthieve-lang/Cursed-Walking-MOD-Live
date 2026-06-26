@@ -1,0 +1,8 @@
+{
+  "name": "sfms.attachment.stock_ebr.name",
+  "tooltip": "sfms.attachment.stock_ebr.tooltip",
+  "display": "sfms:stock_ebr_display",
+  "data": "sfms:stock_ebr_data",
+  "type": "stock",
+  "sort": 24080
+}

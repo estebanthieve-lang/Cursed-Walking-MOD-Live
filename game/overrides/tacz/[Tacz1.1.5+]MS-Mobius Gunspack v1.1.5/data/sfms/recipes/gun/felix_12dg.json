@@ -1,0 +1,49 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:polished_rose_quartz"
+      },
+      "count": 26
+    },
+    {
+      "item": {
+        "tag": "forge:plates/obsidian"
+      },
+      "count": 22
+    },
+    {
+      "item": {
+        "item": "minecraft:magma_cream"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/titanium"
+      },
+      "count": 40
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:felix_12"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:felix_12dg"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

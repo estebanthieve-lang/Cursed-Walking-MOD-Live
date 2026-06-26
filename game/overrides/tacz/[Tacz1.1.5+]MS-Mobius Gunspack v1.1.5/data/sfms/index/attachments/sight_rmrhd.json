@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.sight_rmrhd.name",
+	"tooltip": "sfms.attachment.sight_rmrhd.tooltip",
+	"display": "sfms:sight_rmrhd_display",
+	"data": "sfms:sight_rmrhd_data",
+	"type": "scope",
+    "sort": 24080
+}

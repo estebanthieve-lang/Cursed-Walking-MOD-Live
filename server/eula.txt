@@ -1,0 +1,2 @@
+# Change to eula=true only when the final game owner/user accepts Minecraft's EULA.
+eula=false

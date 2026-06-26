@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "createdeco:industrial_iron_sheet"
+      },
+      "count": 40
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "tag":"forge:rods/blaze"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:sks_tactical",
+    "attachments": {
+      "stock": "tacz:stock_m4ss"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

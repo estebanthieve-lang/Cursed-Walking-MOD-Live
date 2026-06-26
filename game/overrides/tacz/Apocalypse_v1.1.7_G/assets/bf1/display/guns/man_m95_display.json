@@ -1,0 +1,64 @@
+{
+  "model": "bf1:gun/man_m95_geo",
+  "texture": "bf1:gun/uv/man_m95",
+  "lod": {
+    "model": "bf1:gun/lod/man_m95_lod",
+    "texture": "bf1:gun/lod/man_m95_lod"
+  },
+  "hud": "bf1:gun/hud/man_m95",
+  "slot": "bf1:gun/slot/man_m95",
+  "animation": "bf1:man_m95",
+  "default_animation": "bf1:rifle_default",
+  "show_crosshair": false,
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 45,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 3.75
+  },
+  "sounds": {
+    "draw": "bf1:draw2",
+    "put_away": "tacz:m700/m700_put_away",
+    "shoot": "bf1:man_m95/shoot",
+    "shoot_3p": "bf1:man_m95/shoot",
+    "bolt": "bf1:man_m95/boltaction",
+    "silence": "tacz:ai_awp/awp_silence",
+    "silence_3p": "tacz:ai_awp/awp_silence_3p",
+    "melee_stock": "tacz:melee_stock/melee_stock_03",
+
+    "head_hit": "bf1:head_hit",
+    "flesh_hit": "bf1:flesh_hit",
+    "kill": "bf1:kill"
+  },
+  "offhand_show": {
+    "pos": [-2, 20, 4],
+    "rotate": [0, 0, 45],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 26, 3],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "shell": {
+    "initial_velocity": [5, 0.5, 1],
+    "random_velocity": [1, 0.5, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -960, 90],
+    "living_time": 1.0
+  },
+  "state_machine": "bf1:man_m95_state_machine"
+//  "state_machine_param": {
+//    "bolt_shell_ejecting_time": 0.17,
+//    "intro_shell_ejecting_time": 0.4
+//  }
+}

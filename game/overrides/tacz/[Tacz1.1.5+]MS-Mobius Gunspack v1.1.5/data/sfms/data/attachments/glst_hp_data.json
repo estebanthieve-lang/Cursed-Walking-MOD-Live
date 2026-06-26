@@ -1,0 +1,12 @@
+{
+  "weight": 0.3,
+  "ads_addend": 0.1,
+  // 子弹速度配置
+   "ammo_speed": {
+		"addend": 10
+   },
+   "damage": {
+		"addend": 1,
+		"percent": 0.05
+   }
+}

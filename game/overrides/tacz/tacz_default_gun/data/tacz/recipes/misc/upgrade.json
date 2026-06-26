@@ -1,0 +1,19 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:workbench_b",
+        "nbt": {
+          "BlockId": "hamster:workbench"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "item": "tacz:glock17"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

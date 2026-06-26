@@ -1,0 +1,672 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "depths"
+	group: "3F44A23A6891B87A"
+	id: "7FCE33F5E9B62B58"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["258E330EF5A04021"]
+			description: ["&l&oThe Depths is an end-game area, filled with many secrets to uncover...&r&r"]
+			id: "6939F1F14E689BF7"
+			size: 2.0d
+			subtitle: "&o&l&4To Escape, build up to Y256"
+			tasks: [{
+				dimension: "the_deeper_void:void_dimension"
+				icon: "minecraft:deepslate"
+				id: "2C0AFED44507B15B"
+				title: "Descent Into Nowhere"
+				type: "dimension"
+			}]
+			title: "&o&lDescent Into..."
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			description: ["&o&lWhat were they researching...?"]
+			disable_toast: true
+			icon: "the_deeper_void:labolatory_block_2"
+			id: "6D07D6F4E0D525DE"
+			size: 1.0d
+			subtitle: "&o&lFound on the surface"
+			tasks: [{
+				icon: "the_deeper_void:labolatory_block"
+				id: "4A9A1AEA00CB1F4C"
+				structure: "the_deeper_void:lab"
+				title: "&o&lLabolatory"
+				type: "structure"
+			}]
+			title: "&o&l&5Desolate Laboratory"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			description: ["&o&lUsed for extracting ores on a small scale... now lost to time"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "the_deeper_void:tungsten_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "525FC8E20ABBDA10"
+			size: 1.0d
+			subtitle: "&o&lFound on the surface"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_deeper_void:tungsten_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2631194A8A506172"
+				structure: "the_deeper_void:mineshaft"
+				title: "&o&lMineshaft"
+				type: "structure"
+			}]
+			title: "&o&l&5Timelost Mineshaft"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			description: ["&o&lAfter finding massive ore deposits, the OME mining company set up excavation operations in the Depths."]
+			disable_toast: true
+			hide_dependent_lines: true
+			icon: "minecraft:cobbled_deepslate"
+			id: "78F594F9C86E5F48"
+			size: 1.0d
+			subtitle: "&o&lFound on the surface"
+			tasks: [{
+				icon: "minecraft:cobbled_deepslate"
+				id: "1F38CE2542088C45"
+				structure: "the_deeper_void:quarry"
+				title: "&o&lQuarry"
+				type: "structure"
+			}]
+			title: "&o&l&5Forgotten Quarry"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			description: [""]
+			disable_toast: true
+			icon: "feralzombie:feral_zombie_spawn_egg"
+			id: "2E179B2C2CB9D36F"
+			subtitle: "&o&l&4Defeat the inhabitants of this place."
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					icon: "mutantmonsters:mutant_zombie_spawn_egg"
+					id: "790433367B6E773C"
+					title: "&#55FF55Mutant Zombie"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "feralzombie:feral_zombie"
+					icon: "feralzombie:feral_zombie_spawn_egg"
+					id: "33AB744D5042EC65"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "feralzombie:drone_zombie"
+					icon: "feralzombie:drone_zombie_spawn_egg"
+					id: "1DC6B0353A5823F0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&lDanger Averse"
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			disable_toast: true
+			id: "6E9F501A9AF7D4A4"
+			subtitle: "&o&lUncommon ore of the depths"
+			tasks: [
+				{
+					id: "4D886848616F972E"
+					item: "the_deeper_void:raw_tungsten"
+					type: "item"
+				}
+				{
+					id: "263E8174860E3936"
+					item: "the_deeper_void:tungsten_ingot"
+					type: "item"
+				}
+			]
+			title: "&o&lTungsten"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23B4A7D223B0BA35"]
+			disable_toast: true
+			id: "68269CE4B482897C"
+			shape: "rsquare"
+			subtitle: "&o&l&5Found in columbite generating below Y-32"
+			tasks: [{
+				id: "13741B3BD3A686DB"
+				item: "the_deeper_void:rhenium"
+				type: "item"
+			}]
+			title: "&o&lRhenium"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			disable_toast: true
+			id: "23658ECB47A148F5"
+			subtitle: "&o&l&5Reaching the Depths best resources isn't easy; one must descend into the deepest parts in order to gather them."
+			tasks: [{
+				dimension: "the_deeper_void:void_dimension"
+				id: "0E68EE4D40479C43"
+				ignore_dimension: false
+				position: [I;
+					0
+					-51
+					0
+				]
+				size: [I;
+					9999999
+					3
+					9999999
+				]
+				title: "&o&l&3Go Below Y -48"
+				type: "location"
+			}]
+			title: "&o&lOne Way Ticket"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23658ECB47A148F5"]
+			description: [
+				"&o&lRutile is an ore that generates in the deepest parts of the Depths. You can crush it for quartz and titanium.&r&r"
+				""
+				"&4&o&lAlso used in creating high-end defenses and the energy core.&r"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0741D1F1C161222C"
+			shape: "rsquare"
+			subtitle: "&o&lFind Rutile"
+			tasks: [
+				{
+					id: "5E02198ECB132426"
+					item: "the_deeper_void:raw_rutile"
+					type: "item"
+				}
+				{
+					icon: "the_deeper_void:rutile_ore"
+					id: "3FB3C08EA38DDE8C"
+					observe_type: 0
+					timer: 0L
+					title: "&o&lObserve : Rutile Ore"
+					to_observe: "the_deeper_void:rutile_ore"
+					type: "observation"
+				}
+			]
+			title: "&o&l&5Suicide Mission"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6012CCF52E570FE2"]
+			description: ["The refinery is used for refining materials which are used in end-game guns. &lThe refinery also needs to be fueled with a fuel cell.&r"]
+			disable_toast: true
+			icon: "the_deeper_void:void_refinery_control_pad"
+			id: "23B4A7D223B0BA35"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "&o&lRefinin'"
+			tasks: [
+				{
+					count: 5L
+					id: "56714DD756F75673"
+					item: "the_deeper_void:void_refinery_casing"
+					type: "item"
+				}
+				{
+					id: "06FDF45995B12FF1"
+					item: "the_deeper_void:void_refinery_control_pad"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "51895A330E386C0E"
+					item: { Count: 8, id: "the_deeper_void:void_refinery_pressure_tank" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6F7947CC1183D290"
+					item: { Count: 9, id: "the_deeper_void:void_refinery_bottom_casing" }
+					type: "item"
+				}
+			]
+			title: "&o&lRefining Materials"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68269CE4B482897C"]
+			disable_toast: true
+			id: "54E09F2C311AD944"
+			subtitle: "&o&l&5Used in gun recipes"
+			tasks: [{
+				id: "641C6C26E222BCB2"
+				item: "the_deeper_void:tungsten_rhenium_alloy"
+				type: "item"
+			}]
+			title: "&o&lTungsten-Rhenium Alloy"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68269CE4B482897C"]
+			disable_toast: true
+			id: "4FAACEE060D4CF88"
+			subtitle: "&o&l&5Used in gun recipes"
+			tasks: [{
+				id: "74BC8F1035210496"
+				item: "the_deeper_void:titanium_rhenium_alloy"
+				type: "item"
+			}]
+			title: "&o&l&7Titanium-Rhenium Alloy"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68269CE4B482897C"]
+			description: [""]
+			disable_toast: true
+			id: "2DEC0D5B2668231E"
+			subtitle: "&o&l&5Used in the best guns"
+			tasks: [{
+				id: "6CE45B577D9EB3EB"
+				item: "the_deeper_void:netherite_rhenium_alloy"
+				type: "item"
+			}]
+			title: "&o&lBest of the best"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D07D6F4E0D525DE"]
+			description: [""]
+			disable_toast: true
+			id: "2EDEA741C802B808"
+			subtitle: "&o&l&5Semi-rare item found in laboratory"
+			tasks: [{
+				id: "35B13B867A4636DC"
+				item: "the_deeper_void:sealed_box"
+				type: "item"
+			}]
+			title: "&o&lSealed Away"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E9F501A9AF7D4A4"]
+			description: ["&o&lThese tools are as strong as diamond, however tungsten is much more common than diamonds."]
+			disable_toast: true
+			id: "4444E3A1AE1E2CAC"
+			subtitle: "&o&lCraft tungsten tools"
+			tasks: [
+				{
+					id: "7C2823845ED5E510"
+					item: {
+						Count: 1
+						id: "the_deeper_void:tungsten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2017D0F42F488435"
+					item: {
+						Count: 1
+						id: "the_deeper_void:tungsten_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08B14A7FB96A8620"
+					item: {
+						Count: 1
+						id: "the_deeper_void:tungsten_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "234608466B0F4001"
+					item: {
+						Count: 1
+						id: "the_deeper_void:tungsten_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&o&lTungsten Armory"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4FAACEE060D4CF88"]
+			description: ["&c&lYou will not take fall damage when using it.&r&r"]
+			disable_toast: true
+			id: "56D6254756313F87"
+			subtitle: "&o&l&5Thrusters allow you to easily leave the Depths. Place it pointing upward, stand on it, then click it (they also need to be activated with redstone)"
+			tasks: [{
+				id: "5B8807F217520C8D"
+				item: "the_deeper_void:thruster"
+				type: "item"
+			}]
+			title: "&o&lEasy escape"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54E09F2C311AD944"]
+			disable_toast: true
+			id: "5C9492D4261A0606"
+			subtitle: "&o&lSpeeds up the refining process; place in the bottom left square."
+			tasks: [{
+				id: "177893041074512C"
+				item: "the_deeper_void:speed_upgrade_lvl_2"
+				type: "item"
+			}]
+			title: "&o&lUse tungsten for more tungsten"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&lYou will expierence pressure when going below Y -32, to monitor your pressure level craft a &2pressure gauge&r.&r"
+				""
+				"&lThe Depths is very vertical and rough, similiar to the Nether. You will need a way to mitigate fall damage.&r"
+				""
+				"&5&lYou can slow down the pressure effects with a gas mask; any will work.&r&r"
+			]
+			disable_toast: true
+			id: "2D8D6FD2E7CA9F50"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&o&lNecessary Items"
+			tasks: [
+				{
+					advancement: "the_deeper_void:extreme_pressure"
+					criterion: ""
+					icon: "the_deeper_void:pressure_gauge"
+					id: "0053E36F6F0C0CF6"
+					title: "&#AA0000Pressure Mechanic"
+					type: "advancement"
+				}
+				{
+					id: "6C75F5FF5347A7E8"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:cm6m_gas_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5242BA7D148B5A27"
+					item: {
+						Count: 1
+						id: "vc_gliders:paraglider_wood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&o&l&4Before you go..."
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&lFind a map inside an abandoned structure somewhere [Not a city]&r, follow it to its destination, and traverse through the mineshaft."
+				""
+				"&4&lFIND THE DRILL ROOM.&r&r"
+			]
+			id: "258E330EF5A04021"
+			size: 2.0d
+			subtitle: "&o&lIs this where it all began...?"
+			tasks: [{
+				icon: "create:industrial_iron_block"
+				id: "021AE65AD2C79E54"
+				structure: "jeffs_cursed_walking_structures:teleporter"
+				title: "Haunted Halls"
+				type: "structure"
+			}]
+			title: "&o&lHaunted Halls"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			id: "6012CCF52E570FE2"
+			size: 2.0d
+			subtitle: "&o&lFuel for the refinery"
+			tasks: [{
+				id: "7D9C7A1A7FB24F4D"
+				item: "the_deeper_void:refinery_fuel_cell"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			id: "2A68C73E1BDB7005"
+			subtitle: "&o&lYou can mine and crush crystals in order to get some resources, however it is far less effective than just mining regular ores."
+			tasks: [
+				{
+					id: "7B30550A1CDCBB7B"
+					item: "the_deeper_void:tungsten_crystal"
+					type: "item"
+				}
+				{
+					id: "5069EC9F36375A6A"
+					item: "the_deeper_void:zinc_crystal"
+					type: "item"
+				}
+				{
+					id: "0926611C37E41497"
+					item: "the_deeper_void:razorback_crystal"
+					type: "item"
+				}
+				{
+					id: "26929391AC2B36C2"
+					item: "the_deeper_void:titanium_crystal"
+					type: "item"
+				}
+				{
+					id: "65408C47AD7DB3BC"
+					item: "the_deeper_void:void_crystal"
+					type: "item"
+				}
+			]
+			title: "&o&lDesperate Measures II"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			description: ["&lYou can find Depths berries on trees in the Depths lake biome, and sulfur berries growing on sulfur bushes in the sulfuric springs biome&r"]
+			id: "5686F96510332148"
+			subtitle: "&o&lOut of food? Try finding these."
+			tasks: [
+				{
+					id: "589D4C7C0D73EF65"
+					item: "the_deeper_void:sulfur_berry"
+					type: "item"
+				}
+				{
+					id: "4C4FA1BC98B6CE41"
+					item: "the_deeper_void:void_berry"
+					type: "item"
+				}
+			]
+			title: "&o&lDesperate Measures I"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			description: [""]
+			id: "7C6D9FEFC9327876"
+			subtitle: "&o&lFound on the surface, in the Depths lakes biome only"
+			tasks: [{
+				icon: "minecraft:tinted_glass"
+				id: "46E5ECB77CCBCB5D"
+				structure: "the_deeper_void:escape_tower"
+				title: "&o&lEscape Tower"
+				type: "structure"
+			}]
+			title: "&o&l&5Forsaken Tower"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			id: "6345C4355E5C68D7"
+			invisible: true
+			size: 2.0d
+			subtitle: "&o&lExplore all the Depths biomes"
+			tasks: [
+				{
+					biome: "the_deeper_void:razorback_marsh"
+					icon: "the_deeper_void:razorback_crystal"
+					id: "242B7A811E28ECAB"
+					title: "&o&l&2Razorback Marsh"
+					type: "biome"
+				}
+				{
+					biome: "the_deeper_void:sulfur_springs"
+					icon: "powderedup:sulfur_dust"
+					id: "408985E04DA0F1D9"
+					title: "&o&l&2Sulfuric Springs"
+					type: "biome"
+				}
+				{
+					biome: "the_deeper_void:bone_forest"
+					icon: "the_deep_void:rotten_wood"
+					id: "5281312C490E03D6"
+					title: "&o&l&2Bone Forest"
+					type: "biome"
+				}
+				{
+					biome: "the_deeper_void:void_lakes"
+					icon: "the_deep_void:desolate_soil"
+					id: "02EAD9172BADA28F"
+					title: "&o&l&2Depths Lakes"
+					type: "biome"
+				}
+				{
+					biome: "the_deeper_void:death_valley"
+					icon: "minecraft:deepslate"
+					id: "735C8A011ED60C1F"
+					title: "&o&l&2Death Valley"
+					type: "biome"
+				}
+				{
+					biome: "the_deeper_void:hills_of_doom"
+					icon: "the_deep_void:deepslate_serrated_stalagmite"
+					id: "3E4DFBFC561FE6E6"
+					title: "&o&l&2Hills of Doom"
+					type: "biome"
+				}
+			]
+			title: "&o&l&4Nightmarish Tourist Destinations"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0741D1F1C161222C"]
+			id: "1ECA765383D9D2EA"
+			subtitle: "&o&lUsed in high-end defenses"
+			tasks: [{
+				id: "044A6C2F1AE78A8E"
+				item: "kubejs:circuit_board"
+				type: "item"
+			}]
+			title: "&o&lRegular Circuit Board"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0741D1F1C161222C"]
+			id: "385BAD6AE6CBD663"
+			subtitle: "&o&lCrafting ingredient for the energy core"
+			tasks: [{
+				id: "12AF0341622ED5EF"
+				item: "kubejs:advanced_circuit_board"
+				type: "item"
+			}]
+			title: "&o&lAdvanced Circuit Board"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0741D1F1C161222C"]
+			id: "1172415742F37001"
+			subtitle: "&o&lCrush it and see the magic happen!"
+			tasks: [{
+				id: "0CED8121C36BF7DD"
+				item: "the_deeper_void:rutile_block"
+				type: "item"
+			}]
+			title: "&o&lPrecious"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6939F1F14E689BF7"]
+			icon: "minecraft:red_nether_bricks"
+			id: "042E6DD5D6BF28BD"
+			subtitle: "&o&l&4Who built this, and why...?"
+			tasks: [{
+				icon: "minecraft:red_nether_bricks"
+				id: "596FD52DEFC983A5"
+				structure: "the_deeper_void:ruins_7"
+				title: "&o&l???"
+				type: "structure"
+			}]
+			title: "&o&l&5Remnant of the Past"
+			x: -4.0d
+			y: -3.5d
+		}
+	]
+	title: "Depths"
+}

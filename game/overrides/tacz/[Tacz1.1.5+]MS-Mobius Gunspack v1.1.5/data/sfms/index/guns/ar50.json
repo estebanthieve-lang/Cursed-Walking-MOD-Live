@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.ar50.name",
+  "tooltip": "sfms.gun.ar50.desc",
+  "display": "sfms:ar50_display",
+  "data": "sfms:ar50_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "sniper",
+  "sort": 24080
+}

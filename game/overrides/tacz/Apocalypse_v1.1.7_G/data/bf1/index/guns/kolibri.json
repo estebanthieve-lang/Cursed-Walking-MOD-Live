@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.kolibri.name",
+  "display": "bf1:kolibri_display",
+  "data": "bf1:kolibri_data",
+  "tooltip": "bf1.gun.kolibri.desc",
+  "type": "pistol",
+  "sort": 18
+}

@@ -1,0 +1,8 @@
+{
+  "name": "sfms.gun.lvsa_c_erode.name",
+  "tooltip": "sfms.gun.lvsa_c_erode.desc",
+  "display": "sfms:lvsa_c_erode_display",
+  "data": "sfms:lvsa_c_erode_data",
+  "type": "rifle",
+  "sort": 24080
+}

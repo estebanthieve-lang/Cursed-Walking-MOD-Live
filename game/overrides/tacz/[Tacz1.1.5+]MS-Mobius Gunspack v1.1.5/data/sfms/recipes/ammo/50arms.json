@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/brass"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "sfms:50arms",
+    "count": 30
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,19 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "sfms:stock_ubs"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "sfms:stock_ubs_erode"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

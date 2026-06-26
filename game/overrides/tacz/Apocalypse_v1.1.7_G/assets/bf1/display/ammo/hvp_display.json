@@ -1,0 +1,15 @@
+{
+  "slot": "bf1:ammo/slot/hvp",
+  "tracer_color": "#FF3030",
+  "particle": {
+    "name": "cloud",
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "speed": 0.1,
+    "life_time": 5,
+    "count": 32
+  }
+}

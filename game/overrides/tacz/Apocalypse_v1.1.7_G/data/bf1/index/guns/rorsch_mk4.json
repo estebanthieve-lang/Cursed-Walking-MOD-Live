@@ -1,0 +1,9 @@
+{
+  "name": "bf1.gun.rorsch_mk4.name",
+  "display": "bf1:rorsch_mk4_display",
+  "data": "bf1:rorsch_mk4_data",
+  "tooltip": "bf1.gun.rorsch_mk4.desc",
+  "type": "sniper",
+  "item_type": "modern_kinetic",
+  "sort": 18
+}

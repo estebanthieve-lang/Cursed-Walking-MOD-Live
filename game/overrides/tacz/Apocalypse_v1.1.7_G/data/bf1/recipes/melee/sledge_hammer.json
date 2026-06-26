@@ -1,0 +1,33 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:obsidian"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:leather"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "custom",
+    "group": "stock",
+    "item": {
+      "item": "lrtactical:melee",
+      "nbt": {
+        "MeleeWeaponId": "bf1:sledge_hammer"
+      }
+    }
+  }
+}

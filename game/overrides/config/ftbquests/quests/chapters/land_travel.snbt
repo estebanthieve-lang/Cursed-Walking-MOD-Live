@@ -1,0 +1,224 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "land_travel"
+	group: "497CF89B87773680"
+	id: "133A5BFC122DC3AD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5009B40F4EC3F8A1"]
+			description: ["&lA new era, this sheet is used in both gun recipes aswell as making trains.&r"]
+			disable_toast: true
+			id: "5CDA803190DB3BD5"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "490891BE4595B4F4"
+				item: {
+					Count: 1
+					id: "create:sturdy_sheet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lSturdy Sheet"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CDA803190DB3BD5"]
+			description: ["&lIt's time to make trains.&r"]
+			disable_toast: true
+			id: "7B1086EF9204A309"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0E632A1C012A7F9C"
+				item: {
+					Count: 1
+					id: "create:railway_casing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lTrain Casing"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B1086EF9204A309"]
+			description: ["&lAllows you to connect parts of trains with eachother.&r"]
+			disable_toast: true
+			id: "3A642A9F8B38C85D"
+			tasks: [{
+				id: "61E6EB78AAB5B33F"
+				item: {
+					Count: 1
+					id: "railways:track_coupler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B1086EF9204A309"]
+			description: ["&lAllows you to store fuel which the train can use&r"]
+			disable_toast: true
+			id: "328085F6CD97E578"
+			shape: "hexagon"
+			tasks: [{
+				id: "6D261D91DF5C3009"
+				item: {
+					Count: 1
+					id: "railways:fuel_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B1086EF9204A309"]
+			description: ["&lDetects if a train has went over it.&r"]
+			disable_toast: true
+			id: "7880E5636618B680"
+			tasks: [{
+				id: "32C019A74B11C3CD"
+				item: {
+					Count: 1
+					id: "create:track_observer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B1086EF9204A309"]
+			description: ["&lEssential for each train to have, without it you can't start the train.&r"]
+			disable_toast: true
+			id: "1C5EA671463F6913"
+			shape: "hexagon"
+			tasks: [{
+				id: "672D430FD5DA7C5E"
+				item: {
+					Count: 1
+					id: "create:controls"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E304527CC6FA414"]
+			description: ["&lThis item is used for assembling your first train, right click on a track and then switch to assembly mode.&r"]
+			disable_toast: true
+			id: "1ABD9484A5C9397E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "151C30431F6B7B82"
+				item: {
+					Count: 1
+					id: "create:track_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lTrain Assembling"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7B1086EF9204A309"]
+			description: ["&lYou need them to create a path for the train to follow.&r"]
+			disable_toast: true
+			id: "4E304527CC6FA414"
+			shape: "hexagon"
+			tasks: [{
+				id: "6FC7B02CEEF44651"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:tracks"
+					}
+				}
+				title: "Any #create:tracks"
+				type: "item"
+			}]
+			title: "&lTracks"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5CDA803190DB3BD5"]
+			description: ["&l&lAllows you to make \"conductors\" that can transmit redstone power, they can also carry toolboxes.&r"]
+			disable_toast: true
+			id: "18C9A6799F758730"
+			tasks: [{
+				id: "209FF6F4A132DCBC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "railways:conductor_caps"
+					}
+				}
+				title: "Any #railways:conductor_caps"
+				type: "item"
+			}]
+			title: "&lConductors"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B1086EF9204A309"]
+			description: ["&lAllows you to automate the flow of trains that aren't controlled by players.&r"]
+			disable_toast: true
+			id: "6C095CDD62C1AC38"
+			tasks: [{
+				id: "2785479A93938B87"
+				item: {
+					Count: 1
+					id: "create:track_signal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["&lBest of both worlds, can be used to descend slower.&r"]
+			disable_toast: true
+			id: "5791BB8F569D3BDB"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Watch out for your stamina...oh wrong game..."
+			tasks: [{
+				id: "23693586B4196066"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lParagliding"
+			x: -5.0d
+			y: -2.0d
+		}
+	]
+	title: "Land Travel"
+}

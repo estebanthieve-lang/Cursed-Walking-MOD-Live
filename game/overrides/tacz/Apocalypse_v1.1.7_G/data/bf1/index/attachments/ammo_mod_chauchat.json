@@ -1,0 +1,8 @@
+{
+  "name": "bf1.attachment.ammo_mod_chauchat.name",
+  "display": "bf1:ammo_mod_chauchat_display",
+  "data": "bf1:ammo_mod_chauchat_data",
+  "tooltip": "bf1.attachment.ammo_mod_chauchat.desc",
+  "type": "extended_mag",
+  "sort": 999
+}

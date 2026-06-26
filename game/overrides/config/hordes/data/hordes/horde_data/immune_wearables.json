@@ -1,0 +1,322 @@
+[
+  {
+    "item": "marbledsarsenal:helmet_cm6m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:un_helmet_cm6m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:olive_helmet_cm6m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:helmet_cm7m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:un_helmet_cm7m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:olive_helmet_cm7m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:helmet_cm8m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:un_helmet_cm8m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:olive_helmet_cm8m_gas_mask",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:combat_helmet",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:un_combat_helmet",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:olive_combat_helmet",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:riot_armor_helmet",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:swat_armor_helmet",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:winter_military_armor_helmet",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:desert_military_armor_helmet",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:hazmat_armor_helmet",
+    "multiplier": 0.91
+  },
+  {
+    "item": "marbledsarsenal:olive_juggernaut_armor_helmet",
+    "multiplier": 0.75
+  },
+  {
+    "item": "marbledsarsenal:black_juggernaut_armor_helmet",
+    "multiplier": 0.75
+  },
+  {
+    "item": "the_deeper_void:tungsten_armor_helmet",
+    "multiplier": 0.86
+  },
+  {
+    "item": "the_deeper_void:tungsten_armor_chestplate",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:riot_armor_chestplate",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:swat_armor_chestplate",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:winter_military_armor_chestplate",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:desert_military_armor_chestplate",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:hazmat_armor_chestplate",
+    "multiplier": 0.91
+  },
+  {
+    "item": "marbledsarsenal:olive_juggernaut_armor_chestplate",
+    "multiplier": 0.75
+  },
+  {
+    "item": "marbledsarsenal:black_juggernaut_armor_chestplate",
+    "multiplier": 0.75
+  },
+  {
+    "item": "the_deeper_void:tungsten_armor_leggings",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:riot_armor_leggings",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:swat_armor_leggings",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:winter_military_armor_leggings",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:desert_military_armor_leggings",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:hazmat_armor_leggings",
+    "multiplier": 0.91
+  },
+  {
+    "item": "marbledsarsenal:olive_juggernaut_armor_leggings",
+    "multiplier": 0.75
+  },
+  {
+    "item": "marbledsarsenal:black_juggernaut_armor_leggings",
+    "multiplier": 0.75
+  },
+  {
+    "item": "the_deeper_void:tungsten_armor_boots",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:riot_armor_boots",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:swat_armor_boots",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:winter_military_armor_boots",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:desert_military_armor_boots",
+    "multiplier": 0.86
+  },
+  {
+    "item": "marbledsarsenal:hazmat_armor_boots",
+    "multiplier": 0.91
+  },
+  {
+    "item": "marbledsarsenal:olive_juggernaut_armor_boots",
+    "multiplier": 0.75
+  },
+  {
+    "item": "marbledsarsenal:black_juggernaut_armor_boots",
+    "multiplier": 0.75
+  },
+  {
+    "item": "minecraft:iron_boots",
+    "multiplier": 0.93
+  },
+  {
+    "item": "minecraft:iron_leggings",
+    "multiplier": 0.93
+  },
+  {
+    "item": "minecraft:iron_chestplate",
+    "multiplier": 0.93
+  },
+  {
+    "item": "minecraft:iron_helmet",
+    "multiplier": 0.93
+  },
+  {
+    "item": "minecraft:diamond_chestplate",
+    "multiplier": 0.78
+  },
+  {
+    "item": "minecraft:diamond_leggings",
+    "multiplier": 0.82
+  },
+  {
+    "item": "minecraft:diamond_boots",
+    "multiplier": 0.88
+  },
+  {
+    "item": "minecraft:diamond_helmet",
+    "multiplier": 0.84
+  },
+  {
+    "item": "minecraft:golden_helmet",
+    "multiplier": 0.93
+  },
+  {
+    "item": "minecraft:golden_chestplate",
+    "multiplier": 0.91
+  },
+  {
+    "item": "minecraft:golden_leggings",
+    "multiplier": 0.89
+  },
+  {
+    "item": "minecraft:golden_helmet",
+    "multiplier": 0.92
+  },
+  {
+    "item": "minecraft:netherite_helmet",
+    "multiplier": 0.75
+  },
+  {
+    "item": "minecraft:netherite_chestplate",
+    "multiplier": 0.75
+  },
+  {
+    "item": "minecraft:netherite_leggings",
+    "multiplier": 0.75
+  },
+  {
+    "item": "minecraft:netherite_boots",
+    "multiplier": 0.75
+  },
+  {
+    "item": "create:netherite_diving_boots",
+    "multiplier": 0.75
+  },
+  {
+    "item": "create:netherite_diving_helmet",
+    "multiplier": 0.75
+  },
+  {
+    "item": "create:netherite_backtank",
+    "multiplier": 0.75
+  },
+  {
+    "item": "create:copper_backtank",
+    "multiplier": 0.95
+  },
+  {
+    "item": "create:copper_diving_helmet",
+    "multiplier": 0.95
+  },
+  {
+    "item": "create:copper_diving_boots",
+    "multiplier": 0.95
+  },
+  {
+    "item": "minecraft:turtle_helmet",
+    "multiplier": 0.85
+  },
+  {
+    "item": "minecraft:leather_helmet",
+    "multiplier": 0.96
+  },
+  {
+    "item": "minecraft:leather_chestplate",
+    "multiplier": 0.93
+  },
+  {
+    "item": "minecraft:leather_leggings",
+    "multiplier": 0.95
+  },
+  {
+    "item": "minecraft:leather_boots",
+    "multiplier": 0.97
+  },
+  {
+    "item": "minecraft:chainmail_helmet",
+    "multiplier": 0.94
+  },
+  {
+    "item": "minecraft:chainmail_chestplate",
+    "multiplier": 0.91
+  },
+  {
+    "item": "minecraft:chainmail_leggings",
+    "multiplier": 0.92
+  },
+  {
+    "item": "minecraft:chainmail_boots",
+    "multiplier": 0.95
+  },
+  {
+    "item": "marbledsarsenal:cm6m_gas_mask",
+    "multiplier": 0.89
+  },
+  {
+    "item": "marbledsarsenal:cm7m_gas_mask",
+    "multiplier": 0.89
+  },
+  {
+    "item": "marbledsarsenal:cm8m_gas_mask",
+    "multiplier": 0.89
+  },
+  {
+    "item": "marbledsarsenal:black_gp5_gas_mask",
+    "multiplier": 0.84
+  },
+  {
+    "item": "marbledsarsenal:white_gp5_gas_mask",
+    "multiplier": 0.84
+  }
+]

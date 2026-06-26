@@ -1,0 +1,9 @@
+{
+  "hidden": false,
+  "name": "sfms.attachment.scope_hamr.name",
+  "tooltip": "sfms.attachment.scope_hamr.tooltip",
+  "display": "sfms:scope_hamr_display",
+  "data": "sfms:scope_hamr_data",
+  "type": "scope",
+  "sort": 24080
+}

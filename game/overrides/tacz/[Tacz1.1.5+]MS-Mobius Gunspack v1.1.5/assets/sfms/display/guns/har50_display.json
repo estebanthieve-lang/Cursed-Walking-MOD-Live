@@ -1,0 +1,65 @@
+{
+  "model": "sfms:gun/har50_geo",
+  "texture": "sfms:gun/uv/har50",
+//  "lod": {
+//    "model": "tacz:gun/lod/m4a1",
+//    "texture": "tacz:gun/lod/m4a1"
+//  },
+  "hud": "sfms:gun/hud/har50",
+  "slot": "sfms:gun/slot/har50",
+  "animation": "sfms:har50",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "state_machine": "sfms:har50_machine",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 100,
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1.55
+  },
+  "shell": {
+    // 抛壳的初速度
+    "initial_velocity": [6, 2, -4.5],
+    // 抛壳随机变化的运动速度
+    "random_velocity": [2, 1.5, 0.5],
+    // 抛壳的加速度
+    "acceleration": [0.0, -12.5, 0.0],
+    // 抛壳的三轴角速度
+    "angular_velocity": [360, -1200, 90],
+    // 抛壳渲染存活时间，单位为秒
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "sfms:har50/shar50_shoot3",
+    "shoot_3p": "sfms:har50/har50_shoot3",
+    "silence": "sfms:har50/har50_shoot3",
+    "silence_3p": "sfms:har50/har50_shoot3",
+    "reload_empty": "sfms:har50/har50_reload",
+    "reload_tactical": "sfms:har50/emx_mg90_reload_tactical",
+    "draw": "sfms:har50/aa12_draw",
+    "put_away": "sfms:har50/aa12_put_away",
+    "fire_select": "sfms:emx_mode",
+    "head_hit": "sfms:lrl_armor_hit",
+    "flesh_hit": "sfms:lrl_armor_hit",
+	"kill": "sfms:lrl_armor_break"
+  },
+  "offhand_show": {
+    "pos": [0, 18, 5],
+    "rotate": [-20, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 4],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

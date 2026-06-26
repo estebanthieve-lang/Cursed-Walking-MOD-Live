@@ -1,0 +1,256 @@
+{
+	autofocus_id: "65854270634E02BC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "create_t2"
+	group: "6DECDEC80935080E"
+	icon: "create:copper_casing"
+	id: "105DF8363556B4E5"
+	images: [
+		{
+			height: 3.0d
+			image: "create:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "cw:textures/quests/copperage.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.5d
+			y: -2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This is where the &6&lcopper&r&r part of create &lshines&r!"]
+			disable_toast: true
+			id: "65854270634E02BC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "03BD8D0DED33B844"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "&l&fThe start of the &6copper &fage"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65854270634E02BC"]
+			description: ["Used to transport &9&lliquids&r&r."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "005D8CBFAAAC3057"
+			shape: "square"
+			tasks: [{
+				id: "224637E7C68284E6"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			title: "&lFluid pipe"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["005D8CBFAAAC3057"]
+			description: ["The one and only way to &5&lpump&r&r the liquids so they can &6&lflow&r&r thru the pipes."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2C18FFB0671BD89C"
+			shape: "square"
+			tasks: [{
+				id: "27C0F069B69DB47E"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			title: "&lMechanical pump"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C18FFB0671BD89C"]
+			description: ["Let's you assign a &e&lset&r&r liquid that can flow thru the &c&lpipe&r&r."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "32C3427D3104076D"
+			shape: "square"
+			tasks: [{
+				id: "1482E46685EE4AA2"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			title: "&lSmart fluid pipe"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C18FFB0671BD89C"]
+			description: ["If put in the pipe loop allows ther player to &4&lstop&r&r the liquid flowing with a turn of a &a&lvalve&r&r."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "15C1EA04535A6A0A"
+			shape: "square"
+			tasks: [{
+				id: "36840C05B7BBD85C"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			title: "&lFluid valve"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65854270634E02BC"]
+			description: ["Used for &3&lcrafting&r&r and &d&lcovering&r&r up shafts, belts and so on."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "15B7B3850624CB2E"
+			shape: "square"
+			tasks: [{
+				id: "12A2C4AA150714E1"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "&lCopper casing"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15B7B3850624CB2E"]
+			description: ["The &e&lonly&r&r way to &d&lextract&r&r liquids from potions, bottles and buckets to &6&lfluid tanks&r&r."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "661D2BDAAD37C6EE"
+			shape: "square"
+			tasks: [{
+				id: "5BDB819441715CB8"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			title: "&lItem drain"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65854270634E02BC"]
+			description: ["A &5&lmulti-block&r&r contraption that can store &9&lfluids&r&r. Can be made in these dimensions - 1x(1-32)x1 ; 2x(1-20)x2."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "00C2E808BE242131"
+			shape: "square"
+			tasks: [{
+				id: "57A572B3445583BE"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			title: "&lFluid tank"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00C2E808BE242131"]
+			description: ["If attached to a &6&lfluid tank&r&r, provided &c&lheat&r&r and &b&lwater&r&r will produce SU. This is the &a&lbest&r&r way to generate big amounts of SU."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "459CCE0D94B2C5E2"
+			shape: "square"
+			tasks: [{
+				id: "5ED9F4DCF4816CE8"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "&lSteam engine"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65854270634E02BC"]
+			description: ["The best &6&lheatsource&r&r in the create mod. Can be used to power steam engines, provide heat to basins. It can be &b&lsuper&r&r &6&lheated&r&r with a blaze cake."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "50036DD169CCE12E"
+			shape: "square"
+			tasks: [{
+				id: "2FD422EED9F144AD"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["661D2BDAAD37C6EE"]
+			description: ["Spouts allow the player to &6&lfill up&r&r buckets, botlles with fluids. This can be &9&lautomated&r&r with belts."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "6C5BCC525645F0FA"
+			shape: "square"
+			tasks: [{
+				id: "082B665C1EA35EC9"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "&lSpout"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["661D2BDAAD37C6EE"]
+			description: [
+				"A fluid interface &l&esame&r&r as "
+				"an item interface allows to &a&lextract&r&r or &b&linput&r&r fluids from moving contraptions."
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "69B9D426E67184EB"
+			shape: "square"
+			tasks: [{
+				id: "1152B4E28DED371A"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			title: "&lPortable fluid interface"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50036DD169CCE12E"]
+			description: ["Use to &b&lsuper&r&r &6&lheat&r&r blaze burners for a limited time."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4521E57182846F75"
+			shape: "square"
+			tasks: [{
+				id: "1783C3A31D19B0EA"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15B7B3850624CB2E"]
+			description: ["Used to &6&lfill&r&r or &2&lextract&r&r liquids from liquid pools, oceans, lakes, ponds and so on."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "6589E35EAC1DFF7E"
+			shape: "square"
+			tasks: [{
+				id: "6A89B4EBD20E3F31"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: "&7Create Copper Age"
+}

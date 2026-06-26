@@ -1,0 +1,5 @@
+
+["Debug Settings"]
+	#Enable detailed debug logging for the Scrapper
+	enableDebugLogging = false
+

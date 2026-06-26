@@ -1,0 +1,37 @@
+{
+  "model": "bf1:gun/syringe_geo",
+  "texture": "bf1:gun/uv/syringe",
+  "hud": "bf1:gun/hud/syringe",
+  "slot": "bf1:gun/slot/syringe",
+  "lod": {
+    "model": "bf1:gun/lod/syringe_lod",
+    "texture": "bf1:gun/lod/syringe_lod"
+  },
+  "animation": "bf1:syringe",
+  "use_default_animation": "rifle",
+  "show_crosshair": true,
+  "transform": {
+    "scale": {
+      "thirdperson": [1, 1, 1],
+      "ground": [1, 1, 1],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "iron_zoom": 1.1,
+  "zoom_model_fov": 60,
+  "sounds": {
+    "reload_empty": "bf1:syringe/fill",
+    "inspect": "bf1:vo/letme_heal",
+    "inspect_empty": "bf1:vo/request_medic",
+    "draw": "bf1:syringe/draw",
+    //"put_away": "tacz:rpg7/rpg7_put_away",
+    "shoot": "bf1:vo/throw_medkit",
+    "shoot_3p": "bf1:vo/throw_medkit_3p",
+    "dry_fire": "bf1:vo/request_medic",
+    "melee_push": "no",
+
+    "head_hit": "bf1:head_hit",
+    "flesh_hit": "bf1:flesh_hit",
+    "kill": "bf1:kill"
+  }
+}

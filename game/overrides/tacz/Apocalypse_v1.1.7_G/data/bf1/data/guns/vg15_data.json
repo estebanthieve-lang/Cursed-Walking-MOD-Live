@@ -1,0 +1,110 @@
+{
+  "ammo": "tacz:762x39",
+  "ammo_amount": 16,
+  "extended_mag_ammo_amount": [
+    30,
+    40,
+    80
+  ],
+  "bolt": "closed_bolt",
+  "rpm": 670,
+  "bullet": {
+    "life": 0.8,
+    "bullet_amount": 1,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.025,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": 24, "damage": 7},
+        {"distance": 40, "damage": 6},
+        {"distance": 64, "damage": 5},
+        {"distance": "infinite", "damage": 3}
+      ]
+    },
+    "speed": 232,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.02,
+    "ignite": {
+      "entity": false,
+      "block": false
+    },
+    "ignite_entity_time": 2,
+    "pierce": 1
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.55,
+      "tactical": 1.55
+    },
+    "cooldown": {
+      "empty": 3.0,
+      "tactical": 2.0
+    }
+  },
+  "draw_time": 0.4,
+  "put_away_time": 0.45,
+  "aim_time": 0.15,
+  "sprint_time": 0.195,
+  "weight": 3.5,
+  "movement_speed": {
+    "base": 0.03,
+    "aim": 0,
+    "reload": 0
+  },
+  "fire_mode": [
+    "semi",
+    "auto"
+  ],
+  "fire_mode_adjust": {
+    "semi": {
+      "damage": 1,
+      "rpm": -311,
+      "speed": 15,
+      "knockback": 0.1,
+      "armor_ignore": 0.05,
+      "head_shot_multiplier": 0.2,
+      "aim_inaccuracy": -0.4,
+      "other_inaccuracy": -0.5
+    }
+  },
+  "crawl_recoil_multiplier": 0.5,
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.5, 0.5]},
+      {"time": 0.25, "value": [0.5, 0.5]},
+      {"time": 0.45, "value": [-0.175, -0.175]},
+      {"time": 0.6, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.2, 0.2]},
+      {"time": 0.45, "value": [0, 0]}
+    ]
+  },
+  "hurt_bob_tweak_multiplier": 0.05,
+  "inaccuracy": {
+    "stand": 4.5,
+    "move": 5,
+    "sneak": 3.5,
+    "lie": 2.5,
+    "aim": 0.6
+  },
+  "melee": {
+    "distance": 1,
+    "cooldown": 0.7,
+    "default": {
+      "animation_type": "melee_push",
+      "distance": 1,
+      "range_angle": 40,
+      "cooldown": 0,
+      "damage": 1,
+      "knockback": 0.5,
+      "prep": 0.1
+    }
+  },
+  "allow_attachment_types": [
+
+  ]
+}

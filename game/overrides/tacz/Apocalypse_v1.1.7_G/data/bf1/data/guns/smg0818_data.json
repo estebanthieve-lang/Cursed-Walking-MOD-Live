@@ -1,0 +1,119 @@
+{
+  "ammo": "tacz:9mm",
+  "ammo_amount": 60,
+  "bolt": "closed_bolt",
+  "rpm": 770,
+  "bullet": {
+    "extra_damage": {
+      "armor_ignore": 0.01,
+      "head_shot_multiplier": 1.25,
+      "damage_adjust": [
+        {
+          "distance": 16,
+          "damage": 5
+        },
+        {
+          "distance": 24,
+          "damage": 4
+        },
+        {
+          "distance": 32,
+          "damage": 3
+        },
+        {
+          "distance": "infinite",
+          "damage": 2
+        }
+      ]
+    },
+    "life": 1,
+    "tracer_count_interval": 0,
+    "speed": 150,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.05,
+    "ignite": false,
+    "pierce": 1
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 4,
+      "tactical": 3.5
+    },
+    "cooldown": {
+      "empty": 4.5,
+      "tactical": 3.95
+    }
+  },
+  "draw_time": 0.85,
+  "put_away_time": 0.5,
+  "aim_time": 0.2,
+  "sprint_time": 0.195,
+
+  "weight": 4,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.1,
+    "reload": 0.0
+  },
+  "heat":  {
+    "max": 31,
+    "per_shot": 1,
+    "cooling_multiplier": 20,
+    "cooling_delay": 100,
+    "over_heat_time": 1000,
+    "min_inaccuracy": 1,
+    "max_inaccuracy": 1,
+    "min_rpm_mod": 1,
+    "max_rpm_mod": 1
+  },
+  "fire_mode": [
+    "auto",
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {
+        "time": 0,
+        "value": [ 0.5, 0.5 ]
+      },
+      {
+        "time": 0.2,
+        "value": [ 0.2, 0.2 ]
+      },
+      {
+        "time": 0.4,
+        "value": [ -0.25, -0.25 ]
+      },
+      {
+        "time": 0.55,
+        "value": [ 0, 0 ]
+      }
+    ],
+    "yaw": [
+      {
+        "time": 0,
+        "value": [ -0.5, 0.2 ]
+      },
+      {
+        "time": 0.25,
+        "value": [ -0.15, -0.15 ]
+      },
+      {
+        "time": 0.45,
+        "value": [ 0, 0 ]
+      }
+    ]
+  },
+  "allow_attachment_types": [
+
+  ],
+  "inaccuracy": {
+    "stand": 1.5,
+    "move": 2.25,
+    "sneak": 1,
+    "lie": 0.8,
+    "aim": 0.5
+  }
+}

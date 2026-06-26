@@ -1,0 +1,149 @@
+
+[feral]
+	#Feral max health.
+	#Range: 1.0 ~ 2048.0
+	maxHealth = 30.0
+	#Feral armor value.
+	#Range: 0.0 ~ 512.0
+	armor = 2.0
+	#Feral melee attack damage.
+	#Range: 0.0 ~ 512.0
+	attackDamage = 5.0
+	#Feral movement speed attribute.
+	#Range: 0.01 ~ 2.0
+	movementSpeed = 0.43
+	#Feral follow/detection range.
+	#Range: 1.0 ~ 2048.0
+	followRange = 35.0
+	#Feral armor toughness.
+	#Range: 0.0 ~ 512.0
+	armorToughness = 0.0
+	#Feral knockback resistance.
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 0.0
+	#Feral bullet resistance.
+	#Range: 0.0 ~ 1.0
+	bulletMultiplier = 0.0
+	#Hidden feral bonus multiplier to max health after it kills a player.
+	#Range: 1.0 ~ 10.0
+	playerKillHealthMultiplier = 1.8
+	#Hidden feral bonus multiplier to attack damage after it kills a player.
+	#Range: 1.0 ~ 10.0
+	playerKillDamageMultiplier = 1.5
+
+[drone]
+	#Drone max health.
+	#Range: 1.0 ~ 2048.0
+	maxHealth = 30.0
+	#Drone armor value.
+	#Range: 0.0 ~ 512.0
+	armor = 3.0
+	#Drone melee attack damage.
+	#Range: 0.0 ~ 512.0
+	attackDamage = 4.0
+	#Drone movement speed attribute.
+	#Range: 0.01 ~ 2.0
+	movementSpeed = 0.25
+	#Drone follow/detection range.
+	#Range: 1.0 ~ 2048.0
+	followRange = 35.0
+	#Panic effect duration from drone melee hit.
+	#Range: 0 ~ 24000
+	meleePanicDurationTicks = 800
+	#Drone armor toughness.
+	#Range: 0.0 ~ 512.0
+	armorToughness = 0.0
+	#Drone knockback resistance.
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 0.0
+	#Drone bullet resistance.
+	#Range: 0.0 ~ 1.0
+	bulletMultiplier = 0.0
+
+[warrior]
+	#Warrior max health.
+	#Range: 1.0 ~ 2048.0
+	maxHealth = 40.0
+	#Warrior armor value.
+	#Range: 0.0 ~ 512.0
+	armor = 6.0
+	#Warrior melee attack damage.
+	#Range: 0.0 ~ 512.0
+	attackDamage = 8.0
+	#Warrior movement speed attribute.
+	#Range: 0.01 ~ 2.0
+	movementSpeed = 0.24
+	#Warrior follow/detection range.
+	#Range: 1.0 ~ 2048.0
+	followRange = 35.0
+	#Panic effect duration from warrior melee hit.
+	#Range: 0 ~ 24000
+	meleePanicDurationTicks = 600
+	#Warrior armor toughness.
+	#Range: 0.0 ~ 512.0
+	armorToughness = 2.0
+	#Warrior knockback resistance.
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 0.2
+	#Warrior bullet resistance.
+	#Range: 0.0 ~ 2.0
+	bulletMultiplier = 0.2
+
+[spitter]
+	#Spitter max health.
+	#Range: 1.0 ~ 2048.0
+	maxHealth = 36.0
+	#Spitter armor value.
+	#Range: 0.0 ~ 512.0
+	armor = 4.0
+	#Spitter melee attack damage.
+	#Range: 0.0 ~ 512.0
+	attackDamage = 6.0
+	#Spitter movement speed attribute.
+	#Range: 0.01 ~ 2.0
+	movementSpeed = 0.24
+	#Spitter follow/detection range.
+	#Range: 1.0 ~ 2048.0
+	followRange = 35.0
+	#Direct damage from spit projectile hit.
+	#Range: 0.0 ~ 512.0
+	spitDirectHitDamage = 4.0
+	#Panic effect duration from spitter melee hit.
+	#Range: 0 ~ 24000
+	meleePanicDurationTicks = 400
+	#Poison effect duration from direct spit hit.
+	#Range: 0 ~ 24000
+	spitPoisonDurationTicks = 40
+	#Lifetime of spitter poison cloud.
+	#Range: 0 ~ 24000
+	poisonCloudDurationTicks = 160
+	#Poison duration applied by spitter poison cloud.
+	#Range: 0 ~ 24000
+	poisonCloudPoisonDurationTicks = 40
+	#Spitter armor toughness.
+	#Range: 0.0 ~ 512.0
+	armorToughness = 0.0
+	#Spitter knockback resistance.
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 0.0
+	#Spitter bullet resistance.
+	#Range: 0.0 ~ 1.0
+	bulletMultiplier = 0.0
+
+[depth]
+	#Maximum random follow-range bonus multiplier applied on spawn.
+	#Range: 0.0 ~ 3.0
+	followRangeBonusMax = 0.5
+	#Maximum random knockback-resistance bonus applied on spawn.
+	#Range: 0.0 ~ 1.0
+	knockbackResistanceBonusMax = 0.05
+	#Difficulty-scaled chance for leader zombie bonuses.
+	#Range: 0.0 ~ 1.0
+	leaderChanceScale = 0.05
+	#Ticks a depth zombie must be out of combat before rapid regeneration starts.
+	#Range: 0 ~ 24000
+	regenerationDelayTicks = 200
+	#Health restored per second while depth zombies are out of combat. Set to 0 to disable.
+	#Range: 0.0 ~ 2048.0
+	regenerationHealthPerSecond = 4.0
+

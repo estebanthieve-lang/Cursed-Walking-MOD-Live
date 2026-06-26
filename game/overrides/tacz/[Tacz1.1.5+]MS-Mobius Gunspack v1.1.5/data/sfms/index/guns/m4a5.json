@@ -1,0 +1,8 @@
+{
+  "name": "sfms.gun.m4a5.name",
+  "tooltip": "sfms.gun.m4a5.desc",
+  "display": "sfms:m4a5_display",
+  "data": "sfms:m4a5_data",
+  "type": "rifle",
+  "sort": 24080
+}

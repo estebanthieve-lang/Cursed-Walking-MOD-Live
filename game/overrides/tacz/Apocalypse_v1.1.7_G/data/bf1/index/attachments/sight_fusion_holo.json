@@ -1,0 +1,7 @@
+{
+  "name": "bf1.attachment.sight_fusion_holo.name",
+  "display": "bf1:sight_fusion_holo_display",
+  "data": "tacz:sight_coyote_data",
+  "type": "scope",
+  "sort": 20
+}

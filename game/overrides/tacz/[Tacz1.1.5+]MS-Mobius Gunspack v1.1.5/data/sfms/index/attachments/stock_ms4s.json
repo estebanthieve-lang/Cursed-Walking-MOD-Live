@@ -1,0 +1,8 @@
+{
+  "name": "sfms.attachment.stock_ms4s.name",
+  "tooltip": "sfms.attachment.stock_ms4s.tooltip",
+  "display": "sfms:stock_ms4s_display",
+  "data": "sfms:stock_ms4s_data",
+  "type": "stock",
+  "sort": 24080
+}

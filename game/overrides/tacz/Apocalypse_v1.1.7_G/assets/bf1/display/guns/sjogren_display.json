@@ -1,0 +1,62 @@
+{
+  "model": "bf1:gun/sjogren_geo",
+  "texture": "bf1:gun/uv/sjogren",
+  "lod": {
+    "model": "bf1:gun/lod/sjogren_lod",
+    "texture": "bf1:gun/lod/sjogren_lod"
+  },
+  "hud": "bf1:gun/hud/sjogren",
+  "slot": "bf1:gun/slot/sjogren",
+  "animation": "bf1:sjogren",
+  "default_animation": "bf1:rifle_default",
+  "third_person_animation": "default",
+  "damage_style": "per_projectile",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [ 0.6, 0.6, 0.6 ],
+      "ground": [ 0.6, 0.6, 0.6 ],
+      "fixed": [ 1.2, 1.2, 1.2 ]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "bf1:flash/spark",
+    "scale": 5
+  },
+  "iron_zoom": 1.3,
+  "zoom_model_fov": 35,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "inspect_empty": "bf1:vo/request_ammo",
+    "draw": "bf1:model10/deploy",
+    "put_away": "tacz:db_short/db_short_put_away",
+    "shoot": "bf1:sjogren/shoot",
+    "shoot_3p": "bf1:sjogren/shoot",
+
+    "head_hit": "no",
+    "flesh_hit": "no",
+    "kill": "bf1:kill"
+  },
+  "offhand_show": {
+    "pos": [ 0, 20, 4 ],
+    "rotate": [ 0, 0, 60 ],
+    "scale": [ 0.5, 0.5, 0.5 ]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [ 0, 20, 3 ],
+      "rotate": [ -180, 0, 120 ],
+      "scale": [ 0.5, 0.5, 0.5 ]
+    }
+  },
+  "state_machine": "bf1:sjogren_state_machine",
+  "state_machine_param": {
+    "bolt_shell_ejecting_time": 0.1
+  }
+}

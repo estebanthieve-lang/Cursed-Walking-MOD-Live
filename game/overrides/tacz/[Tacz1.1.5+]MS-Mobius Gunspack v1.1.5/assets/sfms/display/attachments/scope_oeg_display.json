@@ -1,0 +1,45 @@
+{
+  "slot": "sfms:attachment/slot/scope_oeg",
+  "model": "sfms:attachment/scope_oeg_geo",
+  "texture": "sfms:attachment/uv/scope_oeg",
+//  "lod": {
+//    "model": "tacz:attachment/lod/scope_vudu",
+//    "texture": "tacz:attachment/lod/scope_vudu"
+//  },
+  "zoom": [
+    4.5,
+    1.35
+  ],
+  "views": [
+    2,
+    1
+  ],
+  "views_fov": [
+    50.0,
+    60.0
+  ],
+  "scope": true,
+  "sight": true,
+  // 枪械模型上的文本显示
+  "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "ammo_text": {
+      "scale": 0.14,
+      // 对齐方式：right，center，left
+      "align": "right",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#a2fd5d",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  },
+  "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

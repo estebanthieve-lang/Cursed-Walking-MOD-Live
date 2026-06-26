@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.m109.name",
+  "tooltip": "sfms.gun.m109.desc",
+  "display": "sfms:m109_display",
+  "data": "sfms:m109_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "sniper",
+  "sort": 24080
+}

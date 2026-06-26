@@ -1,0 +1,9 @@
+{
+  "slot": "bf1:attachment/slot/raider_club",
+  "model": "bf1:attachment/raider_club_geo",
+  "texture": "bf1:gun/uv/sw_model3",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

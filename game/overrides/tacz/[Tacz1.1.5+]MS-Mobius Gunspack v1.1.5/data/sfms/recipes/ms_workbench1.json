@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_a",
+    "nbt": {
+      "BlockId": "msskin:ms_workbench1"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "231",
+    "AAA"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:stone"
+    },
+    "1": {
+      "item": "minecraft:red_dye"
+    },
+    "2": {
+      "item": "minecraft:blue_dye"
+    },
+	"3": {
+      "item": "minecraft:lime_dye"
+    }
+  }
+}

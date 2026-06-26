@@ -1,0 +1,70 @@
+{
+  "model": "bf1:gun/rorsch_mk4.geo",
+  "texture": "bf1:gun/uv/rorsch_mk4",
+  "lod": {
+    "model": "bf1:gun/lod/rorsch_mk4_lod",
+    "texture": "bf1:gun/lod/rorsch_mk4_lod"
+  },
+  "hud": "bf1:gun/hud/rorsch_mk4",
+  "slot": "bf1:gun/slot/rorsch_mk4",
+  "animation": "bf1:rorsch_mk4",
+  "default_animation": "bf1:rifle_default",
+  "third_person_animation": "default",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "iron_zoom": 1.1,
+  "zoom_model_fov": 50,
+  "shell": {
+    "initial_velocity": [6, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 0.8
+  },
+  "ammo": {
+    "tracer_color": "#FF3030",
+    "particle": {
+      "name": "cloud",
+      "delta": [
+        0,
+        0,
+        0
+      ],
+    "speed": 0.1,
+    "life_time": 5,
+    "count": 32
+  }
+  },
+    "muzzle_flash": {
+    "texture": "bf1:flash/spark",
+    "scale": 1
+  },
+  "sounds": {
+    "draw": "tacz:ai_awp/awp_draw",
+    "put_away": "tacz:ai_awp/awp_put_away",
+    "dry_fire": "bf1:rorsch_mk4/charge_cancel",
+    "kill": "bf1:kill_2042"
+  },
+  "offhand_show": {
+    "pos": [0, 19, 4],
+    "rotate": [0, 0, 60],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 19, 3],
+      "rotate": [0, 0, -60],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "state_machine": "bf1:rorsch_state_machine",
+    "state_machine_param": {
+    "charge_time": 1
+  }
+}

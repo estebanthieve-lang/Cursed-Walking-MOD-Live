@@ -1,0 +1,8 @@
+{
+    "name": "bf1.gun.liu.name",
+    "display": "bf1:liu_display",
+    "data": "bf1:liu_data",
+    "tooltip": "bf1.gun.liu.desc",
+    "type": "rifle",
+    "sort": 18
+}

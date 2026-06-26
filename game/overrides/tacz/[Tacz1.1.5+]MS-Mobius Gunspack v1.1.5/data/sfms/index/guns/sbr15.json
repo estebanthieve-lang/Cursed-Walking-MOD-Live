@@ -1,0 +1,8 @@
+{
+  "name": "sfms.gun.sbr15.name",
+  "tooltip": "sfms.gun.sbr15.desc",
+  "display": "sfms:sbr15_display",
+  "data": "sfms:sbr15_data",
+  "type": "rifle",
+  "sort": 24080
+}

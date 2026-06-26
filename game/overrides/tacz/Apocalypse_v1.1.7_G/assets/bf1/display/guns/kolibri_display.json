@@ -1,0 +1,60 @@
+{
+  "model": "bf1:gun/kolibri_geo",
+  "texture": "bf1:gun/uv/kolibri",
+  "lod": {
+    "model": "bf1:gun/lod/kolibri_lod",
+    "texture": "bf1:gun/lod/kolibri_lod"
+  },
+  "hud": "bf1:gun/hud/kolibri",
+  "slot": "bf1:gun/slot/kolibri",
+  "animation": "bf1:kolibri",
+  "default_animation": "bf1:pistol_default",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "shell": {
+    "initial_velocity": [5.0, 3.0, 1],
+    "random_velocity": [2.5, 2, 0.25],
+    "acceleration": [0.0, -20, 0.0],
+    "angular_velocity": [360, -960, 90],
+    "living_time": 1.0
+  },
+  "ammo": {
+    "tracer_color": "#2D2D2D"
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.25
+  },
+  "iron_zoom": 1.125,
+  "sounds": {
+    "draw": "bf1:kolibri/settle2",
+    "put_away": "bf1:kolibri/settle1",
+    "shoot": "bf1:kolibri/shoot",
+    "shoot_3p": "bf1:kolibri/shoot_3p",
+    "inspect_empty": "bf1:vo/request_ammo_kolibri",
+
+    "head_hit": "bf1:head_hit",
+    "flesh_hit": "bf1:flesh_hit",
+    "kill": "bf1:kill"
+  },
+  "offhand_show": {
+    "pos": [4, 13, -1],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, -1],
+      "rotate": [-90, -35, 90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "state_machine": "bf1:movement_state_machine"
+}

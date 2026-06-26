@@ -1,0 +1,15 @@
+{
+  "slot": "bf1:attachment/slot/laser_integrated",
+  "model": "bf1:attachment/laser_integrated_geo",
+  "texture": "bf1:attachment/uv/laser_integrated",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_b",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  },
+  "laser": {
+    "default_color": "0xff0000",
+    "can_edit": true,
+    "length": 60,
+    "width": 0.005
+  }
+}

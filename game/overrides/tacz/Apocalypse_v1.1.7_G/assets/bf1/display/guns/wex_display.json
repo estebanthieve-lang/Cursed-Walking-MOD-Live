@@ -1,0 +1,46 @@
+{
+  "model": "bf1:gun/wex_geo",
+  "texture": "bf1:gun/uv/wex",
+  "hud": "bf1:gun/hud/wex",
+  "slot": "bf1:gun/slot/wex",
+  "lod": {
+    "model": "bf1:gun/lod/wex_lod",
+    "texture": "bf1:gun/lod/wex_lod"
+  },
+  "animation": "bf1:wex",
+  "default_animation": "bf1:rifle_default",
+  "third_person_animation": "default",
+  "ammo_count_style": "percent",
+  "damage_style": "total",
+  "show_crosshair": true,
+  "transform": {
+    "scale": {
+      "thirdperson": [ 0.6, 0.6, 0.6 ],
+      "ground": [ 0.6, 0.6, 0.6 ],
+      "fixed": [ 1.2, 1.2, 1.2 ]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "bf1:flash/flame",
+    "scale": 3
+  },
+  "iron_zoom": 1.1,
+  "sounds": {
+    "shoot": "bf1:wex/flame",
+    "shoot_3p": "bf1:wex/flame",
+    "dry_fire": "bf1:wex/dry_fire",
+    "inspect_empty": "bf1:vo/request_ammo",
+    "draw": "bf1:wex/draw",
+    "put_away": "bf1:wex/put_away",
+
+    "head_hit": "no",
+    "flesh_hit": "no",
+    "kill": "bf1:kill"
+  },
+
+  "state_machine": "bf1:preheat_state_machine",
+  //预热时间
+  "state_machine_param": {
+    "preheat_animation_time": 0.58
+  }
+}

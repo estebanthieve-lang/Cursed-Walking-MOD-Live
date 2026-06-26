@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:inf"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:inf",
+	"nbt" : {
+	"GunDisplayId": "sfms:infj2_display"
+	}
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.mgl40.name",
+  "tooltip": "sfms.gun.mgl40.desc",
+  "display": "sfms:mgl40_display",
+  "data": "sfms:mgl40_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "rpg",
+  "sort": 24080
+}

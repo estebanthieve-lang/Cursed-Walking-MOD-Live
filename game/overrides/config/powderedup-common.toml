@@ -1,0 +1,32 @@
+#The chance for a bat to drop guano every 10 ticks (0.5 seconds). Default is 0.01 (1%).
+#Range: 1.0E-4 ~ 1.0
+batGuanoDropChance = 0.01
+#If true, bats will only produce guano if the block light level is below 7.
+batRequiresDarkness = true
+#If true, breaking the block releases the bats. If false, the block drops as an item containing the bats (Shulker Box style).
+breakReleasesBats = true
+#If true, breaking the block kills the bats still inside, if false, keeps them, if this is true while BREAK_RELEASES_BATS is false, block dropped will have zero bats on placement
+breakKillsBats = false
+#If true, players must use a Shovel to harvest guano. If false, empty hand works.
+requireShovelForHarvest = false
+#If true, Comparator output corresponds to Bat Count (0-3). If false, it corresponds to Guano Level (0-8).
+comparatorReadsBats = false
+#The average amount of bat guano dropped, set to -1 to ignore to allow infinite guano.
+#Range: > -1
+batGuanoAverage = 5
+#The plus or minus range for guana count per bats. Set to 0 to ignore.
+#Range: > 0
+batGuanoDropRange = 5
+#The base chance (1 in X per tick) for a bat to squeak.
+#Range: 20 ~ 10000
+batAmbientSoundChance = 200
+#The maximum number of bats allowed in a container.
+#Range: 1 ~ 10
+batContainerCapacity = 3
+#The maximum amount of Guano a container can hold (Visuals cap at 8).
+#Range: 1 ~ 64
+batContainerGuanoCapacity = 8
+#Minimum nail speed required to break blocks in #powderedup:nail_breakables.
+#Range: 0.1 ~ 8.0
+nailBlockBreakMinSpeed = 1.35
+

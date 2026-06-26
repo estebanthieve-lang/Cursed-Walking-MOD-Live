@@ -1,0 +1,8 @@
+{
+    "name": "bf1.gun.smg0818.name",
+    "display": "bf1:smg0818_display",
+    "data": "bf1:smg0818_data",
+    "tooltip": "bf1.gun.smg0818.desc",
+    "type": "smg",
+    "sort": 18
+}

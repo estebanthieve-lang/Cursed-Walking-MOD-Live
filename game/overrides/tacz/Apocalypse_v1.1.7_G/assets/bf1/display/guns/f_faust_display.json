@@ -1,0 +1,68 @@
+{
+  "model": "bf1:gun/f_faust_geo",
+  "texture": "bf1:gun/uv/f_faust",
+  "hud": "bf1:gun/hud/f_faust",
+  "slot": "bf1:gun/slot/f_faust",
+  "animation": "bf1:f_faust",
+  "default_animation": "bf1:rifle_default",
+  "lod": {
+    "model": "bf1:gun/lod/f_faust_lod",
+    "texture": "bf1:gun/lod/f_faust_lod"
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [ 0.6, 0.6, 0.6 ],
+      "ground": [ 0.6, 0.6, 0.6 ],
+      "fixed": [ 1.2, 1.2, 1.2 ]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "bf1:flash/spark",
+    "scale": 5
+  },
+  "ammo": {
+    "entity": {
+      "model": "no",
+      "texture": "no"
+    },
+    "tracer_color": "#FF8888",
+    "particle": {
+      "name": "cloud",
+      "delta": [
+        0,
+        0,
+        0
+      ],
+      "speed": 0.005,
+      "life_time": 15,
+      "count": 10
+    }
+  },
+  "sounds": {
+    "reload_tactical": "bf1:f_faust/bringdown",
+    "reload_empty": "bf1:f_faust/bringdown",
+    "inspect": "tacz:rpg7/rpg7_inspect",
+    "inspect_empty": "bf1:vo/request_ammo_2",
+    "draw": "bf1:f_faust/bringdown",
+    "put_away": "tacz:rpg7/rpg7_put_away",
+    "shoot": "bf1:f_faust/shoot",
+    "shoot_3p": "bf1:f_faust/shoot",
+
+    "head_hit": "no",
+    "flesh_hit": "no",
+    "kill": "bf1:kill_v"
+  },
+  "offhand_show": {
+    "pos": [ 0, 20, 5 ],
+    "rotate": [ -20, 0, 30 ],
+    "scale": [ 0.5, 0.5, 0.5 ]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [ -4, 24, 4 ],
+      "rotate": [ -90, -5, -90 ],
+      "scale": [ 0.5, 0.5, 0.5 ]
+    }
+  },
+  "state_machine": "bf1:movement_state_machine"
+}

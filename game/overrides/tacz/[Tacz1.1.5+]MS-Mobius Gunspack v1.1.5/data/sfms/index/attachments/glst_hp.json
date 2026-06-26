@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.glst_hp.name",
+	"tooltip": "sfms.attachment.glst_hp.tooltip",
+	"display": "sfms:glst_hp_display",
+	"data": "sfms:glst_hp_data",
+	"type": "muzzle",
+    "sort": 24080
+}

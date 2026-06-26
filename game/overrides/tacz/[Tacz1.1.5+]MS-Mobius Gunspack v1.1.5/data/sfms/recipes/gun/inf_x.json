@@ -1,0 +1,37 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:inf"
+        }
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:plates/obsidian"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:titanium_rhenium_alloy"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:inf_x"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

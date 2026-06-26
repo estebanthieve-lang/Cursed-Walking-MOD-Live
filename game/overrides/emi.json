@@ -1,0 +1,88 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:mcore:titanium_leggings{Damage:0}",
+    "item:mcore:titanium_chestplate{Damage:0}",
+    "item:mcore:titanium_helmet{Damage:0}",
+    "item:marbledsfirstaid:curative_pills{Damage:0}",
+    "item:tacz:workbench_a{BlockId:\"bf1:telegraph\"}",
+    {
+      "type": "item",
+      "id": "the_deeper_void:tungsten_ingot",
+      "amount": 25
+    },
+    "item:tacz:workbench_b{BlockId:\"sfms:ms_workbench\"}",
+    "item:the_deeper_void:raw_tungsten",
+    {
+      "type": "item",
+      "id": "create:iron_sheet",
+      "amount": 45
+    },
+    "item:tacz:workbench_a{BlockId:\"tacz:ammo_workbench\"}",
+    "item:tacz:workbench_c{BlockId:\"bf1:st_chamond\"}",
+    "item:item_scrapper:scrapping_hammer{Damage:0}",
+    "item:createdeco:industrial_iron_ingot",
+    {
+      "type": "item",
+      "id": "createdeco:industrial_iron_sheet",
+      "amount": 16
+    },
+    "item:refurbished_furniture:vegetable_pizza_slice",
+    "item:tacz:workbench_c{BlockId:\"bf1:a7v\"}",
+    "item:tacz:workbench_c{BlockId:\"bf1:mark_v\"}",
+    "item:tacz:workbench_c{BlockId:\"tacz:attachment_workbench\"}",
+    {
+      "type": "item",
+      "id": "the_deeper_void:tungsten_rhenium_alloy",
+      "amount": 4
+    },
+    "item:the_deeper_void:netherite_rhenium_alloy",
+    {
+      "type": "item",
+      "id": "create:sturdy_sheet",
+      "amount": 24
+    },
+    {
+      "type": "item",
+      "id": "minecraft:magma_cream",
+      "amount": 12
+    },
+    {
+      "type": "item",
+      "id": "the_deeper_void:titanium_rhenium_alloy",
+      "amount": 2
+    },
+    "item:minecraft:quartz",
+    "item:minecraft:amethyst_shard",
+    "item:securitycraft:quartz_mine",
+    "item:minecraft:quartz_block",
+    {
+      "type": "item",
+      "id": "minecraft:blaze_powder",
+      "amount": 2
+    },
+    "item:minecraft:blaze_rod",
+    "item:create:empty_blaze_burner",
+    "item:create:blaze_cake_base",
+    "item:create:blaze_cake",
+    "item:create:blaze_burner",
+    "item:create:cinder_flour",
+    "#item:forge:eggs",
+    "item:minecraft:soul_sand",
+    "item:minecraft:gunpowder",
+    "item:minecraft:tuff"
+  ],
+  "craft_history": [
+    "mcore:steel_helmet",
+    "minecraft:birch_planks",
+    "minecraft:oak_planks",
+    "minecraft:kjs/totem_of_undying"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

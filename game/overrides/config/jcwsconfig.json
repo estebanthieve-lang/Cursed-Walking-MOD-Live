@@ -1,0 +1,13 @@
+{
+  "water_proofing_power": 1,
+  "waterlog_proofing_power": 1,
+  "zombie_swim_speed_increase_chance": 1,
+  "zombie_swim_speed_raw": 2,
+  "zombie_reinforcements_chance": 0,
+  "zombie_reinforcements_raw": 0.1,
+  "mutant_zombie_hp_reduction": 0,
+  "raged_zombie_chance": 0.2,
+  "zombie_vigilance": "false",
+  "zombie_vigilance_range": 32,
+  "zombie_vigilance_override_line_of_sight": "false"
+}

@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "sfms:lvsa_c_erode"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:lvsa_c_erode",
+	"nbt" : {
+	"GunDisplayId": "sfms:lvsa_c_erode_3_display"
+	}
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

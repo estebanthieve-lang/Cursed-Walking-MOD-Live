@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.chauchat.name",
+  "display": "bf1:chauchat_display",
+  "data": "bf1:chauchat_data",
+  "tooltip": "bf1.gun.chauchat.desc",
+  "type": "mg",
+  "sort": 18
+}

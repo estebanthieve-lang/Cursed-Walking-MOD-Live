@@ -1,0 +1,23 @@
+{
+  "weight": 0.85,
+  "ads": {
+    "addend": 0.13
+  },
+  "aim_inaccuracy": {
+    "multiplier": 0.66
+  },
+   "explosion": {
+	"explode": false,
+	"radius": {
+		"addend": 0.1
+	},
+	"damage": {
+		"addend": 4.0
+	},
+	"knockback": false,
+	"destroy_block": false,
+	"delay": {
+		"addend": 1.0
+    }
+   }
+}

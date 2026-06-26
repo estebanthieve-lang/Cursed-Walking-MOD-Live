@@ -1,0 +1,58 @@
+{
+  "model": "bf1:gun/de_lisle_geo",
+  "texture": "bf1:gun/uv/de_lisle",
+  "lod": {
+    "model": "bf1:gun/lod/de_lisle_lod",
+    "texture": "bf1:gun/lod/de_lisle_lod"
+  },
+  "hud": "bf1:gun/hud/de_lisle",
+  "slot": "bf1:gun/slot/de_lisle",
+  "animation": "bf1:de_lisle",
+  "default_animation": "bf1:rifle_default",
+  "show_crosshair": false,
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 35,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "sounds": {
+    "draw": "bf1:de_lisle/bringup",
+    "put_away": "tacz:m700/m700_put_away",
+    "shoot": "bf1:de_lisle/shoot",
+    "shoot_3p": "tacz:m1911/m1911_silence_3p",
+    "bolt": "bf1:de_lisle/bolt",
+    "melee_stock": "tacz:melee_stock/melee_stock_03",
+
+    "head_hit": "bf1:head_hit_v",
+    "flesh_hit": "bf1:flesh_hit_v",
+    "kill": "bf1:kill_v"
+  },
+  "offhand_show": {
+    "pos": [-2, 20, 4],
+    "rotate": [0, 0, 45],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 26, 3],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "shell": {
+    "initial_velocity": [2, 4, 0.5],
+    "random_velocity": [0.5, 1, 0.5],
+    "acceleration": [-5, -30, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 0.5
+  },
+  "state_machine": "bf1:manual_action_state_machine",
+  "state_machine_param": {
+    "bolt_shell_ejecting_time": 0.1,
+    "reload_shell_ejecting_time": 0.5
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.af_46.name",
+  "tooltip": "sfms.gun.af_46.desc",
+  "display": "sfms:af_46_display",
+  "data": "sfms:af_46_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "pistol",
+  "sort": 24080
+}

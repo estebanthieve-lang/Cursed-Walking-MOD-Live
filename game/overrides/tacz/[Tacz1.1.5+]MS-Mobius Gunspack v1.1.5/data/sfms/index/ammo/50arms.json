@@ -1,0 +1,6 @@
+{
+  "name": "sfms.ammo.50arms.name",
+  "display": "sfms:50arms_display",
+  // 堆叠数量
+  "stack_size": 30
+}

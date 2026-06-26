@@ -1,0 +1,47 @@
+{
+  // 重量，增加至总重
+  "weight": 0.1,
+  // 子弹速度配置
+   "ammo_speed": {
+	"addend": 25.0
+   },
+  // 腰射精度配置，最终数值越小越精准（新方法，推荐使用）
+   "inaccuracy": {
+    // 四个参数不需要全部写，可以自选其中的一个或多个（最终计算时会跳过没写的乘区）
+     "addend": -0.1
+   },
+  // 瞄准精度配置，最终数值越小越精准（新方法，推荐使用）
+   "aim_inaccuracy": {
+     "addend": -0.25
+   },
+  // 是否点燃目标（一但为 true，那么强行开启点燃）
+   "ignite": {
+     "entity": false,
+     "block": false
+   },
+   "explosion": {
+	"explode": true,
+	"radius": {
+		"multiplier": 0.25
+	},
+	"damage": {
+		"addend": 4.0
+	},
+	"knockback": false,
+	"destroy_block": false,
+	"delay": {
+		"addend": 1.0
+    }
+   },
+   "damage": {
+	"multiplier": 4.25
+   },
+  // 护甲穿透配置
+   "armor_ignore":{
+	"addend": 0.8
+   },
+  // 爆头配置
+   "head_shot":{
+	"addend": 1.25
+   }
+  }

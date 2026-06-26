@@ -1,0 +1,23 @@
+{
+  "model": "bf1:ammo/fuel",
+  "texture": "bf1:ammo/uv/fuel",
+  "slot": "bf1:ammo/slot/fuel",
+  "entity": {
+    // 模型
+    //"model": "bf1:ammo_entity/fuel",
+    // 材质
+    //"texture": "tacz:ammo_entity/rpg_rocket"
+  },
+  "tracer_color": "#FF3030",
+  "particle": {
+    "name": "lava",
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "speed": 0.03,
+    "life_time": 5,
+    "count": 2
+  }
+}

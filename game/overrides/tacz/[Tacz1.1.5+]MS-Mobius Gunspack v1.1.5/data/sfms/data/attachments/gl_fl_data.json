@@ -1,0 +1,23 @@
+{
+  // 重量，增加至总重
+  "weight": 0.2,
+   "explosion": {
+	"explode": true,
+	"radius": {
+		"addend": -0.5
+	},
+	"damage": {
+		"addend": 10.0
+	},
+	"knockback": true,
+	"destroy_block": true,
+	"delay": {
+		"addend": 1.0
+    }
+   },
+  // 是否点燃目标（一但为 true，那么强行开启点燃）
+   "ignite": {
+     "entity": true,
+     "block": true
+   }
+  }

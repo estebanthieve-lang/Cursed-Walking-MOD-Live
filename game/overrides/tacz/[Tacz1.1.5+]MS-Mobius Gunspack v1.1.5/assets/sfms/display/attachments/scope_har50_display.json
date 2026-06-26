@@ -1,0 +1,56 @@
+{
+  "slot": "sfms:attachment/slot/scope_har50",
+  // 配件的默认模型，不可为空
+  "model": "sfms:attachment/scope_har50_geo",
+  // 配件默认模型使用的材质，不可为空
+  "texture": "sfms:attachment/uv/scope_har50",
+  // 只有 瞄具 配件需要设置这个属性，表示瞄具的放大倍率。
+  // 玩家可以在数组设置的几个倍率之间切换
+//  "lod": {
+//    "model": "tacz:attachment/lod/scope_lpvo_1_6",
+//    "texture": "tacz:attachment/lod/scope_lpvo_1_6"
+//  },
+  "zoom": [
+    6.25,
+	10.25,
+    1.25
+  ],
+  "views": [
+    2,
+    2,
+	2
+  ],
+  "views_fov": [
+    30.0,
+    30.0,
+	60.0
+  ],
+  // 枪械模型上的文本显示
+  "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "ammo_text": {
+      "scale": 0.14,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#a3ff75",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "— %ammo_count% —"
+    }
+  },
+  // 如果配件是瞄具，且为筒状放大瞄具，此选项应为true
+  "scope": true,
+  // 如果配件是瞄具，且为红点或全息瞄具，此选项应为true
+  "sight": false,
+  // 只有 瞄具 配件需要设置这个属性，表示开镜后，枪身和瞄具渲染的fov。
+  // 默认情况下，mc 渲染手部模型的 fov 为 70。
+  "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

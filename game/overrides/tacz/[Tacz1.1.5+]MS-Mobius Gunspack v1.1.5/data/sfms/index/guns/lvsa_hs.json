@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.lvsa_hs.name",
+  "tooltip": "sfms.gun.lvsa_hs.desc",
+  "display": "sfms:lvsa_hs_display",
+  "data": "sfms:lvsa_hs_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "sniper",
+  "sort": 24080
+}

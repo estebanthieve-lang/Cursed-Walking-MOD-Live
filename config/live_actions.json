@@ -1,0 +1,161 @@
+{
+  "target": {
+    "defaultPlayer": "@p",
+    "allowSelectors": true,
+    "allowedSelectors": ["@p", "@a", "@r", "@s"],
+    "maxQuantity": 25
+  },
+  "rcon": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 25582,
+    "password": "cursed-live-local",
+    "timeoutSeconds": 3,
+    "fallbackToQueue": true,
+    "queue": "data/minecraft_commands.jsonl"
+  },
+  "weapons": {
+    "ak47": {
+      "label": "AK-47",
+      "gunId": "tacz:ak47",
+      "ammoId": "tacz:762x39",
+      "ammoAmount": 64
+    },
+    "m4a1": {
+      "label": "M4A1",
+      "gunId": "tacz:m4a1",
+      "ammoId": "tacz:556x45",
+      "ammoAmount": 64
+    },
+    "mp5": {
+      "label": "HK MP5A5",
+      "gunId": "tacz:hk_mp5a5",
+      "ammoId": "tacz:9mm",
+      "ammoAmount": 64
+    },
+    "m249": {
+      "label": "M249",
+      "gunId": "tacz:m249",
+      "ammoId": "tacz:556x45",
+      "ammoAmount": 128
+    },
+    "m107": {
+      "label": "M107",
+      "gunId": "tacz:m107",
+      "ammoId": "tacz:50bmg",
+      "ammoAmount": 32
+    },
+    "shotgun": {
+      "label": "M870",
+      "gunId": "tacz:m870",
+      "ammoId": "tacz:12g",
+      "ammoAmount": 32
+    },
+    "minigun": {
+      "label": "Minigun",
+      "gunId": "tacz:minigun",
+      "ammoId": "tacz:556x45",
+      "ammoAmount": 128
+    },
+    "rpg7": {
+      "label": "RPG-7",
+      "gunId": "tacz:rpg7",
+      "ammoId": "tacz:rpg_rocket",
+      "ammoAmount": 4
+    },
+    "sfms_m4a5": {
+      "label": "SFMS M4A5",
+      "gunId": "sfms:m4a5",
+      "ammoId": "tacz:556x45",
+      "ammoAmount": 64
+    }
+  },
+  "actions": {
+    "ping_cursed_walking": {
+      "commands": [
+        "say [TikTok Live] Cursed Walking MOD Live conectado."
+      ]
+    },
+    "heal_player": {
+      "commands": [
+        "effect give {player} minecraft:regeneration 8 2 true",
+        "effect give {player} minecraft:absorption 25 1 true"
+      ]
+    },
+    "feed_player": {
+      "commands": [
+        "effect give {player} minecraft:saturation 2 4 true"
+      ]
+    },
+    "clear_bad_effects": {
+      "commands": [
+        "effect clear {player}"
+      ]
+    },
+    "give_supply_drop": {
+      "commands": [
+        "give {player} minecraft:golden_apple 3",
+        "give {player} minecraft:bread 8",
+        "give {player} minecraft:torch 24",
+        "give {player} minecraft:iron_ingot 8"
+      ]
+    },
+    "give_weapon_ak47": {
+      "weaponKey": "ak47"
+    },
+    "give_weapon_m4a1": {
+      "weaponKey": "m4a1"
+    },
+    "give_weapon_mp5": {
+      "weaponKey": "mp5"
+    },
+    "give_weapon_m249": {
+      "weaponKey": "m249"
+    },
+    "give_weapon_m107": {
+      "weaponKey": "m107"
+    },
+    "give_weapon_shotgun": {
+      "weaponKey": "shotgun"
+    },
+    "give_configured_weapon": {
+      "defaultWeaponKey": "ak47",
+      "allowPayloadWeaponKey": true
+    },
+    "give_ammo_pack": {
+      "commands": [
+        "give {player} tacz:ammo{AmmoId:\"tacz:9mm\"} 64",
+        "give {player} tacz:ammo{AmmoId:\"tacz:556x45\"} 64",
+        "give {player} tacz:ammo{AmmoId:\"tacz:762x39\"} 64",
+        "give {player} tacz:ammo{AmmoId:\"tacz:12g\"} 32"
+      ]
+    },
+    "spawn_zombie_wave": {
+      "repeat": 5,
+      "commands": [
+        "execute at {player} run summon minecraft:zombie ~2 ~ ~"
+      ]
+    },
+    "spawn_fast_zombie": {
+      "commands": [
+        "execute at {player} run summon minecraft:zombie ~2 ~ ~",
+        "effect give @e[type=minecraft:zombie,distance=..16,limit=8,sort=nearest] minecraft:speed 20 1 true"
+      ]
+    },
+    "lightning_near_player": {
+      "commands": [
+        "execute at {player} run summon minecraft:lightning_bolt ~ ~ ~"
+      ]
+    },
+    "set_day": {
+      "commands": [
+        "time set day"
+      ]
+    },
+    "set_night": {
+      "commands": [
+        "time set night"
+      ]
+    }
+  }
+}

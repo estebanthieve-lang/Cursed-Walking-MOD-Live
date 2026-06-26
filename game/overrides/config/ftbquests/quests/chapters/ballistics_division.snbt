@@ -1,0 +1,1540 @@
+{
+	autofocus_id: "7222DB65683EC5D4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "ballistics_division"
+	group: "6F2ACED910A7F066"
+	icon: {
+		Count: 1
+		id: "tacz:ammo"
+		tag: {
+			AmmoId: "tacz:762x39"
+		}
+	}
+	id: "3C49782528EAFFDF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Every man needs a place to work. Time to build your first &l&6workbench&r&l&8&r where ideas turn into firepower. "]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:workbench_a"
+				tag: {
+					BlockId: "bf1:telegraph"
+				}
+			}
+			id: "7222DB65683EC5D4"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "430870822467F640"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "bf1:telegraph"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 1 guns"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7222DB65683EC5D4"]
+			dependency_requirement: "one_completed"
+			description: ["Two options with two &l&3very different experiences.&r&r Both fun to use!"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2021734FC8B1055B"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "44A9A61008CC9C42"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 4
+							GunFireMode: "SEMI"
+							GunId: "bf1:obrez"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62C1EAFE6658F93D"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 6
+							GunFireMode: "SEMI"
+							GunId: "bf1:sw_model3"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "T1 Pistols"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7222DB65683EC5D4"]
+			description: ["&6&lCheap ammo&r&r and &4&llarge capacity&r&r make this a great gun. Just keep in mind it can quickly overheat.&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "05F4A35A9D0319B1"
+			shape: "diamond"
+			tasks: [{
+				id: "5F4F07F96299778A"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 60
+						GunFireMode: "AUTO"
+						GunId: "bf1:smg0818"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "T1 SMGs"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7222DB65683EC5D4"]
+			description: ["These type of guns hold &l&9little rounds&r&r but they &l&4pack a punch!&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "52F2584A65B6B914"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2CD9673F373A9BAE"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "BURST"
+							GunId: "tacz:db_short"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7406D6895AC0B350"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "SEMI"
+							GunId: "tacz:db_long"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C912E12E054D024"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "bf1:model10"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "T1 Shotguns"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7222DB65683EC5D4"]
+			description: ["&rMajor leap in &6&lprecision engineering&r&r and &a&lcostly materials&r&r. Designed for crafting &l&chigh-performance weapons&r&r. These weapons are &9&lmodern-era&r&r weapons."]
+			disable_toast: true
+			hide_until_deps_complete: false
+			id: "3E62F68250F25F92"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Craftable in the tier 1 workbench"
+			tasks: [{
+				id: "1F96ACEB57B07A1F"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "Tier 2 guns"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["The most &6&ladvanced&r&r weapons craftable. Requires great quantities of &r&rrare&r&r and &a&lexpensive&r&r to make components, some of which come from the &9&lDepths.&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: false
+			id: "4E01EBBFE3D4E4CB"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Craftable in the tier 2 workbench"
+			tasks: [{
+				id: "317FD82A5F4E8C0B"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "sfms:ms_workbench"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 3 guns"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["Learn to &e&lassemble&r&r, &e&lload&r&r, and test fire a &9&lmodern pistol&r&r. The very First step in &l&3modern-era ballistics&r&r. "]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7928CD3DD3D9D86F"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "45282E88F5E36547"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 16
+							GunFireMode: "AUTO"
+							GunId: "tacz:cz75"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70FAC86088961666"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "tacz:deagle"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17423CF334A5D1F0"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 9
+							GunFireMode: "SEMI"
+							GunId: "tacz:deagle_golden"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C300706EA6E2D1B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 17
+							GunFireMode: "SEMI"
+							GunId: "tacz:glock_17"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7216CA85D2B90A0E"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 12
+							GunFireMode: "SEMI"
+							GunId: "tacz:p320"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "692561065CC64DA8"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "BURST"
+							GunId: "tacz:b93r"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "618B9035CE922D90"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "tacz:m1911"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T2 Pistols"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["The &l&6Attachment Table&r&r is where you can craft &d&lattachments&r&r for your guns to make your guns&b &lperform way better&r&r in fights against the undead or against your enemies!"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "144B05480CB22A1B"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "43B0E2ED4F8D7E79"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "tacz:attachment_workbench"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Attachment Table"
+			x: 7.5d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["7222DB65683EC5D4"]
+			description: ["These rifles are great &3&lall-rounders.&r&r Three options, one for any budget.&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0B72805AE7F4495E"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "675EC016A92B512F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 16
+							GunFireMode: "SEMI"
+							GunId: "bf1:vg15"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7887D6773F857B1A"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 25
+							GunFireMode: "SEMI"
+							GunId: "bf1:m1916"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "371EE8065F880A9F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "bf1:rsc1917"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "T1 Rifles"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7222DB65683EC5D4"]
+			description: ["Snipers are expensive and slow to reload but deal &3&llots of damage.&r&r Perfect for taking out foes from a distance.&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5ABD8BB6530B77BB"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2B983EFB06CFF9BF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 4
+							GunFireMode: "SEMI"
+							GunId: "bf1:man_m95"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68CFF0AD373B6AD2"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "bf1:martini"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "T1 Snipers"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["An &4&lSMG&r&r is great for &a&lbullet capacity&r&r and&l &dfire rate&r&r but &l&bnot the best choice for damage!&r &r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1615C2444357E7AE"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "28D8A6DDCCEFDF9C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 25
+							GunFireMode: "AUTO"
+							GunId: "tacz:ump45"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3EFA40C91B60FC81"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "tacz:uzi"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5EFE98F3AA31BBA6"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "tacz:vector45"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7ADBC0534983F056"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:hk_mp5a5"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4662AB3988C60679"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 50
+							GunFireMode: "AUTO"
+							GunId: "tacz:p90"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "T2 SMGs"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["&1&lAssault Rifles&r&r are &l&dgreat for medium-long range&r&r and have&a&l decent damage&r&r and &l&aammo capacity!&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1AFDF53EC46C117C"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3D2DEEC913C66DBF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "SEMI"
+							GunId: "tacz:scar_h"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "270497B77049E504"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:scar_l"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "303EB6495EBDF071"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 15
+							GunFireMode: "SEMI"
+							GunId: "tacz:spr15hb"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71640A2200827FA0"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:aug"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F29D33AE10623A7"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:ak47"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11BF8FFE610CC78C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "BURST"
+							GunId: "tacz:m16a4"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36E3D3A1E789F261"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "tacz:m16a1"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34A84E2DE7954715"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "tacz:mk14"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B863DAA28916EED"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:m4a1"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A3A277DBE90C83C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:hk416d"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4AC35DC66F9E2CFE"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "SEMI"
+							GunId: "tacz:hk_g3"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "18690E18204E30F7"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:type_81"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51C0D5B9540AB909"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:qbz_95"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19BA2800982C5454"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:g36k"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7DA089A59C9FF46C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "tacz:sks_tactical"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T2 Assault Rifles"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["&0&lShotguns&r&r are very &l&6good for damage&r&r but most shotguns &b&ldon't hold that much ammo&r&r and &l&btake a long time to reload!&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "224031FE814FF785"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3C33069E804C8CBE"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 8
+							GunFireMode: "SEMI"
+							GunId: "tacz:aa12"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69FD9EA941E6737D"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:m870"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "354C1394D54CB511"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "BURST"
+							GunId: "tacz:db_short"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "589656692663A800"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "SEMI"
+							GunId: "tacz:db_long"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T2 Shotguns"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["&0&lSnipers&r&r are the best option for &l&9long ranged fights&r&r! Snipers &2&lpack a powerful punch&r&r but have a &4&lslow reload time&r&r and &4&llow ammo capacity!&r &r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "75AEBA6FC7700295"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "29A6AC0ADFF2D782"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:m95"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A04ADDA7D3F0F0E"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "tacz:m107"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25F31B629CCF90AD"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:m700"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2E303D342D48D76E"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:ai_awp"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T2 Snipers"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["&l&8Explosive Weapons&r&r are &l&6extremely good for splash damage&r&r and &b&ldamage in general&r!&r RPGs and Grenade launchers both have &9&lvery low ammo capacity&r&r and&9 &ltake a while to reload!&r &r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6AF19EA613F7BDD3"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1435B9C0F472AA90"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "tacz:m320"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E22083CFA96A5E1"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "tacz:rpg7"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T2 Heavy Guns"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: ["&l&0Machine Guns&r&r are &l&4very powerful&r&r for hoards of enemies! Machine Guns can &d&lcarry a very good amount of ammo&r&r and have a &b&lvery high fire rate!&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4570F577741E3C19"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2613CF56FA1644C9"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 75
+							GunFireMode: "AUTO"
+							GunId: "tacz:m249"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E3721D85BCC9921"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 40
+							GunFireMode: "AUTO"
+							GunId: "tacz:rpk"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T2 Machine Guns"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["These aren't just sidearms anymore, they're &9&lpocket cannons&r&r. &6&lCompact&r&r, &l&clethal&r&r, and &l&afaster than your reflexes.&r&r "]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2A5A3079313A2C68"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "58942D3B2FE8DB61"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "sfms:af_57"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3976020CEC726E6D"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 18
+							GunFireMode: "AUTO"
+							GunId: "sfms:g18"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DBDDFAF6304EE8D"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 22
+							GunFireMode: "AUTO"
+							GunId: "sfms:af_46"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F36E1E82A5E9210"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 12
+							GunFireMode: "SEMI"
+							GunId: "sfms:inf"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DBECB28AFDC7E40"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 24
+							GunFireMode: "SEMI"
+							GunId: "sfms:inf_x"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T3 Pistols"
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["&8&lFast, fierce, flawless.&r&r Spray, pray and &l&cwatch the world melt&r&r. "]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5486D07C3DFD9C15"
+			shape: "diamond"
+			tasks: [{
+				id: "1000C4B3CA352C09"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 32
+						GunFireMode: "AUTO"
+						GunId: "sfms:tech635"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				optional_task: true
+				type: "item"
+			}]
+			title: "T3 SMG"
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["The definition of &8&lclose-quarters dominance.&r&r Designed for those who prefer their fights up &4&lclose and personal&r&r. &6&lVery lethal&r&r and can&l &1take down anything&r&r in it's path."]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "23DDB7E75DF271A1"
+			shape: "diamond"
+			tasks: [{
+				id: "46D8FE2C0C9C3487"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 5
+						GunFireMode: "SEMI"
+						GunId: "sfms:felix_12"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				optional_task: true
+				type: "item"
+			}]
+			title: "T3 Shotgun"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["These don't just hit targets, they&4 &lmake targets reconsider their life choices&r&r. &6&lSleek&r&r, &l&6brutal&r&r, and &6&lblessed with questionable enhancements&r&r."]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "455D328D4F79B251"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "01225FDD255A6EBB"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 25
+							GunFireMode: "AUTO"
+							GunId: "sfms:lvsa_c_erode"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "780B397E939DB708"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "sfms:ats15"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2215F86F09E2782B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "BURST"
+							GunId: "sfms:m4a5"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C65F1ECB7CB421B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "sfms:sbr15"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C8EF70EE8A10FF3"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "SEMI"
+							GunId: "sfms:lvsa_cs"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T3 Rifles"
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["Sustained &4&lfire supremacy&r&r. &c&lUnrelenting&r&r. &4&lUnforgiving&r&r. &l&cUnavoidable.&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "0CDC8F31F1DE64B7"
+			shape: "diamond"
+			tasks: [{
+				id: "4DA8EDDCE6E28F1D"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 75
+						GunFireMode: "AUTO"
+						GunId: "sfms:lvsa_c_erode_lmg"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				optional_task: true
+				type: "item"
+			}]
+			title: "T3 Machine Gun"
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["A &4&lhigh-capacity&r&r, &4&lstabilized ordance system&r&r built to deliver surgical &4&lsurface-to-surface demolition&r&r. &9&lExtreme lethal damage and range.&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5870CEEBCA2F821F"
+			shape: "diamond"
+			tasks: [{
+				id: "116E8EDA96E0AD41"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 5
+						GunFireMode: "SEMI"
+						GunId: "sfms:mgl40"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				optional_task: true
+				type: "item"
+			}]
+			title: "T3 Heavy Weapon"
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["Engineered for &l&4absolute precision&r&r. Even across biomes, when you pull the trigger, &9&ldistance stops being a defense&r&r. "]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "19F39C3BBECCFA98"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0E27E259AC90390A"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "sfms:m109"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16FA9FBFC37C10D1"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "sfms:ar50"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3EB09550810E2A8A"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "sfms:lvsa_hs"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "T3 Snipers"
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["The &l&eQuick Colorizer&r&r &l&callows you to customize your guns&r&r by adding paint to them! "]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2C576AE5D3104D76"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "2B49F9FE82B4432E"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "msskin:ms_workbench1"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["3E62F68250F25F92"]
+			description: [
+				"The Tier 3 guns are &a&lvery expensive&r&r but worth it! Once you get your hands on a Tier 3 gun, you are &4&lconsidered unstoppable!&r&r"
+				""
+				"The resources for T3 guns can &0&lprimarily be found in The Depths...&r&r. The depths is a dark eerie place with tons of strange beefed up and stronger zombies...?"
+				"If you get past them, valuable ores for gun crafting await you..."
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "the_deep_void:refined_onyx"
+			id: "2B32979D89246AC5"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "4B68D5A58558BC38"
+				title: "Where to find the materials for the T3 Guns!"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E01EBBFE3D4E4CB"]
+			description: ["The definition of &8&lclose-quarters dominance.&r&r Designed for those who prefer their fights up &4&lclose and personal&r&r. &6&lVery lethal&r&r and can&l &1take down anything&r&r in it's path. This version of the T3 Shotgun is EVEN MORE lethal since it shoots &a&lthermites shells&r&r that can &4&lpierce through heavy armor!&r&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0F89613B3FF92085"
+			shape: "diamond"
+			tasks: [{
+				id: "30EF07605E670150"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 5
+						GunFireMode: "SEMI"
+						GunId: "sfms:felix_12dg"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "T3 Thermite Shotgun"
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7222DB65683EC5D4"]
+			description: ["The &3&lAmmo Assembly table&r&r is where you can &e&lcraft your ammunition&r&r to fend off against zombies and foes! "]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "175C8EEADBDF2A26"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "682DB6B68CBEE5D6"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "tacz:ammo_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["7222DB65683EC5D4"]
+			description: ["Wnat something that shoots &l&4explosives&r&r for cheap? This is the gun for you."]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2EC4CC67C853DACC"
+			shape: "diamond"
+			tasks: [{
+				id: "3AE61E77A9D3A145"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 1
+						GunFireMode: "SEMI"
+						GunId: "bf1:mhgl"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "T1 Heavy Weapons"
+			x: 1.5d
+			y: -3.5d
+		}
+	]
+	title: " Ballistics Division"
+}

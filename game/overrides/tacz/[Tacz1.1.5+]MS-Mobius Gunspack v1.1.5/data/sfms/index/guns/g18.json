@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.g18.name",
+  "tooltip": "sfms.gun.g18.desc",
+  "display": "sfms:g18_display",
+  "data": "sfms:g18_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "pistol",
+  "sort": 24080
+}

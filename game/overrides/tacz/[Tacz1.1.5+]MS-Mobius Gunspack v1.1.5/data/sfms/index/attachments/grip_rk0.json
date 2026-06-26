@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.grip_rk0.name",
+	"tooltip": "sfms.attachment.grip_rk0.tooltip",
+	"display": "sfms:grip_rk0_display",
+	"data": "sfms:grip_rk0_data",
+	"type": "grip",
+    "sort": 24080
+}

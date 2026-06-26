@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.sjogren.name",
+  "display": "bf1:sjogren_display",
+  "data": "bf1:sjogren_data",
+  "tooltip": "bf1.gun.sjogren.desc",
+  "type": "shotgun",
+  "sort": 18
+}

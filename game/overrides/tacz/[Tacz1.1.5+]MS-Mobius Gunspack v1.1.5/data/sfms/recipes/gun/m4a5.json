@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "the_deeper_void:netherite_rhenium_alloy"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "create:rose_quartz"
+      },
+      "count": 12
+    },
+    {
+    "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "mcore:steel_sheet"
+      },
+      "count": 15
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:m4a5"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

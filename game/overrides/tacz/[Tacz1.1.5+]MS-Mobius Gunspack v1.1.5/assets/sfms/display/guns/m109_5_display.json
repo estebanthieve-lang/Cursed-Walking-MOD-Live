@@ -1,0 +1,69 @@
+{
+  "model": "sfms:gun/m109_geo",
+  "texture": "sfms:gun/uv/m109_5",
+  //"lod": {
+  //  "model": "tacz:gun/lod/m107",
+  //  "texture": "tacz:gun/lod/m107"
+  //},
+  "hud": "sfms:gun/hud/m109_5",
+  "slot": "sfms:gun/slot/m109_5",
+  "animation": "sfms:m109",
+  "state_machine": "sfms:hamster_state_machine",
+  "use_default_animation": "rifle",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 2
+  },
+  // 机瞄的放大倍数，默认 1.2
+  "iron_zoom": 1.5,
+  // 机瞄模型缩放fov，默认70
+  "zoom_model_fov": 60,
+  "shell": {
+    // 抛壳的初速度
+    "initial_velocity": [6, 2, -4.5],
+    // 抛壳随机变化的运动速度
+    "random_velocity": [2, 1.5, 0.5],
+    // 抛壳的加速度
+    "acceleration": [0.0, -12.5, 0.0],
+    // 抛壳的三轴角速度
+    "angular_velocity": [360, -1200, 90],
+    // 抛壳渲染存活时间，单位为秒
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "sfms:sfms_guns/m107shoot1",
+    "shoot_3p": "sfms:sfms_guns/m107shoot1",
+    "silence": "tacz:m107/m107_silence",
+    "silence_3p": "tacz:m107/m107_silence_3p",
+    "draw": "tacz:m107/m107_draw",
+    "put_away": "tacz:m107/m107_put_away",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 20, 4],
+    "rotate": [0, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 3],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "controllable": {
+    "semi": {
+      "low_frequency": 1,
+      "high_frequency": 1,
+      "time": 200
+    }
+  }
+}

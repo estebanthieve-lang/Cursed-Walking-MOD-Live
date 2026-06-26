@@ -1,0 +1,168 @@
+{
+  // 配方过滤器，具体内容位于 data/<命名空间>/recipe_filters 下
+  // 如果没有指定，将使用默认过滤器 tacz:default
+  "filter": "bf1:apocalypse",
+  // gui内包含的tab
+  // 如果没有填写此字段或者tabs为空，将使用内置的默认tab列表
+  // 你可以使用自定义的tab id来实现另外一种配方限制
+  "tabs": [
+    {
+      // tab的id，在配方的result中指定
+      "id": "tacz:pistol",
+      // tab的名称，将会显示在gui中
+      "name": "bf1.type.pistol.name",
+      // tab的图标，可以指定任意一个物品作为图标
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "bf1:sw_model3"
+        }
+      }
+    },
+    {
+      "id": "tacz:sniper",
+      "name": "tacz.type.sniper.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "bf1:man_m95"
+        }
+      }
+    },
+    {
+      "id": "tacz:rifle",
+      "name": "bf1.type.rifle.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "bf1:m1916"
+        }
+      }
+    },
+    {
+      "id": "tacz:shotgun",
+      "name": "bf1.type.shotgun.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "bf1:model10"
+        }
+      }
+    },
+    {
+      "id": "tacz:smg",
+      "name": "tacz.type.smg.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "bf1:smg0818"
+        }
+      }
+    },
+    {
+      "id": "tacz:rpg",
+      "name": "tacz.type.rpg.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "bf1:mhgl"
+        }
+      }
+    },
+    {
+      "id": "tacz:mg",
+      "name": "tacz.type.mg.name",
+      "icon": {
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "bf1:mg0815"
+        }
+      }
+    },
+    {
+      "id": "tacz:ammo",
+      "name": "tacz.type.ammo.name",
+      "icon": {
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "bf1:fuel"
+        }
+      }
+    },
+    {
+      "id": "tacz:scope",
+      "name": "tacz.type.scope.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "bf1:sight_nydar"
+        }
+      }
+    },
+    {
+      "id": "tacz:muzzle",
+      "name": "tacz.type.muzzle.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "bf1:bayonet_general"
+        }
+      }
+    },
+    {
+      "id": "tacz:stock",
+      "name": "bf1.type.stock.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "bf1:raider_club"
+        }
+      }
+    },
+    {
+      "id": "tacz:grip",
+      "name": "tacz.type.grip.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "bf1:grip_trench_bipods"
+        }
+      }
+    },
+    {
+      "id": "tacz:extended_mag",
+      "name": "tacz.type.extended_mag.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "bf1:ammo_mod_chauchat"
+        }
+      }
+    },
+    {
+      "id": "tacz:laser",
+      "name": "tacz.type.laser.name",
+      "icon": {
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "bf1:laser_integrated"
+        }
+      }
+    }
+    /*
+    {
+      // tab的id，在配方的result中指定
+      "id": "lrtactical:melee",
+      // tab的名称，将会显示在gui中
+      "name": "lrtactical.type.melee.name",
+      // tab的图标，可以指定任意一个物品作为图标
+      "icon": {
+        "item": "lrtactical:melee",
+        "nbt": {
+          "MeleeWeaponId": "bf1:sledge_hammer"
+        }
+      }
+    }
+      */
+  ]
+}

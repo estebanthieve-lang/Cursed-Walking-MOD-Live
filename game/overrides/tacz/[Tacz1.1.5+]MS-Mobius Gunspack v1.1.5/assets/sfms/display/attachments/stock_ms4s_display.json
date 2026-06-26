@@ -1,0 +1,10 @@
+{
+  "slot": "sfms:attachment/slot/stock_ms4s",
+  "model": "sfms:attachment/stock_ms4s_geo",
+  "texture": "sfms:attachment/uv/stock_ms4s",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

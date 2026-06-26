@@ -1,0 +1,40 @@
+{
+    "model": "sfms:gun/inf_x_geo",
+    "texture": "sfms:gun/uv/inf_x",
+    "lod": {
+        "model": "sfms:gun/inf_geo",
+        "texture": "sfms:gun/uv/inf_w"
+    },
+    "hud": "sfms:gun/hud/inf_x",
+    "slot": "sfms:gun/slot/inf_x",
+    "animation": "sfms:inf_x",
+    "state_machine": "sfms:inf_x_machine",
+    "use_default_animation": "pistol",
+    "third_person_animation": "default",
+    "show_crosshair": true,
+    "transform": {
+        "scale": {
+            "thirdperson": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "ground": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "fixed": [
+                1.2,
+                1.2,
+                1.2
+            ]
+        }
+    },
+    "sounds": {
+        "shoot_3p": "sfms:sfms_guns/inf_shoot1",
+        "draw": "sfms:inf_x/niklas_pistol_double_win_win_draw",
+        "put_away": "sfms:inf_x/niklas_pistol_double_win_win_put_away",
+        "silence_3p": "sfms:sfms_guns/inf_shoot1"
+    }
+}

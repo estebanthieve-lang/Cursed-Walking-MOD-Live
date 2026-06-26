@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:rose_quartz"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:titanium_rhenium_alloy"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "mcore:steel_sheet"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 48
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:lvsa_hs"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

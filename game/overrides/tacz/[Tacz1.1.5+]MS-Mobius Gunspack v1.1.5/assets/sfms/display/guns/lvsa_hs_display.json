@@ -1,0 +1,56 @@
+{
+  "model": "sfms:gun/lvsa_hs_geo",
+  "texture": "sfms:gun/uv/lvsa_hs",
+  "slot": "sfms:gun/slot/lvsa_hs",
+  "hud": "sfms:gun/hud/lvsa_hs",
+  "animation": "sfms:lvsa_hs",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+//  "lod": {
+//    "model": "cib:gun/lod/mk18",
+//    "texture": "cib:gun/lod/mk18"
+//  },
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 60,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1
+  },
+  "shell": {
+    // 抛壳的初速度
+    "initial_velocity": [6, 2, -4.5],
+    // 抛壳随机变化的运动速度
+    "random_velocity": [2, 1.5, 0.5],
+    // 抛壳的加速度
+    "acceleration": [0.0, -12.5, 0.0],
+    // 抛壳的三轴角速度
+    "angular_velocity": [360, -1200, 90],
+    // 抛壳渲染存活时间，单位为秒
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "sfms:lvsa/lvsa_shoot10",
+    "shoot_3p": "sfms:lvsa/lvsa_shoot10",
+    "silence": "sfms:lvsa/lvsa_shoot17s",
+    "silence_3p": "sfms:lvsa/lvsa_shoot17s",
+    "draw": "sfms:drawp_5",
+    "put_away": "tacz:spr15hb/spr15hb_put_away",
+    "reload_empty": "sfms:lvsa/mk18_reload_empty",
+    "reload_tactical": "sfms:lvsa/mk18_reload_tactical",
+    "inspect": "sfms:lvsa/mk18_inspect",
+    "inspect_empty": "sfms:lvsa/mk18_inspect_empty",
+    "dry_fire": "sfms:ms_dw",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "sfms:emx_hit111"
+  }
+}

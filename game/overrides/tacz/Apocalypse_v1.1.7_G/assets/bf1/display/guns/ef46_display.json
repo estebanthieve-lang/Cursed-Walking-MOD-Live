@@ -1,0 +1,60 @@
+{
+  "model": "bf1:gun/ef46_geo",
+  "texture": "bf1:gun/uv/ef46",
+  "lod": {
+    "model": "bf1:gun/lod/ef46_lod",
+    "texture": "bf1:gun/lod/ef46_lod"
+  },
+  "hud": "bf1:gun/hud/ef46",
+  "slot": "bf1:gun/slot/ef46",
+  "animation": "bf1:ef46",
+  "default_animation": "bf1:pistol_default",
+  "third_person_animation": "default",
+  "ammo_count_style": "percent",
+  "damage_style": "total",
+  "show_crosshair": true,
+  "transform": {
+    "scale": {
+      "thirdperson": [ 0.6, 0.6, 0.6 ],
+      "ground": [ 0.6, 0.6, 0.6 ],
+      "fixed": [ 1.2, 1.2, 1.2 ]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "bf1:flash/flame",
+    "scale": 2.5
+  },
+  "iron_zoom": 1.1,
+  "sounds": {
+    "shoot": "bf1:ef46/flame",
+    "shoot_3p": "bf1:ef46/flame",
+    "dry_fire": "bf1:ef46/dry_fire",
+    //"reload_empty": "tacz:fire_select",
+    //"reload_tactical": "tacz:fire_select",
+    "inspect": "bf1:ef46/dry_fire",
+    "inspect_empty": "bf1:vo/request_ammo_2",
+    "draw": "tacz:ump45/ump45_draw",
+    "put_away": "tacz:ump45/ump45_put_away",
+
+    "head_hit": "no",
+    "flesh_hit": "no",
+    "kill": "bf1:kill_v"
+  },
+  "offhand_show": {
+    "pos": [ 1, 19, 4 ],
+    "rotate": [ 0, 0, 50 ],
+    "scale": [ 0.5, 0.5, 0.5 ]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [ -1, 19, 3 ],
+      "rotate": [ -180, 0, 130 ],
+      "scale": [ 0.5, 0.5, 0.5 ]
+    }
+  },
+  "state_machine": "bf1:preheat_state_machine",
+  //预热时间
+  "state_machine_param": {
+    "preheat_animation_time": 0.1
+  }
+}

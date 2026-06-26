@@ -1,0 +1,15 @@
+{
+  "slot": "bf1:attachment/slot/sight_reflector",
+  "model": "bf1:attachment/sight_reflector.geo",
+  "texture": "bf1:attachment/uv/sight_reflector",
+  "adapter": "reflector_adapter",
+  "zoom": [
+    1.5
+  ],
+  "sight": true,
+  "fov": 40,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_c",
+    "uninstall": "tacz:attachments/scope_general_c"
+  }
+}

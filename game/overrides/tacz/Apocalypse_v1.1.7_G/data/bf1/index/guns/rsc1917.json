@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.rsc1917.name",
+  "display": "bf1:rsc1917_display",
+  "data": "bf1:rsc1917_data",
+  "tooltip": "bf1.gun.rsc1917.desc",
+  "type": "rifle",
+  "sort": 18
+}

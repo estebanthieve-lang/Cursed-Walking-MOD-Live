@@ -1,0 +1,95 @@
+{
+  "model": "sfms:gun/ats15mod_geo",
+  "texture": "sfms:gun/uv/ats15mod",
+  "lod": {
+    "model": "sfms:gun/lod/ats15mod_lod",
+    "texture": "sfms:gun/uv/ats15mod"
+  },
+  "hud": "sfms:gun/hud/ats15mod",
+  "slot": "sfms:gun/slot/ats15mod",
+  "animation": "sfms:ats15mod",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "state_machine": "sfms:ats15mod_state_machine",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "sfms:flash/common_muzzle_flash",
+    "scale": 0.75
+  },
+  "iron_zoom": 1.2,
+  //"zoom_model_fov": 70,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "sfms:sfms_guns/ats15_shoot1",
+    "shoot_3p": "sfms:sfms_guns/ats15_shoot1",
+    "silence": "sfms:sfms_guns/ats15_shoot2s",
+    "silence_3p": "sfms:sfms_guns/ats15_shoot2",
+	"dry_fire": "sfms:ms_dw2",
+    "draw": "tacz:m16a4/m16a4_draw",
+    "put_away": "tacz:m16a4/m16a4_put_away"
+  },
+  // 枪械模型上的文本显示
+  "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "ammo_text": {
+      "scale": 0.35,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#8ffdf3",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    },
+    "user_text": {
+      "scale": 0.35,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#8ffdf3",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%player_name%"
+    }
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "laser": {
+    // 默认的镭射颜色
+    "default_color": "0x58ff1d",
+    // 是否允许在改装界面自定义该镭射的颜色
+    "can_edit": true,
+    // 激光的长度（因为是渐变，末端可能实际完全看不见）
+    "length": 75
+  }
+}

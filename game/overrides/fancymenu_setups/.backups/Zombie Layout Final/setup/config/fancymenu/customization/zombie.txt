@@ -1,0 +1,268 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menu data/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1440
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = bottom-left
+  x = 54
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-centered
+  x = -99
+  action = movebutton
+  y = 165
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = bottom-left
+  x = 4
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-centered
+  x = -99
+  action = movebutton
+  y = 213
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-centered
+  x = 3
+  action = movebutton
+  y = 213
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-left
+  x = 29
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-centered
+  x = -99
+  action = movebutton
+  y = 141
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-centered
+  x = -99
+  action = movebutton
+  y = 190
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-centered
+  x = 3
+  action = movebutton
+  y = 190
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = f8a1d085-523d-4dee-887d-74bb44daf1291686777226872
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 6b22b36c-e946-4a91-a373-517f71cafccd1686777226877
+  y = 498
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 3d6a6935-fbf9-4346-a870-834fa13c4e461686777226877
+  y = 520
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f38df822-2544-42a2-a05a-26cd5aad75941686777226877
+  y = 235
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 349ca841-1d37-4583-9869-65c5b9d65e831686777226877
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 175
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 09620748-1c92-41f7-9cbb-6a0537d3d9531686777226877
+  y = 133
+  splash_file_path = New Text Document.txt
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  shape = rectangle
+  color = #00000060
+  x = -98
+  width = 198
+  action = addshape
+  actionid = 9184ccee-905d-4f2b-af77-257a10038de51713310806018
+  y = -98
+  height = 119
+}
+
+customization {
+  audio_source:cbb08bd7-6662-4110-9f1c-e7c358aaa06a1686783098856 = possible2.ogg;EXTERNAL_LOCAL;250;0
+  orientation = top-left
+  loop = true
+  audio_source:ebd3b4e6-0e21-42b7-af46-1dd8495322361713310089435 = menu data/possible2.ogg;EXTERNAL_LOCAL;150;0
+  channel = ambient
+  x = 84
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = b11f7073-42b6-4180-a1f1-988f2a48cdbd1686781751216
+  y = 180
+  once_per_session = false
+  height = 50
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.patreon.com/OnMod%btnaction_splitter_fm%
+  x = -99
+  width = 200
+  action = addbutton
+  actionid = 92d82e7d-eb42-45fb-bf1f-74ca90bcdac61686783371290
+  y = 261
+  label = Download this map (Finished!)
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/a574A9uvyU%btnaction_splitter_fm%
+  x = -99
+  width = 200
+  action = addbutton
+  actionid = 52ae0b1f-63ab-4306-9b04-f612379aea6d1686783939764
+  y = 237
+  label = Join the Discord Server
+  height = 20
+}
+
+customization {
+  path = image.png
+  orientation = top-centered
+  x = -190
+  width = 380
+  action = addtexture
+  actionid = c8c7aeae-fdde-4695-b2b7-107c83c373ed1687475846082
+  y = 19
+  height = 105
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = Title by MarbledNull
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -82
+  width = 81
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 74ce062d-707f-42da-a332-d379e35dbe191687477392198
+  y = -22
+  alignment = left
+  height = 10
+}
+
+customization {
+  path = menu data/image.png
+  orientation = mid-centered
+  x = -187
+  width = 377
+  action = addtexture
+  actionid = 13b11a1c-d2e8-4b14-8a29-1aea0a940c9c1713310134272
+  y = -209
+  height = 100
+}
+

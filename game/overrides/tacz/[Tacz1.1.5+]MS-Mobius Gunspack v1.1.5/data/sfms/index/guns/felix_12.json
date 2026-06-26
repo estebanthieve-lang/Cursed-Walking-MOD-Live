@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.felix_12.name",
+  "tooltip": "sfms.gun.felix_12.desc",
+  "display": "sfms:felix_12_display",
+  "data": "sfms:felix_12_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "shotgun",
+  "sort": 24080
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.de_lisle.name",
+  "display": "bf1:de_lisle_display",
+  "data": "bf1:de_lisle_data",
+  "tooltip": "bf1.gun.de_lisle.desc",
+  "type": "rifle",
+  "sort": 18
+}

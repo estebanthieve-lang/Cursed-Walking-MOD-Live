@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.scope_har50.name",
+	"tooltip": "sfms.attachment.scope_har50.tooltip",
+	"display": "sfms:scope_har50_display",
+	"data": "sfms:scope_har50_data",
+	"type": "scope",
+    "sort": 24080
+}

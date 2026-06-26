@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "minecraft:logs"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 22
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "bf1:obrez"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

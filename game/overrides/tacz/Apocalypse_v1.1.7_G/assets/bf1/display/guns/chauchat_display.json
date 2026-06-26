@@ -1,0 +1,57 @@
+{
+  "model": "bf1:gun/chauchat.geo",
+  "texture": "bf1:gun/uv/chauchat",
+  "hud": "bf1:gun/hud/chauchat",
+  "slot": "bf1:gun/slot/chauchat",
+  "animation": "bf1:chauchat",
+  "default_animation": "bf1:rifle_default",
+  "third_person_animation": "default",
+  "show_crosshair": false,
+  "lod": {
+    "model": "bf1:gun/lod/chauchat_lod",
+    "texture": "bf1:gun/lod/chauchat_lod"
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [ 0.6, 0.6, 0.6 ],
+      "ground": [ 0.6, 0.6, 0.6 ],
+      "fixed": [ 1.2, 1.2, 1.2 ]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 2.5
+  },
+  "iron_zoom": 1.25,
+  "zoom_model_fov": 40,
+  "shell": {
+    "initial_velocity": [6, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 0.8
+  },
+  "sounds": {
+    "shoot": "bf1:chauchat/shoot",
+    "shoot_3p": "bf1:chauchat/shoot",
+    "draw": "bf1:draw",
+    "put_away": "bf1:put_away",
+
+    "head_hit": "bf1:head_hit",
+    "flesh_hit": "bf1:flesh_hit",
+    "kill": "bf1:kill"
+  },
+  "offhand_show": {
+    "pos": [ 0, 18, 5 ],
+    "rotate": [ -20, 0, 30 ],
+    "scale": [ 0.5, 0.5, 0.5 ]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [ -4, 24, 4 ],
+      "rotate": [ -90, -5, -90 ],
+      "scale": [ 0.5, 0.5, 0.5 ]
+    }
+  },
+  "state_machine": "bf1:chauchat_state_machine"
+}

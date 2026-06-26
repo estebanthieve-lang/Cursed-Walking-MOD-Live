@@ -1,0 +1,7 @@
+{
+  "slot": "bf1:ammo/slot/medkit",
+  "entity": {
+    "model": "bf1:ammo_entity/medkit",
+    "texture": "bf1:ammo/uv/medkit"
+  }
+}

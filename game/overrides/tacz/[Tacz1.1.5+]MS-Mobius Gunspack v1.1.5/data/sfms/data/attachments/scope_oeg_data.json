@@ -1,0 +1,28 @@
+{
+  "weight": 0.87,
+  "ads": {
+    "addend": 0.015
+  },
+  "aim_inaccuracy": {
+    "multiplier": 0.97
+  },
+   "explosion": {
+	"explode": false,
+	"radius": {
+		"addend": 0.1
+	},
+	"damage": {
+		"addend": 4.0
+	},
+	"knockback": false,
+	"destroy_block": false,
+	"delay": {
+		"addend": 1.0
+    }
+   },
+  // 爆头配置
+   "head_shot":{
+   "addend": -0.02
+  // "multiplier": 1.5
+   }
+}

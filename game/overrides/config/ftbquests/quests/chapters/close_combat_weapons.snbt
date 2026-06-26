@@ -1,0 +1,526 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "close_combat_weapons"
+	group: "6F2ACED910A7F066"
+	icon: {
+		Count: 1
+		id: "marbledsmelees:fire_axe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1DCF0F3086070045"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Roughly carved from the nearest tree and held together by &d&lsheer determination&r&r. It won't win you any duels against the horrors that lay across the lands but its&4&l better that swinging your bare hands&r&r. "]
+			disable_toast: true
+			id: "0BCB004FA6A01BF8"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "69ABBAB92DA49D85"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BCB004FA6A01BF8"]
+			description: ["A &1&lsturdier step up from splinter-filled sticks&r&r, this blade is chipped, heavy, and &6&lundeniably reliable&r&r. It won't cut clean, but &e&lit'll get the job done&r&r. "]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "6D15A626155B0D6A"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "24A46120D795EA0C"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D15A626155B0D6A"]
+			description: ["Forged with purpose and &6&lsharpened with intent&r&r, this blade carries real weight and &c&lreal promise&r&r. Cold iron &5&lbites deeper than wood or stone&r&r, giving you a fighting chance. "]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5407B87CFE190230"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1AB95B8D03F77115"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5407B87CFE190230"]
+			description: ["Crafted from &b&lrare crystal-hard diamond&r&r, &4&lthis blade delivers sharp, dependable power&r&r. Its edge &8&lholds strong even against tougher foes&r&r, making it a trusted upgrade for any adventurer."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1D9368A135D2BF82"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5983500700AC78A8"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 12.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D9368A135D2BF82"]
+			description: ["Forged from &0&lancient Netherite ingots&r&r, this blade is &6&lheavy, dark, and incredibly resilient&r&r. Its edge &c&lstays sharp through fire and battle&r&r alike, making it a weapon worthy of any seasoned adventurer."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "632C6A0D7C953F3B"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6E6740EA86BDD111"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D15A626155B0D6A"]
+			description: ["A simple wooden bat built for the field, now repurposed for survival. &2&lLight,&r&r &1&lquick&r&r, and &8&ldependable when you need a clean swing.&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "27575A44C72B2124"
+			shape: "diamond"
+			tasks: [{
+				id: "33B7DA4DCDC71110"
+				item: {
+					Count: 1
+					id: "marbledsmelees:baseball_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27575A44C72B2124"]
+			description: ["A classic bat &4&lwrapped in cruel barbed wire&r&r. &d&lSwings heavier&r&r, &c&lhits harder&r&r, and &0&lleaves a mark no zombie forgets&r&r."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7E10A503FF9542BD"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "3AE53D0E996A79AD"
+				item: {
+					Count: 1
+					id: "marbledsmelees:barbed_baseball_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E10A503FF9542BD"]
+			description: ["A &8&lreinforced metal bat&r&r built for force over finesse. Its solid weight delivers &e&lsatisfying impact&r&r, &3&lperfect for clearing space when things get too close&r&r."]
+			disable_toast: true
+			id: "11C45FAEB1609B48"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "7BF898A141C2E74A"
+				item: {
+					Count: 1
+					id: "marbledsmelees:steel_baseball_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D15A626155B0D6A"]
+			description: ["A &d&lheavy, industrial wrench&r&r once meant for plumbing. Its &8&lweight and grip&r&r make it surprisingly effective for… other kinds of problems."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "04F893821EE25CA7"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "32B58F38C771A197"
+				item: {
+					Count: 1
+					id: "marbledsmelees:pipe_wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04F893821EE25CA7"]
+			description: [
+				"A &4&ldependable tool&r&r for prying open doors or closing them on threats. &6&lSturdy&r&r, &e&lsimple&r&r, and &0&l&lalways ready for work.&r&r"
+				"&r"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "65A82EE957B36F56"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "6105C2AA1867E77C"
+				item: {
+					Count: 1
+					id: "marbledsmelees:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D15A626155B0D6A"]
+			description: ["Standard issue crowd-control tool. &a&lLightweight&r&r, &9&lsturdy&r&r, and &c&lreliable for quick strikes&r&r when you need precision over power."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "71C6AC86F14F04D5"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "66646D154F5A8E18"
+				item: {
+					Count: 1
+					id: "marbledsmelees:police_baton"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D9368A135D2BF82"]
+			description: ["Once a simple traffic sign, now a &2&lblunt instrument of warning&r&r.&l &3Heavy and unwieldy&r&r, it’s &7&lperfect for making sure whatever’s coming learns to stop—permanently.&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "637B7EE4D16DC0A3"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "3AC0C84D4878D759"
+				item: {
+					Count: 1
+					id: "marbledsmelees:stop_sign"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 12.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["637B7EE4D16DC0A3"]
+			description: ["A massive hammer built for breaking concrete, now breaking… other things. &6&lSlow to swing&r&r, but &4&l&ldevastating when it lands.&r&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7A7C845473EF31E0"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2D8C25787BC71C2B"
+				item: {
+					Count: 1
+					id: "marbledsmelees:sledgehammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 12.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D9368A135D2BF82"]
+			description: ["A small, balanced axe designed for &2&l close combat&r&r. &c&lLight&r&r, &6&lsharp&r,&r and &l&bsurprisingly versatile when chaos comes calling.&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "59A26BFCA800F84A"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "4B1362D66A97845E"
+				item: {
+					Count: 1
+					id: "marbledsmelees:tomahawk"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 12.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59A26BFCA800F84A"]
+			description: [
+				"Originally meant for emergencies, now &c&lmeant for survival&r&r. &8&lHeavy&r,&r &b&lsharp,&r&r and &6&lperfect for clearing obstacles or enemies."
+				"&r&r"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3582C95413D21B39"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "095758515F02CA4A"
+				item: {
+					Count: 1
+					id: "marbledsmelees:fire_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 12.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3582C95413D21B39"]
+			description: ["A contemporary take on a classic tool. &1&lDurable&r&r,&5 &lwell balanced&r&r, and &8&ldesigned to chop efficiently—whether wood or something less innocent.&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "6B24C823436C25AB"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2A5BF41FC57DEDA1"
+				item: {
+					Count: 1
+					id: "marbledsmelees:modern_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 12.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5407B87CFE190230"]
+			description: ["A short, &4&lrazor-edged&r&r blade crafted for&8&l swift&r&r, &l&9precise strikes&r.&r &5&lLight in the hand and deadly up close&r.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1C6FDADEA7909A74"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "3765715B2FF7E529"
+				item: {
+					Count: 1
+					id: "marbledsmelees:tanto"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.7d
+		}
+		{
+			dependencies: ["1C6FDADEA7909A74"]
+			description: ["A &8&lfinely forged curved blade&r&r with a &9&lclean,&r&r &6&lconfident cut&r&r.&3 &lBalanced and sharp&r&r, it rewards skill with unmatched slicing power."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7251A696BC0DA190"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "365B6AC5091E20AD"
+				item: {
+					Count: 1
+					id: "marbledsmelees:katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5407B87CFE190230"]
+			description: ["A crude saw once meant for bones, now repurposed for survival. &4&lSlow and brutal,&r&r it’s more about &a&lleaving a mark than finesse.&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3D3BFB45C699D843"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "74BB34C2665D3FF1"
+				item: {
+					Count: 1
+					id: "marbledsmelees:bone_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D3BFB45C699D843"]
+			description: ["A broad, sharp blade designed for &2&lhacking through thick foliage&r&r or worse.&c&l Lightweight&r&r,&l&3 deadly&r&r, and &a&lperfect for clearing a path&r&r."]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7E1D23875B6C5C5D"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2DE5A4F0C0B097AA"
+				item: {
+					Count: 1
+					id: "marbledsmelees:machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5407B87CFE190230"]
+			description: ["Forged from &1&lsolid steel&r&r, this sword is &l&creliable and sharp&r&r. Strong enough to &6&lhold its edge against both the living and the infected.&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7FFEC8B3D3FBE25A"
+			shape: "diamond"
+			size: 1.1d
+			tasks: [{
+				id: "12D152286553D7C9"
+				item: {
+					Count: 1
+					id: "mcore:steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FFEC8B3D3FBE25A"]
+			description: ["&0&lLight yet incredibly strong,&r&r this sword &6&lslices with precision&r&r and endures where others would bend. A &l&dweapon for those who demand the best.&r&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2DF5D939F5FEACB6"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "6A10A7CD38AAB578"
+				item: {
+					Count: 1
+					id: "mcore:titanium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+	]
+	title: "Close Combat Weapons"
+}

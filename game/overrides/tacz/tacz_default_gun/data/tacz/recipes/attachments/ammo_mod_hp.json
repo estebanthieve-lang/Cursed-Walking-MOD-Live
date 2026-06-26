@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:sturdy_sheet"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "item": "create:rose_quartz"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_hp"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

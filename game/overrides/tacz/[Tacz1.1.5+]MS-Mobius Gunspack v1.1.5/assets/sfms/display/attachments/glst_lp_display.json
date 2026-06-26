@@ -1,0 +1,7 @@
+{
+  "slot": "sfms:attachment/slot/glst_lp",
+  "sounds": {
+    "install": "sfms:sfms_guns/m320_a",
+    "uninstall": "tacz:attachments/scope_general_e"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "sfms.ammo.300ms.name",
+  "display": "sfms:300ms_display",
+  // 堆叠数量
+  "stack_size": 60
+}

@@ -1,0 +1,19 @@
+{
+  // 重量，增加至总重
+  "weight": 0.1,
+   "explosion": {
+	"explode": true,
+	"radius": {
+		"multiplier": 0.35
+	},
+	"damage": {
+		"addend": 30.0,
+		"multiplier": 2.0
+	},
+	"knockback": false,
+	"destroy_block": false,
+	"delay": {
+		"addend": 1.0
+    }
+   }
+  }

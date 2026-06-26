@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.man_m95.name",
+  "display": "bf1:man_m95_display",
+  "data": "bf1:man_m95_data",
+  "tooltip": "bf1.gun.man_m95.desc",
+  "type": "sniper",
+  "sort": 18
+}

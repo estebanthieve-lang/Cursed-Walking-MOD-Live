@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.sight_exp3.name",
+	"tooltip": "sfms.attachment.sight_exp3.tooltip",
+	"display": "sfms:sight_exp3_display",
+	"data": "sfms:sight_exp3_data",
+	"type": "scope",
+    "sort": 24080
+}

@@ -1,0 +1,9 @@
+{
+  "slot": "bf1:attachment/slot/bayonet_general",
+  "adapter": "bayonet",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}

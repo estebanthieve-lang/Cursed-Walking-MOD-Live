@@ -1,0 +1,9 @@
+{
+  "name": "bf1.gun.mg42.name",
+  "display": "bf1:mg42_display",
+  "data": "bf1:mg42_data",
+  "tooltip": "bf1.gun.mg42.desc",
+  "type": "mg",
+  "item_type": "modern_kinetic",
+  "sort": 18
+}

@@ -1,0 +1,8 @@
+{
+    "name": "bf1.gun.martini.name",
+    "display": "bf1:martini_display",
+    "data": "bf1:martini_data",
+    "tooltip": "bf1.gun.martini.desc",
+    "type": "sniper",
+    "sort": 18
+}

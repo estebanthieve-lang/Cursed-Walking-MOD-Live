@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	disable_toast: true
+	filename: "create_t3"
+	group: "6DECDEC80935080E"
+	icon: "create:brass_casing"
+	id: "68B8A265A786FC1A"
+	images: [
+		{
+			height: 3.0d
+			image: "create:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "cw:textures/quests/brassage.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to the &l&6BRASS AGE&r!&r"]
+			disable_toast: true
+			id: "5009B40F4EC3F8A1"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "33436B94E50EAB81"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lBrass Ingot"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5009B40F4EC3F8A1"]
+			description: ["&lA matrix on which everything from this age will be made from.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "29EAB4FC0B936AE9"
+			tasks: [{
+				id: "513C6A5113F87FC6"
+				item: {
+					Count: 1
+					id: "create:brass_casing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lBrass Casing"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["29EAB4FC0B936AE9"]
+			description: ["&lNow craft a deployer with it.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "33E2060E8F8062B0"
+			tasks: [{
+				id: "0E35705CF1221CDA"
+				item: {
+					Count: 1
+					id: "create:brass_hand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lBrass Hand"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["33E2060E8F8062B0"]
+			description: ["&l&lUsed in precision assembly recipes, also allows you to automate certain actions, get crazy!&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "488DE8FFDEAFC071"
+			tasks: [{
+				id: "538CDD84B08FFF97"
+				item: {
+					Count: 1
+					id: "create:deployer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lDeployer"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["488DE8FFDEAFC071"]
+			description: ["&lUsed in a bunch of advanced create recipes.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7A955A3A90B5737F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "748ADC5EBF64A397"
+				item: {
+					Count: 1
+					id: "create:precision_mechanism"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lPrecision Mechanism"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"488DE8FFDEAFC071"
+				"33E2060E8F8062B0"
+				"7A955A3A90B5737F"
+			]
+			description: ["&lMore range? Hell yea!&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2E7118A45A49392D"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "49D7587E99001F97"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lExtendo Grip"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5009B40F4EC3F8A1"]
+			description: ["&lNow place a display link and connect it to the monitor.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "43776DB6FBDB00F1"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "59AA1F0C9E4378F2"
+				item: {
+					Count: 1
+					id: "create:display_link"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lDisplay Link"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5009B40F4EC3F8A1"]
+			description: ["&lMore advanced versions of redstone.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1A3C7694DFF04A60"
+			tasks: [{
+				id: "3BBB6053009CC79F"
+				item: {
+					Count: 1
+					id: "create:pulse_repeater"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lPulse Repeater"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5009B40F4EC3F8A1"]
+			description: ["&lA more advanced version of the comparator.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3D1C7A9DEA8EC2AE"
+			tasks: [{
+				id: "3E219FF108BB3DCF"
+				item: {
+					Count: 1
+					id: "create:pulse_extender"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lPulse Extender"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5009B40F4EC3F8A1"]
+			description: ["&lA hopper with filtering mechanics.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "75D695B496333710"
+			tasks: [{
+				id: "2A75835ACEF954AC"
+				item: {
+					Count: 1
+					id: "create:smart_chute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lSmart Hopper"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5009B40F4EC3F8A1"]
+			description: ["&lAn observer with filtering mechanics.&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2452F413A9204442"
+			tasks: [{
+				id: "246169C4C320998C"
+				item: {
+					Count: 1
+					id: "create:content_observer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lSmart Observer"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5009B40F4EC3F8A1"]
+			description: ["&lWireless redstone!&r"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0A3119FB9CB948CA"
+			tasks: [{
+				id: "062440CDEC09AFF6"
+				item: {
+					Count: 1
+					id: "create:redstone_link"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lWireless Redstone"
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	title: "Create Brass Age"
+}

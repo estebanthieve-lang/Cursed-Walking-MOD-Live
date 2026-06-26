@@ -1,0 +1,51 @@
+{
+  "model": "sfms:gun/lvsa_c_geo",
+  "texture": "sfms:gun/uv/lvsa_c",
+  "slot": "sfms:gun/slot/lvsa_c",
+  "hud": "sfms:gun/hud/lvsa_c",
+  "animation": "sfms:lvsa_c",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+//  "lod": {
+//    "model": "cib:gun/lod/mk18",
+//    "texture": "cib:gun/lod/mk18"
+//  },
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 60,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "sfms:lvsa/lvsa_shoot15",
+    "shoot_3p": "sfms:lvsa/lvsa_shoot15",
+    "silence": "sfms:lvsa/mk18_silence",
+    "silence_3p": "sfms:lvsa/mk18_silence_3p",
+    "draw": "sfms:lvsa/mk18_draw",
+    "put_away": "sfms:lvsa/mk18_put_away",
+    "reload_empty": "sfms:lvsa/mk18_reload_empty",
+    "reload_tactical": "sfms:lvsa/mk18_reload_tactical",
+    "inspect": "sfms:lvsa/mk18_inspect",
+    "inspect_empty": "sfms:lvsa/mk18_inspect_empty",
+    "dry_fire": "sfms:ms_dw",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "sfms:emx_hit111"
+  }
+}

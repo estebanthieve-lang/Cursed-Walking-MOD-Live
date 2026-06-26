@@ -1,0 +1,57 @@
+{
+  "model": "bf1:gun/lewis_geo",
+  "texture": "bf1:gun/uv/lewis",
+  "lod": {
+    "model": "bf1:gun/lod/lewis_lod",
+    "texture": "bf1:gun/lod/lewis_lod"
+  },
+  "hud": "bf1:gun/hud/lewis",
+  "slot": "bf1:gun/slot/lewis",
+  "animation": "bf1:lewis",
+  "default_animation": "bf1:rifle_default",
+  "third_person_animation": "default",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 2.5
+  },
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 30,
+  "shell": {
+    "initial_velocity": [6, 2, 1],
+    "random_velocity": [2, 2, 2],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1800, 90],
+    "living_time": 0.8
+  },
+  "sounds": {
+    "shoot": "bf1:lewis/shoot",
+    "shoot_3p": "bf1:lewis/shoot",
+    "reload_empty": "bf1:lewis/magout",
+    "reload_tactical": "bf1:lewis/magout",
+    "inspect": "bf1:put_away",
+    "inspect_empty": "bf1:vo/request_ammo",
+    "draw": "bf1:draw",
+    "put_away": "bf1:put_away",
+
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "tacz:fire_select",
+
+    "head_hit": "bf1:head_hit",
+    "flesh_hit": "bf1:flesh_hit",
+    "kill": "bf1:kill"
+  },
+  "offhand_show": {
+    "pos": [1, 20, 3.5],
+    "rotate": [0, 0, 60],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "state_machine": "bf1:movement_state_machine"
+}

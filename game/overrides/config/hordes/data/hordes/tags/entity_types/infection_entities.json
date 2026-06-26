@@ -1,0 +1,27 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:zombie",
+		"minecraft:zombie_villager",
+		"minecraft:husk",
+		"minecraft:drowned",
+		"minecraft:zombie_horse",
+		"minecraft:zombified_piglin",
+		"minecraft:zoglin",
+		"hordes:zombie_player",
+		"hordes:drowned_player",
+		"hordes:husk_player",
+		"zombies_plus:weak_zombie",
+		"zombies_plus:slow_zombie",
+		"zombies_plus:crawler_zombie",
+		"zombies_plus:sword_zombie",
+		"zombies_plus:axe_zombie",
+		"zombies_plus:shrieker_zombie",
+		"zombies_plus:runner_zombie",
+		"zombies_plus:leaper_zombie",
+		"zombies_plus:bow_zombie",
+		"zombies_plus:crossbow_zombie",
+		"zombies_plus:brute_zombie",
+		"mutantmonsters:mutant_zombie"
+	]
+}

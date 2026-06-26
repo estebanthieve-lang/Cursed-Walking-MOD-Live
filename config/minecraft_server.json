@@ -1,0 +1,23 @@
+{
+  "server": {
+    "enabled": true,
+    "minecraftVersion": "1.20.1",
+    "forgeVersion": "47.4.0",
+    "javaArgs": "-Xms2G -Xmx6G",
+    "serverRoot": "server",
+    "worldName": "world",
+    "port": 25572,
+    "rconPort": 25582
+  },
+  "mod": {
+    "id": "cursed_walking_mod_live",
+    "jarPattern": "",
+    "latestJarFolder": "dist/mods",
+    "packagedJarFolder": "game/mods",
+    "installTargets": []
+  },
+  "bridge": {
+    "queue": "data/minecraft_commands.jsonl",
+    "consumer": "rcon"
+  }
+}

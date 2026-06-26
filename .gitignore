@@ -1,0 +1,41 @@
+# Generated / local runtime state
+logs/
+state/
+user-data/
+backups/
+update-backups/
+*.log
+*.part
+
+# Local command queues and saves
+data/*.jsonl
+saves/
+game/saves/
+game/options.txt
+game/overrides/generated_datapacks/
+
+# Heavy generated dependencies. Rebuild with scripts/descargar_mods_curseforge.ps1
+game/mods/*
+!game/mods/.gitkeep
+dist/mods/*
+!dist/mods/.gitkeep
+server/mods/*
+!server/mods/.gitkeep
+tools/
+
+# Generated Minecraft server files
+server/libraries/
+server/world/
+server/logs/
+server/crash-reports/
+server/versions/
+server/*.jar
+server/run.bat
+server/run.sh
+server/user_jvm_args.txt
+
+# OS/editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

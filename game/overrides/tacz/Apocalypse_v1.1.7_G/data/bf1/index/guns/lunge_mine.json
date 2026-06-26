@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.lunge_mine.name",
+  "display": "bf1:lunge_mine_display",
+  "data": "bf1:lunge_mine_data",
+  "tooltip": "bf1.gun.lunge_mine.desc",
+  "type": "rpg",
+  "sort": 18
+}

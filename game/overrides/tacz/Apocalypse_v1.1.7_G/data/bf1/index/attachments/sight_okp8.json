@@ -1,0 +1,8 @@
+{
+  "hidden": false,
+  "name": "bf1.attachment.sight_okp8.name",
+  "display": "bf1:sight_okp8_display",
+  "data": "tacz:sight_okp7_data",
+  "type": "scope",
+  "sort": 20
+}

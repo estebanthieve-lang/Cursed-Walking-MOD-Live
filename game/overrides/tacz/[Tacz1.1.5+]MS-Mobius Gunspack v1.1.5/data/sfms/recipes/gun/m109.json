@@ -1,0 +1,46 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:polished_rose_quartz"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:titanium_rhenium_alloy"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:plates/obsidian"
+      },
+      "count": 65
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "tacz:m107"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:m109",
+    "attachments": {
+      "scope": "sfms:scope_mk5hd"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

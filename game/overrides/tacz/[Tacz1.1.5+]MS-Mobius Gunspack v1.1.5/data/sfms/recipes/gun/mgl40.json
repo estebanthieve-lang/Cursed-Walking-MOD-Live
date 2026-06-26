@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:polished_rose_quartz"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:plates/obsidian"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_rhenium_alloy"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:netherite_rhenium_alloy"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:mgl40",
+    "attachments": {
+      "scope": "sfms:scope_oeg"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

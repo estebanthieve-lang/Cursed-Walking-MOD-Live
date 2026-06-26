@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.sight_ets108.name",
+	"tooltip": "sfms.attachment.sight_ets108.tooltip",
+	"display": "sfms:sight_ets108_display",
+	"data": "sfms:sight_ets108_data",
+	"type": "scope",
+    "sort": 24080
+}

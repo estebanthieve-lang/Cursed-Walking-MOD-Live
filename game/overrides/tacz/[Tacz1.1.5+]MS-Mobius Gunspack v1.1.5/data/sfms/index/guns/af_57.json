@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.af_57.name",
+  "tooltip": "sfms.gun.af_57.desc",
+  "display": "sfms:af_57_display",
+  "data": "sfms:af_57_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "pistol",
+  "sort": 24080
+}

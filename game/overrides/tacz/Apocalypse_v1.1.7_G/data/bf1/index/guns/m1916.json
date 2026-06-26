@@ -1,0 +1,8 @@
+{
+    "name": "bf1.gun.m1916.name",
+    "display": "bf1:m1916_display",
+    "data": "bf1:m1916_data",
+    "tooltip": "bf1.gun.m1916.desc",
+    "type": "rifle",
+    "sort": 18
+}

@@ -1,0 +1,56 @@
+{
+  "model": "bf1:gun/welrod.geo",
+  "texture": "bf1:gun/uv/welrod",
+  "lod": {
+    "model": "bf1:gun/lod/welrod_lod",
+    "texture": "bf1:gun/lod/welrod_lod"
+  },
+  "hud": "bf1:gun/hud/welrod",
+  "slot": "bf1:gun/slot/welrod",
+  "animation": "bf1:welrod",
+  "default_animation": "bf1:pistol_default",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "zoom_model_fov": 60,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "shell": {
+    "initial_velocity": [-3, 3, 0.5],
+    "random_velocity": [1, 1, 0.5],
+    "acceleration": [0, -25, 0],
+    "angular_velocity": [360, 1200, -90],
+    "living_time": 0.5
+  },
+  "sounds": {
+    "shoot": "bf1:welrod/shoot",
+    "shoot_3p": "bf1:welrod/shoot",
+    //"bolt": "bf1:welrod/bolt",
+    "inspect_empty": "bf1:vo/request_ammo_v",
+    "draw": "no",
+    
+    "head_hit": "bf1:head_hit_v",
+    "flesh_hit": "bf1:flesh_hit_v",
+    "kill": "bf1:kill_v"
+  },
+  "offhand_show": {
+    "pos": [4, 13, -2],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, -2],
+      "rotate": [-90, -35, 90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "state_machine": "bf1:manual_action_state_machine",
+  "state_machine_param": {
+    "bolt_shell_ejecting_time": 0.52,
+    "reload_shell_ejecting_time": 2.67
+  }
+}

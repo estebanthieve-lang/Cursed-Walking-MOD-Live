@@ -1,0 +1,8 @@
+{
+	"name": "sfms.attachment.glst_lp.name",
+	"tooltip": "sfms.attachment.glst_lp.tooltip",
+	"display": "sfms:glst_lp_display",
+	"data": "sfms:glst_lp_data",
+	"type": "muzzle",
+    "sort": 24080
+}

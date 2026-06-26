@@ -1,0 +1,23 @@
+{
+  "heat": {
+  "heat_rate": {
+    "addend": -1
+  }
+  },
+    "rpm": {
+    "multiplier": 1.1
+  },
+   "inaccuracy": {
+     "multiplier": 1.5
+  },
+   "aim_inaccuracy": {
+     "multiplier": 2.5
+  },
+  "sneak_inaccuracy": {
+    "multiplier": 1.5
+  },
+  "lie_inaccuracy": {
+    "multiplier": 1.5
+  },
+  "extended_mag_level": 1
+}

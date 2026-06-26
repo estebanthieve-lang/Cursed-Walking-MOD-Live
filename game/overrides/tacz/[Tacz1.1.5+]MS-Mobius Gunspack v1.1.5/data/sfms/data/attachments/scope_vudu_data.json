@@ -1,0 +1,14 @@
+{
+  "weight": 0.87,
+  "ads": {
+    "addend": 0.015
+  },
+  "aim_inaccuracy": {
+    "multiplier": 0.9
+  },
+  // 爆头配置
+   "head_shot":{
+   "addend": 0.05
+  // "multiplier": 1.5
+   }
+}

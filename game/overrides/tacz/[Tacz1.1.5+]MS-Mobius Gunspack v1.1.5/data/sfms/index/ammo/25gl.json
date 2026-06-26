@@ -1,0 +1,6 @@
+{
+  "name": "sfms.ammo.25gl.name",
+  "display": "sfms:25gl_display",
+  // 堆叠数量
+  "stack_size": 30
+}

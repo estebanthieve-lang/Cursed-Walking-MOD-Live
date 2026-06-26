@@ -1,0 +1,37 @@
+{
+  "model": "bf1:gun/handgun_geo",
+  "texture": "bf1:gun/uv/handgun",
+  "hud": "bf1:gun/hud/handgun",
+  "slot": "bf1:gun/slot/handgun",
+  "ammo_count_style": "normal",
+  "animation": "bf1:handgun",
+  "default_animation": "bf1:pistol_default",
+  "third_person_animation": "default",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [ 0, 0, 0 ],
+      "ground": [ 0, 0, 0 ],
+      "fixed": [ 0, 0, 0 ]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.75
+  },
+  "iron_zoom": 1.2,
+  "sounds": {
+    "shoot": "bf1:handgun/shoot",
+    "shoot_3p": "bf1:handgun/shoot",
+    "silence": "bf1:handgun/silence",
+    "silence_3p": "bf1:handgun/silence",
+    "draw": "bf1:handgun/magin",
+    "dry_fire": "bf1:handgun/dry_fire",
+
+    "head_hit": "bf1:head_hit_v",
+    "flesh_hit": "bf1:flesh_hit_v",
+    "kill": "bf1:kill_v"
+  },
+    "state_machine": "bf1:movement_state_machine"
+}

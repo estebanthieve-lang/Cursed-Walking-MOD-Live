@@ -1,0 +1,8 @@
+{
+  "name": "bf1.block.a7v",
+  "display": "bf1:a7v",
+  "data": "bf1:telegraph",
+  "tooltip": "bf1.block.tank.desc",
+  "id": "tacz:workbench_c",
+  "sort": 18
+}

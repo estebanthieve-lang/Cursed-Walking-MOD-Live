@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.obrez.name",
+  "display": "bf1:obrez_display",
+  "data": "bf1:obrez_data",
+  "tooltip": "bf1.gun.obrez.desc",
+  "type": "pistol",
+  "sort": 18
+}

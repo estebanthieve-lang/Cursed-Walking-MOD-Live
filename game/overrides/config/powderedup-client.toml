@@ -1,0 +1,6 @@
+#Whether to render the floating bats inside the container.
+renderBats = true
+#Maximum number of bats to render per container (reduces lag on lower end systems).
+#Range: 0 ~ 10
+maxRenderedBats = 3
+

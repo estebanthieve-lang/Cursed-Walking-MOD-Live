@@ -1,0 +1,24 @@
+{
+  "aim_inaccuracy": {
+    "multiplier": 0
+  },
+  "inaccuracy": {
+    "multiplier": 0
+  },
+  "sneak_inaccuracy": {
+    "multiplier": 0
+  },
+  "lie_inaccuracy": {
+    "multiplier": 0
+  },
+  "damage": {
+    "multiplier": 0.8
+  },
+  "ammo_speed": {
+    "multiplier": 0.8
+  },
+  "effective_range": {
+    "addend": 10
+  },
+ "extended_mag_level": 1
+}

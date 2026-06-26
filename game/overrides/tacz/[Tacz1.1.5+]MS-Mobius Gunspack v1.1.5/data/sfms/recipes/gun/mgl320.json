@@ -1,0 +1,37 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:rose_quartz"
+      },
+      "count": 14
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:titanium_rhenium_alloy"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "mcore:steel_sheet"
+      },
+      "count": 4
+    },
+        {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "tacz:m320"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:mgl320"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

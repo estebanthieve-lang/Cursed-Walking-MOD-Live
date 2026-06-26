@@ -1,0 +1,65 @@
+{
+  "model": "bf1:gun/vg15_geo",
+  "texture": "bf1:gun/uv/vg15",
+  "lod": {
+    "model": "bf1:gun/lod/vg15_lod",
+    "texture": "bf1:gun/lod/vg15_lod"
+  },
+  "hud": "bf1:gun/hud/vg15",
+  "slot": "bf1:gun/slot/vg15",
+  "ammo_count_style": "normal",
+  "animation": "bf1:vg15",
+  "default_animation": "bf1:rifle_default",
+  "third_person_animation": "default",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1.1
+  },
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 30,
+  "shell": {
+    "initial_velocity": [4, 1, 1],
+    "random_velocity": [2, 2, 2],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -2400, 180],
+    "living_time": 0.5
+  },
+  "sounds": {
+    "shoot": "bf1:vg15/shoot",
+    "shoot_3p": "bf1:vg15/shoot",
+    "reload_empty": "tacz:ak47/ak47_reload_tactical",
+    "reload_tactical": "tacz:ak47/ak47_reload_tactical",
+    "inspect": "tacz:ak47/ak47_inspect",
+    "inspect_empty": "bf1:vo/request_ammo_2",
+    "draw": "tacz:ak47/ak47_draw",
+    "put_away": "tacz:ak47/ak47_put_away",
+    "silence": "tacz:ak47/ak47_silence",
+    "silence_3p": "tacz:ak47/ak47_silence_3p",
+
+    "head_hit": "bf1:head_hit_v",
+    "flesh_hit": "bf1:flesh_hit_v",
+    "kill": "bf1:kill_v"
+  },
+  "offhand_show": {
+    "pos": [1, 20, 3.5],
+    "rotate": [0, 0, 60],
+    "scale": [0.6, 0.6, 0.6]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 20, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "state_machine": "bf1:movement_state_machine"
+}

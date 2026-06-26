@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "item": "create:sturdy_sheet"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 35
+    }
+  ],
+  "result": {
+    "type": "custom",
+    "group": "tacz:pistol",
+    "item": {
+      "type": "forge:partial_nbt",
+      "item": "tacz:workbench_b",
+      "nbt": {
+        "BlockId": "sfms:ms_workbench",
+        "display": {
+          "Lore": [
+            "{\"translate\":\"\"}"
+          ],
+          "Name": "{\"translate\":\"§e§lInto The Depths.\"}"
+        }
+      },
+      "count": 1
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+} 

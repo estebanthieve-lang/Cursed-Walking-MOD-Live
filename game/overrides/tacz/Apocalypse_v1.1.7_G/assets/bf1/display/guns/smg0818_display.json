@@ -1,0 +1,52 @@
+{
+  "model": "bf1:gun/smg0818_geo",
+  "texture": "bf1:gun/uv/smg0818",
+  "lod": {
+    "model": "bf1:gun/lod/smg0818_lod",
+    "texture": "bf1:gun/lod/smg0818_lod"
+  },
+  "hud": "bf1:gun/hud/smg0818",
+  "slot": "bf1:gun/slot/smg0818",
+  "animation": "bf1:smg0818",
+  "default_animation": "bf1:rifle_default",
+  "third_person_animation": "default",
+  "show_crosshair": false,
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1
+  },
+  "iron_zoom": 1.25,
+  "zoom_model_fov": 50,
+  "shell": {
+    "initial_velocity": [ 8, 2, 1 ],
+    "random_velocity": [ 3, 3, 0.75 ],
+    "acceleration": [ 0.0, -10, 0.0 ],
+    "angular_velocity": [ 360, -1200, 90 ],
+    "living_time": 0.8
+  },
+
+  "sounds": {
+    "shoot": "bf1:smg0818/smg0818_shoot",
+    "shoot_3p": "bf1:smg0818/smg0818_shoot_3p",
+    "reload_empty": "bf1:smg0818/smg0818_reload_empty",
+    "reload_tactical": "bf1:smg0818/smg0818_reload_tactical",
+    "inspect": "bf1:smg0818/smg0818_inspect",
+    "inspect_empty": "bf1:smg0818/smg0818_inspect_empty",
+    "draw": "bf1:smg0818/smg0818_draw",
+    "put_away": "bf1:smg0818/smg0818_put_away",
+    "silence": "bf1:smg0818/smg0818_silence",
+    "silence_3p": "bf1:smg0818/smg0818_silence_3p",
+
+    "head_hit": "bf1:head_hit",
+    "flesh_hit": "bf1:flesh_hit",
+    "kill": "bf1:kill"
+  },
+  "state_machine": "bf1:movement_state_machine"
+}

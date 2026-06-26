@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.welrod.name",
+  "display": "bf1:welrod_display",
+  "data": "bf1:welrod_data",
+  "tooltip": "bf1.gun.welrod.desc",
+  "type": "pistol",
+  "sort": 18
+}

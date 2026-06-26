@@ -1,0 +1,25 @@
+
+#Item Scrapper Rendering Configuration
+[rendering]
+	#Maximum number of items to render for the input item (visual only)
+	#This does not affect the actual capacity of the input slot, only how many items are shown
+	#Range: 1 ~ 64
+	maxInputItemsRendered = 64
+	#Maximum number of items to render for each output slot (visual only)
+	#This does not affect the actual output capacity, only how many items are shown
+	#Range: 1 ~ 64
+	maxOutputItemsRendered = 64
+
+#Item Scrapper Tooltip Configuration
+[tooltips]
+	#Show the scrappable indicator on items
+	showScrappableIndicator = true
+	#Show the required hits to scrap an item
+	showRequiredHits = false
+	#Show the return amount percentage range
+	showReturnAmount = true
+	#Show explosion chance on items that can explode
+	showExplosionChance = false
+	#Show durability multiplier information
+	showDurabilityInfo = false
+

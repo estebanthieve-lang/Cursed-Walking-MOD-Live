@@ -1,0 +1,8 @@
+{
+  "slot": "sfms:attachment/slot/gl_he",
+  "adapter": "sfgl_he",
+  "sounds": {
+    "install": "sfms:sfms_guns/m320_a",
+    "uninstall": "tacz:attachments/scope_general_e"
+  }
+}

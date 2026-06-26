@@ -1,0 +1,8 @@
+{
+  "name": "bf1.gun.m2_2.name",
+  "display": "bf1:m2_2_display",
+  "data": "bf1:m2_2_data",
+  "tooltip": "bf1.gun.m2_2.desc",
+  "type": "shotgun",
+  "sort": 18
+}

@@ -1,0 +1,64 @@
+
+#Common configuration settings
+[auto_generation]
+	#Enable automatic generation of configs
+	enableAutoGeneration = true
+	#Use new TACZ format (true) or old format (false)
+	useNewTaczFormat = true
+
+	[auto_generation.tags]
+		#List of item tags to generate configs for
+		itemTags = ["minecraft:planks", "minecraft:logs", "forge:armors", "feralzombie:ranged_weapon"]
+		#List of individual items to generate configs for (e.g. 'minecraft:diamond_sword', 'modid:item_name')
+		individualItems = ["minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots", "minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots", "minecraft:iron_helmet", "minecraft:iron_chestplate", "minecraft:iron_leggings", "minecraft:iron_boots", "minecraft:golden_helmet", "minecraft:golden_chestplate", "minecraft:golden_leggings", "minecraft:golden_boots", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:netherite_helmet", "minecraft:netherite_chestplate", "minecraft:netherite_leggings", "minecraft:netherite_boots", "minecraft:turtle_helmet", "minecraft:trident"]
+
+	[auto_generation.feature_toggles]
+		#Generate recipe-based loot configs
+		useRecipeBasedLoot = true
+		#Generate loot table-based configs
+		useLootTables = false
+		#Include explosion chances in generated configs
+		useExplosions = true
+		#Generate transform configs
+		generateTransforms = true
+		#Loot multiplyer based on the items duribility
+		lootMultiplyerBasedOnDuribility = true
+
+	[auto_generation.scrapper_defaults]
+		#Default minimum return percentage
+		#Range: 0.0 ~ 10000.0
+		defaultMinReturn = 25.0
+		#Default maximum return percentage
+		#Range: 0.0 ~ 10000.0
+		defaultMaxReturn = 35.0
+		#Default required hits
+		#Range: 0.1 ~ 100.0
+		defaultRequiredHits = 6.0
+		#Default explosion chance
+		#Range: 0.0 ~ 100.0
+		defaultExplosionChance = 0.0
+		#Default explosion power
+		#Range: 0.0 ~ 100.0
+		defaultExplosionPower = 0.0
+		#Amount For Max Return
+		#Range: 1 ~ 64
+		amountForMaxReturn = 1
+		#Default loot table path
+		defaultLootTable = "minecraft:chests/end_city_treasure"
+		#Default rounding type (STANDARD, FLOOR, CEILING)
+		defaultRoundingType = "STANDARD"
+
+	[auto_generation.transform_defaults]
+		#Default X location offset
+		#Range: -10.0 ~ 10.0
+		defaultXLocation = 0.0
+		#Default Y location offset
+		#Range: -10.0 ~ 10.0
+		defaultYLocation = 0.0
+		#Default Z location offset
+		#Range: -10.0 ~ 10.0
+		defaultZLocation = 0.0
+		#Default laying rotation offset
+		#Range: -360.0 ~ 360.0
+		defaultLayingRotation = 90.0
+

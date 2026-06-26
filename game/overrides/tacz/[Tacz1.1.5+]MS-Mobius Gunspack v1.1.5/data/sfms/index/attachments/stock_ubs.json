@@ -1,0 +1,8 @@
+{
+  "name": "sfms.attachment.stock_ubs.name",
+  "tooltip": "sfms.attachment.stock_ubs.tooltip",
+  "display": "sfms:stock_ubs_display",
+  "data": "sfms:stock_ubs_data",
+  "type": "stock",
+  "sort": 24080
+}

@@ -1,0 +1,7 @@
+{
+  "name": "bf1.attachment.grip_light_bipods.name",
+  "display": "bf1:grip_light_bipods_display",
+  "data": "bf1:grip_light_bipods_data",
+  "type": "grip",
+  "sort": 18
+}

@@ -1,0 +1,57 @@
+{
+    "model": "bf1:gun/martini_geo",
+    "texture": "bf1:gun/uv/martini",
+    "lod": {
+        "model": "bf1:gun/lod/martini_lod",
+        "texture": "bf1:gun/lod/martini_lod"
+    },
+    "hud": "bf1:gun/hud/martini",
+    "slot": "bf1:gun/slot/martini",
+    "animation": "bf1:martini",
+    "default_animation": "bf1:rifle_default",
+    "third_person_animation": "default",
+    "transform": {
+        "scale": {
+          "thirdperson": [0.6, 0.6, 0.6],
+          "ground": [0.6, 0.6, 0.6],
+          "fixed": [1.2, 1.2, 1.2]
+        }
+      },
+    "muzzle_flash": {
+      "texture": "tacz:flash/common_muzzle_flash",
+      "scale": 4.0
+    },
+    "ammo": {
+    "tracer_color": "#FFAAAA",
+     "particle": {
+      "name": "mycelium",
+      "delta": [
+        0,
+        0,
+        0
+      ],
+      "speed": 0.0,
+      "life_time": 30,
+      "count": 50
+      }
+  },
+    "iron_zoom": 1.75,
+    "zoom_model_fov": 35,
+    "sounds": {
+    "shoot": "bf1:martini/martini_shoot",
+    "shoot_3p": "bf1:martini/martini_shoot_3p",
+    "reload_empty": "bf1:martini/boltopen",
+    "reload_tactical": "tacz:fire_select",
+    "inspect": "bf1:martini/martini_inspect",
+    "inspect_empty": "bf1:martini/martini_inspect_empty",
+    "draw": "bf1:draw2",
+    "put_away": "bf1:put_away2",
+    "silence": "bf1:martini/martini_silence",
+    "silence_3p": "bf1:martini/martini_silence_3p",
+
+    "head_hit": "bf1:head_hit",
+    "flesh_hit": "bf1:flesh_hit",
+    "kill": "bf1:kill"
+  },
+  "state_machine": "bf1:movement_state_machine"
+}

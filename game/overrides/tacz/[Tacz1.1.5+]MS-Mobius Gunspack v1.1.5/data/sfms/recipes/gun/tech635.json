@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "create:rose_quartz"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_rhenium_alloy"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "mcore:steel_sheet"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:tech635"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

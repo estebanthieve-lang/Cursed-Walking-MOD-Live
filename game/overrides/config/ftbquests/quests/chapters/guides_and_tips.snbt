@@ -1,0 +1,326 @@
+{
+	autofocus_id: "497DCC912E8336BC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "guides_and_tips"
+	group: "5DB8156D1FA36322"
+	icon: "createdeco:decal_warning"
+	id: "6F4003AFAB4D1D8D"
+	images: [
+		{
+			height: 0.0d
+			image: "the_deep_void:textures/entities/pure_white.png"
+			rotation: 0.0d
+			width: 10.25d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 3.5d
+			image: "cw:textures/quests/cwtitle.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			click: "https://discord.gg/nd5f7wZDte"
+			height: 2.0d
+			hover: ["Our Discord is where you can get updates on the modpack and teasers for future updates!"]
+			image: "cw:textures/quests/discord.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			click: "https://wabbanode.com/partner/cursedwalking"
+			height: 1.5d
+			hover: ["Want to play multiplayer? Get a deal on a server now and support me in the process!"]
+			image: "cw:textures/quests/bleh.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.1d
+			y: 5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"One &4&lbite&r&r, and you’re on the &6&lclock&r&r. There is a &2&lchance&r zombies can infect you if they hit you."
+				""
+				"&4&lFour&r&r stages of infection, with &l&7death&r&r waiting at the end. Fight hard, or join the ranks of the undead."
+				""
+				"Zombie hordes will attack your location in waves every &4&l10&r&r days. Be prepared."
+				""
+				"Your mission: carve out a safe haven, fortify your defenses, and endure the relentless chaos of the zombie apocalypse."
+				""
+				"even if you are just beginning your journey, the clock is &6&lticking&r&r..."
+			]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "59304AD49DAE43FF"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "&l&4One bite is all it takes..."
+			tasks: [{
+				id: "42D69F26887FC154"
+				title: "Check?"
+				type: "checkmark"
+			}]
+			title: "&l&aHealth"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The chapters in this quest book are entirely &b&loptional&r&r and won’t hinder your progression if skipped."
+				""
+				"However, you might find valuable &2&ltips&r&r and &l&2insights&r about navigating the modpack within its pages. Take a moment to explore as you never know what helpful knowledge you might uncover!"
+				""
+				"&l&4The current quests are temporarily and mainly serve as a guide for unexperienced players. Most of them will be reworked in a later update.&r&r"
+			]
+			disable_toast: true
+			icon: "minecraft:paper"
+			id: "0238953DAF49BF6E"
+			shape: "diamond"
+			size: 4.0d
+			subtitle: "&l&fHello World"
+			tasks: [{
+				id: "6C46DF6A6707A1A7"
+				title: "READ ME!"
+				type: "checkmark"
+			}]
+			title: "&l&2Read me!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Grass and foliage colors will change throughout the year, and in the &b&lwinter&r&r, temperatures will shift and allow for &lsnow&r to fall in some biomes that don't normally receive any. Seasons also affect various other features, like crop &2&lgrowth&r, &9&lweather&r, and more!"]
+			disable_toast: true
+			icon: "sereneseasons:calendar"
+			id: "7AAC6386CE748C3F"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "&l&fSerene Seasons"
+			tasks: [
+				{
+					id: "6E279961CA7A474A"
+					title: "Check?"
+					type: "checkmark"
+				}
+				{
+					id: "269814E54F3167C3"
+					item: "sereneseasons:calendar"
+					type: "item"
+				}
+			]
+			title: "&l&5Seasons"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Though the cure has been discovered, it came far too late to save the &4&lfallen&r&r. "
+				""
+				"The vaccine is crafted from &l&aFoxweed flowers&r&r found in most forests. In addition to curing the infection, vaccines also give you over &b&l5 minutes of immunity&r&r to the infection."
+				""
+				"Alternatively, &l&egolden apples&r&r can also cure an infection, though they do not provide any further immunity."
+				""
+				"The world lies in ruins, overrun by the undead, and survival now rests on &4&lyour&r&r shoulders."
+			]
+			disable_toast: true
+			icon: "cure:vaccine"
+			id: "2B26182AF32B4C6D"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "&l&fThere is &eHope&r."
+			tasks: [{
+				id: "544E9ED36F3DAC17"
+				title: "Check?"
+				type: "checkmark"
+			}]
+			title: "&l&6The cure"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"JEI/EMI is a very helpful tool. It is the thing on the right of your inventory. In there you can do various things:"
+				""
+				"- Search for a item in the &asearchbar&r at the bottom of your inventory (&efilter by mod with @ infront&r)"
+				"- Click on it and you will see its &acrafting recipe&r"
+				"- click on a item in the crafting recipe to find out &ahow to craft it&r"
+				"- for many items, you can &anavigate on the top bar&r to see all the usecases of the item"
+				""
+				"See next page for hotkeys "
+				"(all default keybinds) ->"
+				"{@pagebreak}"
+				"Hotkeys:"
+				"- hover over an item and press &aR&r (default) to view its recipe"
+				"- hover over an item and press &aU&r (default) to view its uses"
+				"- &adouble-click&r on the searchbar and you'll filter for a item with the given name"
+				"- You can &afavorite recipes&r by clicking the &adefault key \"A\"&r"
+				"- &ashift + left click&r to craft a bookmarked recipe once"
+				"- &actrl + left click&r to craft a bookmarked recipe as much as possible"
+			]
+			disable_toast: true
+			id: "3DC885EB94E76F65"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "UseJEI.png"
+			tasks: [{
+				id: "33318B85081B9EA9"
+				title: "JEI"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["This is the guide book for the mod \"Security Craft\" learn all about base defence and other cool stuff in here"]
+			disable_toast: true
+			id: "75FAA3BF860864C8"
+			shape: "circle"
+			size: 1.8d
+			tasks: [{
+				id: "5291908CF9C56D2A"
+				item: "securitycraft:sc_manual"
+				type: "item"
+			}]
+			x: -7.105427357601002E-15d
+			y: 2.999999999999993d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Learn all about the wild animals you find in the world in here."
+				"&aInteract&r with it while looking at the animal to open its page, but watch out!"
+				""
+				"Note: Not all of the mobs you will see in this book are able to live in this world."
+			]
+			disable_toast: true
+			id: "3B47EA987C4268D7"
+			size: 1.8d
+			tasks: [{
+				id: "544080D2CDAF901C"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			x: -2.952380952380956d
+			y: 3.047619047619051d
+		}
+		{
+			can_repeat: true
+			description: ["Check your food &adiversity level&r in here. You also can see &abuffs&r you can get trough eating diverse food."]
+			disable_toast: true
+			id: "0672F6263CB24FFA"
+			size: 1.8d
+			tasks: [{
+				id: "5C2F5E429EC7AADC"
+				item: "solonion:food_book"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			hide_until_deps_visible: true
+			id: "497DCC912E8336BC"
+			invisible: true
+			shape: "none"
+			x: -0.0952380952380949d
+			y: -0.4047619047619051d
+		}
+		{
+			description: [
+				"These quests are not about rewards or progression, they exist to help you understand the modpack. Each quest acts as a tutorial, explaining mechanics, mods, and systems you’ll encounter while playing."
+				""
+				"There are no item rewards for completing quests. Instead, the real reward is knowledge: learning how things work, avoiding confusion, and surviving longer in this apocalyptic world. "
+				""
+				"You are free to complete quests at your own pace, in any order, or ignore them entirely. Use this quest book as a reference whenever you’re unsure how something works."
+				""
+				"Survival is up to you. The quests are here to guide, not to hold your hand."
+			]
+			disable_toast: true
+			icon: "ftbquests:book"
+			id: "6AEEE00BAA6B6718"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Welcome to the Cursed Walking Quest Guide!"
+			tasks: [{
+				id: "79E4FB437D81F3CD"
+				title: "Questn"
+				type: "checkmark"
+			}]
+			title: "Quest Rundown"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &9Minimap&r and &9World Map&r are essential tools for surviving in this apocalyptic world."
+				"They help you &atrack your position&r, &amark important locations&r, and &anavigate the world without getting lost&r."
+				""
+				"Take some time to learn the &ekeybinds and settings&r since most of the keybinds are unbinded but here are some of the more important keybinds that are binded automatically - "
+				"&eEnlarge Minimap - Z"
+				"&eMinimap Settings - Y&r"
+				"&eNew Waypoint - B&r"
+				"&eOpen Waypoint Screen - U&r&r"
+				"&eOpen World Map - M&r"
+			]
+			disable_toast: true
+			icon: "minecraft:map"
+			id: "320BA770224F51C0"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0FD6A7E32CAA5403"
+				title: "Mapping Essentials"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The Official Cursed Walking Public Server is the best place to experience the modpack alongside other players!"
+				""
+				"&nOn the server, you can:&r"
+				""
+				"&4&lPlay multiplayer Cursed Walking with the community!&r&r"
+				""
+				"&l&aTeam up or survive solo in a shared world!&r&r"
+				""
+				"&b&lGet help from staff and experienced players!&r&r"
+				""
+				"&9&lStay up to date with server specific rules and changes!&r&r&l"
+				""
+				"&l&eBe part of the active Cursed Walking community!&r&r&r"
+				""
+				"The server follows the same core experience as singleplayer, with rules in place to keep gameplay fair and enjoyable for everyone."
+				""
+				"(Server information, rules, and connection details are shared through the official Discord.)"
+				"&6&l(You cannot physically join the server without joining the discord)&r&r"
+			]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "706E4B7163DBCE5D"
+			shape: "square"
+			size: 2.0d
+			subtitle: "CW Public Server"
+			tasks: [{
+				id: "713F600C5419612D"
+				title: "Cursed Walking Official Server"
+				type: "checkmark"
+			}]
+			x: 6.15d
+			y: 3.0d
+		}
+	]
+	title: "Guides and Tips"
+}

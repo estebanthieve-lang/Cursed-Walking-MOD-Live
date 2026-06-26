@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "5DB8156D1FA36322", title: "&l&fGetting started" }
+		{ id: "6F2ACED910A7F066", title: "&l&fThe Warborn" }
+		{ id: "6DECDEC80935080E", title: "&l&fTechnology" }
+		{ id: "3AB3245D05E97FFD", title: "&l&fBase Defense" }
+		{ id: "497CF89B87773680", title: "&l&fTransportation" }
+		{ id: "3F44A23A6891B87A", title: "&l&fWhat lies below..." }
+	]
+}

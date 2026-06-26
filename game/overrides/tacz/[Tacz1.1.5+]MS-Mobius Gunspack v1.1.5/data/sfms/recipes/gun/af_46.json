@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "mcore:titanium_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "create:rose_quartz"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "the_deeper_void:tungsten_ingot"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "sfms:af_46"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

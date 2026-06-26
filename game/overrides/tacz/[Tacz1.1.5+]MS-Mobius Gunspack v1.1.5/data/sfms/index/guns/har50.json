@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.har50.name",
+  "tooltip": "sfms.gun.har50.desc",
+  "display": "sfms:har50_display",
+  "data": "sfms:har50_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "mg",
+  "sort": 24080
+}

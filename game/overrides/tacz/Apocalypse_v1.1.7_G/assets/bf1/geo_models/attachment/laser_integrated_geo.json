@@ -1,0 +1,55 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.laser_mirco",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "laser_compact",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-0.125, -0.125, -0.25],
+							"size": [0.25, 0.25, 0.5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 2], "uv_size": [1, 1]},
+								"south": {"uv": [2, 0], "uv_size": [1, 1]},
+								"west": {"uv": [2, 2], "uv_size": [1, 1]},
+								"up": {"uv": [0, 4], "uv_size": [1, 1]},
+								"down": {"uv": [4, 1], "uv_size": [1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "laser_illuminated",
+					"parent": "laser_compact",
+					"pivot": [0, 0, -0.13],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{
+							"origin": [-0.0625, -0.0625, -0.255],
+							"size": [0.125, 0.125, 0.25],
+							"uv": {
+								"north": {"uv": [2, 4], "uv_size": [1, 1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "laser_beam",
+					"pivot": [0, 0, -0.25],
+					"rotation": [0, 0, 45]
+				}
+			]
+		}
+	]
+}

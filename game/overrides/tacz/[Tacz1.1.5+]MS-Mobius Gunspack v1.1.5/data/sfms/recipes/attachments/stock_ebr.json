@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 24
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "sfms:stock_ebr"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

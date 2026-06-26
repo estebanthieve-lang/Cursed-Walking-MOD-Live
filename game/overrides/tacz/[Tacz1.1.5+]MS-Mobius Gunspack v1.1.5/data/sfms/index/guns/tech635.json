@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.tech635.name",
+  "tooltip": "sfms.gun.tech635.desc",
+  "display": "sfms:tech635_display",
+  "data": "sfms:tech635_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "smg",
+  "sort": 24080
+}

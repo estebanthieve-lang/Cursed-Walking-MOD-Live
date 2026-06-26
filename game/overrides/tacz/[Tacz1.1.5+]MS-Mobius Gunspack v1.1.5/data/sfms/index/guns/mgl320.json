@@ -1,0 +1,9 @@
+{
+  "name": "sfms.gun.mgl320.name",
+  "tooltip": "sfms.gun.mgl320.desc",
+  "display": "sfms:mgl320_display",
+  "data": "sfms:mgl320_data",
+  //mg，sniper，rifle，pistol，smg，rpg，shotgun
+  "type": "rpg",
+  "sort": 24080
+}
