@@ -1,0 +1,164 @@
+[
+  {
+    "key": "ak47",
+    "label": "AK-47",
+    "source": "jar",
+    "sourcePath": "assets/tacz/custom/tacz_default_gun/assets/tacz/textures/gun/slot/ak47.png",
+    "original": "original_png/ak47.png",
+    "x4": "x4_256_png/ak47.png",
+    "bannerPng": "banner_512_png/ak47.png",
+    "bannerWebp": "banner_512_webp/ak47.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "key": "m4a1",
+    "label": "M4A1",
+    "source": "jar",
+    "sourcePath": "assets/tacz/custom/tacz_default_gun/assets/tacz/textures/gun/slot/m4a1.png",
+    "original": "original_png/m4a1.png",
+    "x4": "x4_256_png/m4a1.png",
+    "bannerPng": "banner_512_png/m4a1.png",
+    "bannerWebp": "banner_512_webp/m4a1.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "key": "mp5_hk_mp5a5",
+    "label": "HK MP5A5",
+    "source": "jar",
+    "sourcePath": "assets/tacz/custom/tacz_default_gun/assets/tacz/textures/gun/slot/hk_mp5a5.png",
+    "original": "original_png/mp5_hk_mp5a5.png",
+    "x4": "x4_256_png/mp5_hk_mp5a5.png",
+    "bannerPng": "banner_512_png/mp5_hk_mp5a5.png",
+    "bannerWebp": "banner_512_webp/mp5_hk_mp5a5.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "key": "m249",
+    "label": "M249",
+    "source": "jar",
+    "sourcePath": "assets/tacz/custom/tacz_default_gun/assets/tacz/textures/gun/slot/m249.png",
+    "original": "original_png/m249.png",
+    "x4": "x4_256_png/m249.png",
+    "bannerPng": "banner_512_png/m249.png",
+    "bannerWebp": "banner_512_webp/m249.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "key": "m107",
+    "label": "M107",
+    "source": "jar",
+    "sourcePath": "assets/tacz/custom/tacz_default_gun/assets/tacz/textures/gun/slot/m107.png",
+    "original": "original_png/m107.png",
+    "x4": "x4_256_png/m107.png",
+    "bannerPng": "banner_512_png/m107.png",
+    "bannerWebp": "banner_512_webp/m107.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "key": "shotgun_m870",
+    "label": "M870",
+    "source": "jar",
+    "sourcePath": "assets/tacz/custom/tacz_default_gun/assets/tacz/textures/gun/slot/m870.png",
+    "original": "original_png/shotgun_m870.png",
+    "x4": "x4_256_png/shotgun_m870.png",
+    "bannerPng": "banner_512_png/shotgun_m870.png",
+    "bannerWebp": "banner_512_webp/shotgun_m870.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "key": "minigun",
+    "label": "Minigun",
+    "source": "jar",
+    "sourcePath": "assets/tacz/custom/tacz_default_gun/assets/tacz/textures/gun/slot/minigun.png",
+    "original": "original_png/minigun.png",
+    "x4": "x4_256_png/minigun.png",
+    "bannerPng": "banner_512_png/minigun.png",
+    "bannerWebp": "banner_512_webp/minigun.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "key": "rpg7",
+    "label": "RPG-7",
+    "source": "jar",
+    "sourcePath": "assets/tacz/custom/tacz_default_gun/assets/tacz/textures/gun/slot/rpg7.png",
+    "original": "original_png/rpg7.png",
+    "x4": "x4_256_png/rpg7.png",
+    "bannerPng": "banner_512_png/rpg7.png",
+    "bannerWebp": "banner_512_webp/rpg7.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  },
+  {
+    "key": "sfms_m4a5",
+    "label": "SFMS M4A5",
+    "source": "file",
+    "sourcePath": "game/overrides/tacz/[Tacz1.1.5+]MS-Mobius Gunspack v1.1.5/assets/sfms/textures/gun/slot/m4a5.png",
+    "original": "original_png/sfms_m4a5.png",
+    "x4": "x4_256_png/sfms_m4a5.png",
+    "bannerPng": "banner_512_png/sfms_m4a5.png",
+    "bannerWebp": "banner_512_webp/sfms_m4a5.webp",
+    "originalSize": [
+      64,
+      64
+    ],
+    "bannerSize": [
+      512,
+      512
+    ]
+  }
+]

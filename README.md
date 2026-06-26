@@ -26,6 +26,7 @@ Fuente local/admin creada desde `PLANTILLA_MINECRAFT_GENERAL` para conectar el m
 - `scripts/descargar_mods_curseforge.ps1` para reconstruir `game/mods` si falta algun `.jar`.
 - `scripts/sincronizar_mod_arena.ps1` como compatibilidad con el launcher local actual.
 - `stream-assets` con iconos y banners PNG grandes para overlays/catalogo.
+- `docs` con arquitectura del proyecto y plan para reglas con comandos Minecraft.
 - Scripts de preparar cliente, preparar servidor, iniciar y validar.
 
 ## Acciones iniciales
@@ -35,7 +36,7 @@ Fuente local/admin creada desde `PLANTILLA_MINECRAFT_GENERAL` para conectar el m
 - Dar comida.
 - Limpiar efectos.
 - Caja de suministros.
-- Dar armas TACZ: AK-47, M4A1, MP5, M249, M107, M870.
+- Dar armas TACZ/SFMS: AK-47, M4A1, MP5, M249, M107, M870, Minigun, RPG-7, SFMS M4A5.
 - Dar arma configurada por `weaponKey`.
 - Dar municion.
 - Invocar horda.
@@ -87,12 +88,24 @@ Nota: el servidor Minecraft requiere que el usuario acepte la EULA de Minecraft 
 
 `stream-assets\icons` trae iconos PNG de acciones. La mayoria son `192x192`, buenos para botones y tarjetas chicas.
 
+`stream-assets\weapons\slot_colored` trae armas coloreadas sacadas del slot/inventario del mod:
+
+- `original_png`: fuente original, normalmente `64x64`.
+- `x4_256_png`: version pixel art expandida 4x.
+- `banner_512_png`: version centrada en lienzo transparente `512x512`.
+- `banner_512_webp`: lo mismo en WebP.
+
 `stream-assets\banners` trae banners grandes:
 
 - `1920x1080`
 - `1920x640`
 - `1280x720`
 - `1200x630`
+
+## Documentacion interna
+
+- `docs\ARQUITECTURA.md`: mapa tecnico del proyecto, EventBus, RCON, manifest y runtime.
+- `docs\REGLAS_COMANDOS_MC.md`: plan para reglas con comandos Minecraft, armas propias, enemigos y seguridad.
 
 ## Estado actual
 
