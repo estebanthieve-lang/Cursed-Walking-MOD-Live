@@ -41,6 +41,57 @@ function Copy-Jars {
   return $count
 }
 
+function Get-ClientHandshakeExcludedModPatterns {
+  return @(
+    "*copycats*",
+    "create-*",
+    "*create_netherless*",
+    "*createdeco*",
+    "*inventorysorter*",
+    "*particular*",
+    "*sliceanddice*",
+    "*steam_rails*"
+  )
+}
+
+function Test-IsClientHandshakeCompatibleMod {
+  param([string]$FileName)
+  $name = $FileName.ToLowerInvariant()
+  foreach ($pattern in Get-ClientHandshakeExcludedModPatterns) {
+    if ($name -like $pattern) {
+      return $false
+    }
+  }
+  return $true
+}
+
+function Copy-ClientJars {
+  param(
+    [string]$Source,
+    [string]$Destination
+  )
+  New-Item -ItemType Directory -Force -Path $Destination | Out-Null
+  Get-ChildItem -LiteralPath $Destination -Filter *.jar -File -ErrorAction SilentlyContinue | Remove-Item -Force
+
+  $count = 0
+  $skipped = 0
+  if (Test-Path -LiteralPath $Source) {
+    Get-ChildItem -LiteralPath $Source -Filter *.jar -File -ErrorAction SilentlyContinue | ForEach-Object {
+      if (Test-IsClientHandshakeCompatibleMod $_.Name) {
+        Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $Destination $_.Name) -Force
+        $count += 1
+      } else {
+        $skipped += 1
+      }
+    }
+  }
+
+  return [pscustomobject]@{
+    Copied = $count
+    Skipped = $skipped
+  }
+}
+
 function Get-ClientOnlyServerModPatterns {
   return @(
     "*ambientenvironment*",
@@ -148,8 +199,8 @@ $serverConfigRel = if ($mc.serverConfig) { [string]$mc.serverConfig } else { "co
 $serverConfig = Read-JsonFile (Resolve-GamePath $rootPath $serverConfigRel)
 $serverRoot = Resolve-GamePath $rootPath ([string]$serverConfig.server.serverRoot)
 
-$clientCount = Copy-Jars $modsRoot (Join-Path $gameDir "mods")
+$clientResult = Copy-ClientJars $modsRoot (Join-Path $gameDir "mods")
 $serverResult = Copy-ServerJars $modsRoot (Join-Path $serverRoot "mods")
 $total = (Get-ChildItem -LiteralPath $modsRoot -Filter *.jar -File -ErrorAction SilentlyContinue | Measure-Object).Count
 
-Write-Host "Mods sincronizados para compatibilidad launcher: fuente=$total cliente=$clientCount servidor=$($serverResult.Copied) omitidos_cliente=$($serverResult.Skipped)"
+Write-Host "Mods sincronizados para compatibilidad launcher: fuente=$total cliente=$($clientResult.Copied) omitidos_handshake=$($clientResult.Skipped) servidor=$($serverResult.Copied) omitidos_cliente=$($serverResult.Skipped)"
