@@ -38,6 +38,89 @@ function Copy-DirectoryContent {
   }
 }
 
+function Get-ClientOnlyServerModPatterns {
+  return @(
+    "*ambientenvironment*",
+    "*ambientsounds*",
+    "*appleskin*",
+    "*badoptimizations*",
+    "*betterbiomereblend*",
+    "*chat_heads*",
+    "*cleanswing*",
+    "*colorwheel*",
+    "*controlling*",
+    "*craftpresence*",
+    "*crashassistant*",
+    "*drippyloadingscreen*",
+    "*dynamiclights*",
+    "*eatinganimation*",
+    "*embeddium*",
+    "*emi-*",
+    "*enchantmentdescriptions*",
+    "*enhancedvisuals*",
+    "*entity_model_features*",
+    "*entity_texture_features*",
+    "*entityculling*",
+    "*euphoriapatcher*",
+    "*fancymenu*",
+    "*gamemenuremove*",
+    "*immediatelyfast*",
+    "*inventorysorter*",
+    "*jade-*",
+    "*jei-*",
+    "*konkrete*",
+    "*melody*",
+    "*mousetweaks*",
+    "*not enough recipe book*",
+    "*notenoughanimations*",
+    "*oculus*",
+    "*particular*",
+    "*searchables*",
+    "*sound-physics*",
+    "*toastcontrol*",
+    "*xaeros_minimap*",
+    "*xaerosworldmap*"
+  )
+}
+
+function Test-IsServerCompatibleMod {
+  param([string]$FileName)
+  $name = $FileName.ToLowerInvariant()
+  foreach ($pattern in Get-ClientOnlyServerModPatterns) {
+    if ($name -like $pattern) {
+      return $false
+    }
+  }
+  return $true
+}
+
+function Sync-ServerMods {
+  param(
+    [string]$Source,
+    [string]$Destination
+  )
+  New-Item -ItemType Directory -Force -Path $Destination | Out-Null
+  Get-ChildItem -LiteralPath $Destination -Filter *.jar -File -ErrorAction SilentlyContinue | Remove-Item -Force
+
+  $copied = 0
+  $skipped = 0
+  if (Test-Path -LiteralPath $Source) {
+    Get-ChildItem -LiteralPath $Source -Filter *.jar -File -ErrorAction SilentlyContinue | ForEach-Object {
+      if (Test-IsServerCompatibleMod $_.Name) {
+        Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $Destination $_.Name) -Force
+        $copied += 1
+      } else {
+        $skipped += 1
+      }
+    }
+  }
+
+  return [pscustomobject]@{
+    Copied = $copied
+    Skipped = $skipped
+  }
+}
+
 $rootPath = [System.IO.Path]::GetFullPath((Resolve-Path -LiteralPath $Root).Path)
 $gameConfig = Read-JsonFile (Join-Path $rootPath "game.config.json")
 $mc = $gameConfig.minecraft
@@ -77,7 +160,7 @@ $env:PATH = (Join-Path $env:JAVA_HOME "bin") + ";" + $env:PATH
 
 New-Item -ItemType Directory -Force -Path $serverRoot, (Join-Path $serverRoot "mods"), (Join-Path $serverRoot "config"), (Join-Path $serverRoot "logs") | Out-Null
 Copy-DirectoryContent $serverOverrides $serverRoot
-Copy-DirectoryContent $sourceMods (Join-Path $serverRoot "mods")
+$serverModsResult = Sync-ServerMods $sourceMods (Join-Path $serverRoot "mods")
 
 foreach ($fileName in @("server.properties", "eula.txt")) {
   $source = Join-Path $rootPath "server\$fileName"
@@ -110,3 +193,4 @@ if (-not (Test-Path -LiteralPath $runScript)) {
 }
 
 Write-Host "Servidor preparado en: $serverRoot"
+Write-Host "Mods servidor: copiados=$($serverModsResult.Copied) omitidos_cliente=$($serverModsResult.Skipped)"
