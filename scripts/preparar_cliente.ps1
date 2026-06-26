@@ -41,6 +41,58 @@ function Copy-DirectoryContent {
   }
 }
 
+function Get-ClientHandshakeExcludedModPatterns {
+  return @(
+    "*copycats*",
+    "create-*",
+    "*create_netherless*",
+    "*createdeco*",
+    "*inventorysorter*",
+    "*particular*",
+    "*sliceanddice*",
+    "*steam_rails*"
+  )
+}
+
+function Test-IsClientHandshakeCompatibleMod {
+  param([string]$FileName)
+  $name = $FileName.ToLowerInvariant()
+  foreach ($pattern in Get-ClientHandshakeExcludedModPatterns) {
+    if ($name -like $pattern) {
+      return $false
+    }
+  }
+  return $true
+}
+
+function Sync-ClientMods {
+  param(
+    [string]$Source,
+    [string]$Destination
+  )
+
+  New-Item -ItemType Directory -Force -Path $Destination | Out-Null
+  Get-ChildItem -LiteralPath $Destination -Filter *.jar -File -ErrorAction SilentlyContinue | Remove-Item -Force
+
+  $copied = 0
+  $skipped = 0
+  if (Test-Path -LiteralPath $Source) {
+    Get-ChildItem -LiteralPath $Source -Filter *.jar -File -ErrorAction SilentlyContinue | ForEach-Object {
+      if (Test-IsClientHandshakeCompatibleMod $_.Name) {
+        Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $Destination $_.Name) -Force
+        $copied += 1
+      } else {
+        $skipped += 1
+      }
+    }
+  }
+
+  return [pscustomobject]@{
+    Copied = $copied
+    Skipped = $skipped
+  }
+}
+
 function Find-Java {
   param([string]$RootPath)
   $candidates = @(
@@ -400,7 +452,7 @@ New-Item -ItemType Directory -Force -Path $minecraftRoot, $versionsRoot, $gameDi
 New-Item -ItemType Directory -Force -Path (Join-Path $gameDir "mods"), (Join-Path $gameDir "config"), (Join-Path $gameDir "saves"), (Join-Path $gameDir "logs") | Out-Null
 
 Copy-DirectoryContent $sourceOverrides $gameDir
-Copy-DirectoryContent $sourceMods (Join-Path $gameDir "mods")
+$clientModsResult = Sync-ClientMods $sourceMods (Join-Path $gameDir "mods")
 Copy-DirectoryContent $sourceConfig (Join-Path $gameDir "config")
 
 $infoPath = Join-Path $gameDir "tiktok-live-launcher-info.json"
@@ -452,4 +504,5 @@ Write-Host "TLauncher/modpacks: $versionFolder"
 Write-Host "Version base si la pide: $forgeVersion"
 Write-Host "Servidor local: $connectAddress"
 Write-Host "Game directory: $gameDir"
+Write-Host "Mods cliente: copiados=$($clientModsResult.Copied) omitidos_por_servidor_local=$($clientModsResult.Skipped)"
 Write-Host "Info: $infoPath"
