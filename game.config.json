@@ -66,6 +66,7 @@
     "game/config",
     "game/overrides",
     "server/mods",
+    "server/forge-1.20.1-47.4.0-installer.jar",
     "server/server.properties",
     "server/eula.txt",
     "scripts",

@@ -36,6 +36,18 @@ function Copy-DirectoryContent {
     return
   }
   New-Item -ItemType Directory -Force -Path $Destination | Out-Null
+
+  $robocopy = Get-Command "robocopy.exe" -ErrorAction SilentlyContinue
+  if ($robocopy) {
+    & $robocopy.Source $Source $Destination /E /NFL /NDL /NJH /NJS /NP /R:2 /W:1 | Out-Null
+    $code = $LASTEXITCODE
+    if ($code -gt 7) {
+      throw "robocopy fallo copiando $Source a $Destination con codigo $code"
+    }
+    $global:LASTEXITCODE = 0
+    return
+  }
+
   Get-ChildItem -LiteralPath $Source -Force | ForEach-Object {
     Copy-Item -LiteralPath $_.FullName -Destination $Destination -Recurse -Force
   }
@@ -135,12 +147,12 @@ function Get-ForgeInstaller {
     }
   }
 
-  $target = Join-Path $RootPath "tools\$installerName"
+  $target = Join-Path $RootPath "server\$installerName"
   $installerUrl = "https://maven.minecraftforge.net/net/minecraftforge/forge/$installerForgeVersion/$installerName"
   New-Item -ItemType Directory -Force -Path (Split-Path -Parent $target) | Out-Null
   Write-Host "Descargando Forge Client Installer:"
   Write-Host "  $installerUrl"
-  Invoke-WebRequest -Uri $installerUrl -OutFile $target
+  Invoke-WebRequest -UseBasicParsing -Uri $installerUrl -OutFile $target
   return $target
 }
 
@@ -153,7 +165,8 @@ function Ensure-ForgeClient {
   )
 
   $forgeVersionDir = Join-Path (Join-Path $MinecraftRoot "versions") $ForgeVersion
-  if (Test-Path -LiteralPath $forgeVersionDir) {
+  $forgeVersionJson = Join-Path $forgeVersionDir "$ForgeVersion.json"
+  if (Test-Path -LiteralPath $forgeVersionJson) {
     return
   }
 
@@ -162,14 +175,29 @@ function Ensure-ForgeClient {
     return
   }
 
-  $installer = Get-ForgeInstaller $ForgeVersion $RootPath $MinecraftRoot
+  try {
+    $installer = Get-ForgeInstaller $ForgeVersion $RootPath $MinecraftRoot
+  } catch {
+    Write-Warning "No se pudo obtener instalador Forge $ForgeVersion. La instancia se preparara igual; instala/selecciona Forge desde tu launcher si no aparece."
+    Write-Warning $_.Exception.Message
+    return
+  }
 
   Push-Location $MinecraftRoot
   try {
-    & $JavaExe -jar $installer --installClient | Out-Null
+    & $JavaExe -jar $installer --installClient
     if ($LASTEXITCODE -ne 0) {
-      throw "Fallo instalando Forge $ForgeVersion."
+      Write-Warning "Forge installer termino con codigo $LASTEXITCODE. La instancia se preparara igual; instala/selecciona Forge $ForgeVersion desde tu launcher si hace falta."
+      $global:LASTEXITCODE = 0
+      return
     }
+    if (-not (Test-Path -LiteralPath $forgeVersionJson)) {
+      Write-Warning "Forge installer termino, pero no aparecio $ForgeVersion.json. La instancia se preparara igual; instala/selecciona Forge desde tu launcher si hace falta."
+      return
+    }
+  } catch {
+    Write-Warning "Fallo instalando Forge $ForgeVersion. La instancia se preparara igual; instala/selecciona Forge desde tu launcher si hace falta."
+    Write-Warning $_.Exception.Message
   } finally {
     Pop-Location
   }
@@ -506,3 +534,5 @@ Write-Host "Servidor local: $connectAddress"
 Write-Host "Game directory: $gameDir"
 Write-Host "Mods cliente: copiados=$($clientModsResult.Copied) omitidos_por_servidor_local=$($clientModsResult.Skipped)"
 Write-Host "Info: $infoPath"
+
+exit 0
