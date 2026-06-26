@@ -1,0 +1,1790 @@
+﻿[
+    {
+        "file":  "apocalypse-hud\\chauchat.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  8577
+    },
+    {
+        "file":  "apocalypse-hud\\de_lisle.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  6438
+    },
+    {
+        "file":  "apocalypse-hud\\ef46.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  5170
+    },
+    {
+        "file":  "apocalypse-hud\\f_faust.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  2703
+    },
+    {
+        "file":  "apocalypse-hud\\handgun.png",
+        "width":  192,
+        "height":  64,
+        "bytes":  284
+    },
+    {
+        "file":  "apocalypse-hud\\kolibri.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  1930
+    },
+    {
+        "file":  "apocalypse-hud\\lewis.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  7771
+    },
+    {
+        "file":  "apocalypse-hud\\liu.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  5251
+    },
+    {
+        "file":  "apocalypse-hud\\lunge_mine.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  5285
+    },
+    {
+        "file":  "apocalypse-hud\\m1916.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  5321
+    },
+    {
+        "file":  "apocalypse-hud\\m2_2.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  8169
+    },
+    {
+        "file":  "apocalypse-hud\\man_m95.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  3869
+    },
+    {
+        "file":  "apocalypse-hud\\martini.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  3312
+    },
+    {
+        "file":  "apocalypse-hud\\mg0815.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  6085
+    },
+    {
+        "file":  "apocalypse-hud\\mg42.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  7585
+    },
+    {
+        "file":  "apocalypse-hud\\mhgl.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  7425
+    },
+    {
+        "file":  "apocalypse-hud\\model10.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  4687
+    },
+    {
+        "file":  "apocalypse-hud\\obrez.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  11165
+    },
+    {
+        "file":  "apocalypse-hud\\rorsch_mk4.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  12480
+    },
+    {
+        "file":  "apocalypse-hud\\rsc1917.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  4526
+    },
+    {
+        "file":  "apocalypse-hud\\sjogren.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  4337
+    },
+    {
+        "file":  "apocalypse-hud\\smg0818.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  5045
+    },
+    {
+        "file":  "apocalypse-hud\\sw_model3.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  8482
+    },
+    {
+        "file":  "apocalypse-hud\\sw_model3_empty.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  5005
+    },
+    {
+        "file":  "apocalypse-hud\\syringe.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  4009
+    },
+    {
+        "file":  "apocalypse-hud\\tg1918.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  5382
+    },
+    {
+        "file":  "apocalypse-hud\\vg15.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  6847
+    },
+    {
+        "file":  "apocalypse-hud\\vp1915.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  3274
+    },
+    {
+        "file":  "apocalypse-hud\\welrod.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  6569
+    },
+    {
+        "file":  "apocalypse-hud\\wex.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  8817
+    },
+    {
+        "file":  "apocalypse-hud\\zk383.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  11866
+    },
+    {
+        "file":  "mobius-hud\\af_46.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  15558
+    },
+    {
+        "file":  "mobius-hud\\af_57.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  14952
+    },
+    {
+        "file":  "mobius-hud\\af_57f.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  17218
+    },
+    {
+        "file":  "mobius-hud\\ar50.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  29451
+    },
+    {
+        "file":  "mobius-hud\\ats15.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  27601
+    },
+    {
+        "file":  "mobius-hud\\ats15mod.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  40884
+    },
+    {
+        "file":  "mobius-hud\\felix_12.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  27030
+    },
+    {
+        "file":  "mobius-hud\\felix_12dg.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  26362
+    },
+    {
+        "file":  "mobius-hud\\g18.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  13974
+    },
+    {
+        "file":  "mobius-hud\\har50.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  30269
+    },
+    {
+        "file":  "mobius-hud\\inf.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  19446
+    },
+    {
+        "file":  "mobius-hud\\inf_b.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  18518
+    },
+    {
+        "file":  "mobius-hud\\inf_x.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  30838
+    },
+    {
+        "file":  "mobius-hud\\inf_xj.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  41173
+    },
+    {
+        "file":  "mobius-hud\\infj1.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  23843
+    },
+    {
+        "file":  "mobius-hud\\infj2.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  25751
+    },
+    {
+        "file":  "mobius-hud\\lvsa_c.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  31819
+    },
+    {
+        "file":  "mobius-hud\\lvsa_c_erode.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  38765
+    },
+    {
+        "file":  "mobius-hud\\lvsa_c_erode_1.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  37037
+    },
+    {
+        "file":  "mobius-hud\\lvsa_c_erode_2.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  39005
+    },
+    {
+        "file":  "mobius-hud\\lvsa_c_erode_3.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  39342
+    },
+    {
+        "file":  "mobius-hud\\lvsa_c_erode_4.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  38945
+    },
+    {
+        "file":  "mobius-hud\\lvsa_c_erode_5.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  38916
+    },
+    {
+        "file":  "mobius-hud\\lvsa_c_erode_lmg.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  35878
+    },
+    {
+        "file":  "mobius-hud\\lvsa_cs.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  31743
+    },
+    {
+        "file":  "mobius-hud\\lvsa_hs.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  35588
+    },
+    {
+        "file":  "mobius-hud\\m109.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  26717
+    },
+    {
+        "file":  "mobius-hud\\m109_2.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  29632
+    },
+    {
+        "file":  "mobius-hud\\m109_3.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  30337
+    },
+    {
+        "file":  "mobius-hud\\m109_4.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  29146
+    },
+    {
+        "file":  "mobius-hud\\m109_5.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  30782
+    },
+    {
+        "file":  "mobius-hud\\m4a5.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  28649
+    },
+    {
+        "file":  "mobius-hud\\mgl320.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  20173
+    },
+    {
+        "file":  "mobius-hud\\mgl40.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  33140
+    },
+    {
+        "file":  "mobius-hud\\sbr15.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  25550
+    },
+    {
+        "file":  "mobius-hud\\tech635.png",
+        "width":  360,
+        "height":  120,
+        "bytes":  30420
+    },
+    {
+        "file":  "mobius-uv\\af_46.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  21060
+    },
+    {
+        "file":  "mobius-uv\\af_57.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  20332
+    },
+    {
+        "file":  "mobius-uv\\af_57f.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  20901
+    },
+    {
+        "file":  "mobius-uv\\ar50.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  52034
+    },
+    {
+        "file":  "mobius-uv\\ats15.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  43244
+    },
+    {
+        "file":  "mobius-uv\\ats15mod.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  185352
+    },
+    {
+        "file":  "mobius-uv\\felix_12.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  46349
+    },
+    {
+        "file":  "mobius-uv\\felix_12dg.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  55481
+    },
+    {
+        "file":  "mobius-uv\\g18.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  27835
+    },
+    {
+        "file":  "mobius-uv\\har50.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  48793
+    },
+    {
+        "file":  "mobius-uv\\inf_b.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  23578
+    },
+    {
+        "file":  "mobius-uv\\inf_w.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  23329
+    },
+    {
+        "file":  "mobius-uv\\inf_w0.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  24274
+    },
+    {
+        "file":  "mobius-uv\\inf_w1.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  25097
+    },
+    {
+        "file":  "mobius-uv\\inf_w2.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  25779
+    },
+    {
+        "file":  "mobius-uv\\inf_x.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  148482
+    },
+    {
+        "file":  "mobius-uv\\inf_xj.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  171226
+    },
+    {
+        "file":  "mobius-uv\\lvsa_c.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  49053
+    },
+    {
+        "file":  "mobius-uv\\lvsa_c_erode.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  58986
+    },
+    {
+        "file":  "mobius-uv\\lvsa_c_erode_1.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  58957
+    },
+    {
+        "file":  "mobius-uv\\lvsa_c_erode_2.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  61656
+    },
+    {
+        "file":  "mobius-uv\\lvsa_c_erode_3.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  61402
+    },
+    {
+        "file":  "mobius-uv\\lvsa_c_erode_4.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  61479
+    },
+    {
+        "file":  "mobius-uv\\lvsa_c_erode_5.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  61347
+    },
+    {
+        "file":  "mobius-uv\\lvsa_c_erode_lmg.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  63236
+    },
+    {
+        "file":  "mobius-uv\\lvsa_cs.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  50268
+    },
+    {
+        "file":  "mobius-uv\\lvsa_hs.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  55779
+    },
+    {
+        "file":  "mobius-uv\\m109.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  50204
+    },
+    {
+        "file":  "mobius-uv\\m109_1.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  70689
+    },
+    {
+        "file":  "mobius-uv\\m109_2.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  52519
+    },
+    {
+        "file":  "mobius-uv\\m109_3.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  51102
+    },
+    {
+        "file":  "mobius-uv\\m109_4.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  50664
+    },
+    {
+        "file":  "mobius-uv\\m109_5.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  51222
+    },
+    {
+        "file":  "mobius-uv\\m4a5.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  34122
+    },
+    {
+        "file":  "mobius-uv\\mgl320.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  22102
+    },
+    {
+        "file":  "mobius-uv\\mgl40.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  37804
+    },
+    {
+        "file":  "mobius-uv\\sbr15.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  25438
+    },
+    {
+        "file":  "mobius-uv\\tech635.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  32066
+    },
+    {
+        "file":  "tacz-default-hud\\aa12.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  14048
+    },
+    {
+        "file":  "tacz-default-hud\\ai_awp.png",
+        "width":  180,
+        "height":  60,
+        "bytes":  3612
+    },
+    {
+        "file":  "tacz-default-hud\\ak47.png",
+        "width":  986,
+        "height":  287,
+        "bytes":  13825
+    },
+    {
+        "file":  "tacz-default-hud\\aug.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  15955
+    },
+    {
+        "file":  "tacz-default-hud\\b93r_hud.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  11254
+    },
+    {
+        "file":  "tacz-default-hud\\cz75.png",
+        "width":  1111,
+        "height":  371,
+        "bytes":  11370
+    },
+    {
+        "file":  "tacz-default-hud\\db_long.png",
+        "width":  852,
+        "height":  284,
+        "bytes":  8567
+    },
+    {
+        "file":  "tacz-default-hud\\db_short.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  11079
+    },
+    {
+        "file":  "tacz-default-hud\\deagle.png",
+        "width":  180,
+        "height":  60,
+        "bytes":  6519
+    },
+    {
+        "file":  "tacz-default-hud\\deagle_golden.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  7759
+    },
+    {
+        "file":  "tacz-default-hud\\g36k.png",
+        "width":  921,
+        "height":  307,
+        "bytes":  12390
+    },
+    {
+        "file":  "tacz-default-hud\\glock_17.png",
+        "width":  180,
+        "height":  60,
+        "bytes":  2671
+    },
+    {
+        "file":  "tacz-default-hud\\hk_g3.png",
+        "width":  1178,
+        "height":  393,
+        "bytes":  12119
+    },
+    {
+        "file":  "tacz-default-hud\\hk_mp5a5.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  10831
+    },
+    {
+        "file":  "tacz-default-hud\\hk416d.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  13969
+    },
+    {
+        "file":  "tacz-default-hud\\m107.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  15083
+    },
+    {
+        "file":  "tacz-default-hud\\m16a1.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  11742
+    },
+    {
+        "file":  "tacz-default-hud\\m16a4.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  15260
+    },
+    {
+        "file":  "tacz-default-hud\\m1911.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  8162
+    },
+    {
+        "file":  "tacz-default-hud\\m249.png",
+        "width":  180,
+        "height":  60,
+        "bytes":  4926
+    },
+    {
+        "file":  "tacz-default-hud\\m320.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  8756
+    },
+    {
+        "file":  "tacz-default-hud\\m4a1.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  16012
+    },
+    {
+        "file":  "tacz-default-hud\\m700.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  7963
+    },
+    {
+        "file":  "tacz-default-hud\\m870.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  8733
+    },
+    {
+        "file":  "tacz-default-hud\\m95.png",
+        "width":  1547,
+        "height":  516,
+        "bytes":  21837
+    },
+    {
+        "file":  "tacz-default-hud\\minigun.png",
+        "width":  986,
+        "height":  287,
+        "bytes":  36456
+    },
+    {
+        "file":  "tacz-default-hud\\mk14.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  12253
+    },
+    {
+        "file":  "tacz-default-hud\\p320.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  8949
+    },
+    {
+        "file":  "tacz-default-hud\\p90.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  11034
+    },
+    {
+        "file":  "tacz-default-hud\\qbz_95.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  13147
+    },
+    {
+        "file":  "tacz-default-hud\\rpg7.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  10232
+    },
+    {
+        "file":  "tacz-default-hud\\rpk.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  13144
+    },
+    {
+        "file":  "tacz-default-hud\\scar_h.png",
+        "width":  981,
+        "height":  327,
+        "bytes":  12376
+    },
+    {
+        "file":  "tacz-default-hud\\scar_l.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  14875
+    },
+    {
+        "file":  "tacz-default-hud\\sks_tactical.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  10087
+    },
+    {
+        "file":  "tacz-default-hud\\spr15hb_hud.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  15168
+    },
+    {
+        "file":  "tacz-default-hud\\springfield1873_hud.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  9744
+    },
+    {
+        "file":  "tacz-default-hud\\timeless50_hud.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  9913
+    },
+    {
+        "file":  "tacz-default-hud\\type_81.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  10523
+    },
+    {
+        "file":  "tacz-default-hud\\ump45.png",
+        "width":  384,
+        "height":  128,
+        "bytes":  11998
+    },
+    {
+        "file":  "tacz-default-hud\\uzi.png",
+        "width":  180,
+        "height":  60,
+        "bytes":  3104
+    },
+    {
+        "file":  "tacz-default-hud\\vector45.png",
+        "width":  1537,
+        "height":  512,
+        "bytes":  17982
+    },
+    {
+        "file":  "tacz-default-uv\\aa12.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  35760
+    },
+    {
+        "file":  "tacz-default-uv\\ai_awp.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  15343
+    },
+    {
+        "file":  "tacz-default-uv\\ak47.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  18046
+    },
+    {
+        "file":  "tacz-default-uv\\aug.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  19162
+    },
+    {
+        "file":  "tacz-default-uv\\b93r.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  18705
+    },
+    {
+        "file":  "tacz-default-uv\\cz75.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  21737
+    },
+    {
+        "file":  "tacz-default-uv\\db_long.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  9621
+    },
+    {
+        "file":  "tacz-default-uv\\db_short.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  10228
+    },
+    {
+        "file":  "tacz-default-uv\\deagle.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  26429
+    },
+    {
+        "file":  "tacz-default-uv\\deagle_golden.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  33832
+    },
+    {
+        "file":  "tacz-default-uv\\g36k.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  41010
+    },
+    {
+        "file":  "tacz-default-uv\\glock_17.png",
+        "width":  1024,
+        "height":  1024,
+        "bytes":  32652
+    },
+    {
+        "file":  "tacz-default-uv\\hk_g3.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  24779
+    },
+    {
+        "file":  "tacz-default-uv\\hk_mp5a5.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  29494
+    },
+    {
+        "file":  "tacz-default-uv\\hk416d.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  39123
+    },
+    {
+        "file":  "tacz-default-uv\\m107.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  25726
+    },
+    {
+        "file":  "tacz-default-uv\\m16a1.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  17630
+    },
+    {
+        "file":  "tacz-default-uv\\m16a4.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  31625
+    },
+    {
+        "file":  "tacz-default-uv\\m1911.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  14479
+    },
+    {
+        "file":  "tacz-default-uv\\m249.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  18626
+    },
+    {
+        "file":  "tacz-default-uv\\m320.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  11211
+    },
+    {
+        "file":  "tacz-default-uv\\m4a1.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  26710
+    },
+    {
+        "file":  "tacz-default-uv\\m700.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  12462
+    },
+    {
+        "file":  "tacz-default-uv\\m870.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  12939
+    },
+    {
+        "file":  "tacz-default-uv\\m95.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  27033
+    },
+    {
+        "file":  "tacz-default-uv\\minigun.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  22666
+    },
+    {
+        "file":  "tacz-default-uv\\mk14.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  26905
+    },
+    {
+        "file":  "tacz-default-uv\\p320.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  13636
+    },
+    {
+        "file":  "tacz-default-uv\\p90.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  8490
+    },
+    {
+        "file":  "tacz-default-uv\\qbz_95.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  21206
+    },
+    {
+        "file":  "tacz-default-uv\\rpg7.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  15030
+    },
+    {
+        "file":  "tacz-default-uv\\rpk.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  33274
+    },
+    {
+        "file":  "tacz-default-uv\\scar_h.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  21738
+    },
+    {
+        "file":  "tacz-default-uv\\scar_l.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  32840
+    },
+    {
+        "file":  "tacz-default-uv\\sks_tactical.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  27449
+    },
+    {
+        "file":  "tacz-default-uv\\spr15hb.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  30441
+    },
+    {
+        "file":  "tacz-default-uv\\springfield1873.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  11297
+    },
+    {
+        "file":  "tacz-default-uv\\timeless50.png",
+        "width":  512,
+        "height":  512,
+        "bytes":  27495
+    },
+    {
+        "file":  "tacz-default-uv\\type_81.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  15049
+    },
+    {
+        "file":  "tacz-default-uv\\ump45.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  17044
+    },
+    {
+        "file":  "tacz-default-uv\\uzi.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  11212
+    },
+    {
+        "file":  "tacz-default-uv\\vector45.png",
+        "width":  256,
+        "height":  256,
+        "bytes":  25364
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\chauchat.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  140153
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\de_lisle.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  101609
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\ef46.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  66731
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\f_faust.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  47638
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\handgun.png",
+        "width":  768,
+        "height":  256,
+        "bytes":  3081
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\kolibri.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  34881
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\lewis.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  112608
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\liu.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  84747
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\lunge_mine.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  63208
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\m1916.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  76316
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\m2_2.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  129607
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\man_m95.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  57588
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\martini.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  52259
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\mg0815.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  86934
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\mg42.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  120048
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\mhgl.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  97249
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\model10.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  68103
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\obrez.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  144575
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\rorsch_mk4.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  145577
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\rsc1917.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  70207
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\sjogren.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  70530
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\smg0818.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  72501
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\sw_model3.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  113850
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\sw_model3_empty.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  92329
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\syringe.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  67032
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\tg1918.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  86878
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\vg15.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  115111
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\vp1915.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  55154
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\welrod.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  86690
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\wex.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  118414
+    },
+    {
+        "file":  "upscaled-4x\\apocalypse-hud\\zk383.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  137466
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\af_46.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  146329
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\af_57.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  144004
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\af_57f.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  180976
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\ar50.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  317954
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\ats15.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  297951
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\ats15mod.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  485701
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\felix_12.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  277526
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\felix_12dg.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  270010
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\g18.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  132916
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\har50.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  358750
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\inf.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  196763
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\inf_b.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  187437
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\inf_x.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  356788
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\inf_xj.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  524772
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\infj1.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  278423
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\infj2.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  314035
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_c.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  338270
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_c_erode.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  424590
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_c_erode_1.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  387635
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_c_erode_2.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  416450
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_c_erode_3.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  421191
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_c_erode_4.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  417746
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_c_erode_5.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  416474
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_c_erode_lmg.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  394441
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_cs.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  346245
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\lvsa_hs.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  385236
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\m109.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  274774
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\m109_2.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  327943
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\m109_3.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  343784
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\m109_4.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  312361
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\m109_5.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  354274
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\m4a5.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  303991
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\mgl320.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  206928
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\mgl40.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  372094
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\sbr15.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  264994
+    },
+    {
+        "file":  "upscaled-4x\\mobius-hud\\tech635.png",
+        "width":  1440,
+        "height":  480,
+        "bytes":  320617
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\aa12.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  140205
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\ai_awp.png",
+        "width":  720,
+        "height":  240,
+        "bytes":  40090
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\ak47.png",
+        "width":  3944,
+        "height":  1148,
+        "bytes":  301433
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\aug.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  176103
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\b93r_hud.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  105930
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\cz75.png",
+        "width":  4444,
+        "height":  1484,
+        "bytes":  265062
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\db_long.png",
+        "width":  3408,
+        "height":  1136,
+        "bytes":  213428
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\db_short.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  128270
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\deagle.png",
+        "width":  720,
+        "height":  240,
+        "bytes":  49389
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\deagle_golden.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  76958
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\g36k.png",
+        "width":  3684,
+        "height":  1228,
+        "bytes":  382071
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\glock_17.png",
+        "width":  720,
+        "height":  240,
+        "bytes":  28088
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\hk_g3.png",
+        "width":  4712,
+        "height":  1572,
+        "bytes":  266520
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\hk_mp5a5.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  115584
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\hk416d.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  154876
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m107.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  150972
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m16a1.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  133460
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m16a4.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  146245
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m1911.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  88719
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m249.png",
+        "width":  720,
+        "height":  240,
+        "bytes":  78755
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m320.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  94194
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m4a1.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  163370
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m700.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  88871
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m870.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  86812
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\m95.png",
+        "width":  6188,
+        "height":  2064,
+        "bytes":  528526
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\minigun.png",
+        "width":  3944,
+        "height":  1148,
+        "bytes":  377497
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\mk14.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  143729
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\p320.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  99508
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\p90.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  121861
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\qbz_95.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  145648
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\rpg7.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  106284
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\rpk.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  150676
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\scar_h.png",
+        "width":  3924,
+        "height":  1308,
+        "bytes":  256839
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\scar_l.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  142989
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\sks_tactical.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  108781
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\spr15hb_hud.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  156871
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\springfield1873_hud.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  90642
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\timeless50_hud.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  102349
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\type_81.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  115136
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\ump45.png",
+        "width":  1536,
+        "height":  512,
+        "bytes":  122792
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\uzi.png",
+        "width":  720,
+        "height":  240,
+        "bytes":  47097
+    },
+    {
+        "file":  "upscaled-4x\\tacz-default-hud\\vector45.png",
+        "width":  6148,
+        "height":  2048,
+        "bytes":  418931
+    }
+]
