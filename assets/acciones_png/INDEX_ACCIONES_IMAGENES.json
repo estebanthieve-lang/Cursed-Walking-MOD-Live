@@ -1,0 +1,21 @@
+{
+  "give_weapon_ak47": "assets/acciones_png/give_weapon_ak47.png",
+  "give_weapon_m4a1": "assets/acciones_png/give_weapon_m4a1.png",
+  "give_weapon_mp5": "assets/acciones_png/give_weapon_mp5.png",
+  "give_weapon_m249": "assets/acciones_png/give_weapon_m249.png",
+  "give_weapon_m107": "assets/acciones_png/give_weapon_m107.png",
+  "give_weapon_shotgun": "assets/acciones_png/give_weapon_shotgun.png",
+  "give_weapon_minigun": "assets/acciones_png/give_weapon_minigun.png",
+  "give_weapon_rpg7": "assets/acciones_png/give_weapon_rpg7.png",
+  "give_weapon_sfms_m4a5": "assets/acciones_png/give_weapon_sfms_m4a5.png",
+  "give_configured_weapon": "assets/acciones_png/give_configured_weapon.png",
+  "banner_ak47": "stream-assets/weapons/para_banner_armas/ak47.png",
+  "banner_m4a1": "stream-assets/weapons/para_banner_armas/m4a1.png",
+  "banner_mp5": "stream-assets/weapons/para_banner_armas/mp5_hk_mp5a5.png",
+  "banner_m249": "stream-assets/weapons/para_banner_armas/m249.png",
+  "banner_m107": "stream-assets/weapons/para_banner_armas/m107.png",
+  "banner_shotgun_m870": "stream-assets/weapons/para_banner_armas/shotgun_m870.png",
+  "banner_minigun": "stream-assets/weapons/para_banner_armas/minigun.png",
+  "banner_rpg7": "stream-assets/weapons/para_banner_armas/rpg7.png",
+  "banner_sfms_m4a5": "stream-assets/weapons/para_banner_armas/sfms_m4a5.png"
+}

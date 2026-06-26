@@ -118,6 +118,15 @@
     "give_weapon_shotgun": {
       "weaponKey": "shotgun"
     },
+    "give_weapon_minigun": {
+      "weaponKey": "minigun"
+    },
+    "give_weapon_rpg7": {
+      "weaponKey": "rpg7"
+    },
+    "give_weapon_sfms_m4a5": {
+      "weaponKey": "sfms_m4a5"
+    },
     "give_configured_weapon": {
       "defaultWeaponKey": "ak47",
       "allowPayloadWeaponKey": true

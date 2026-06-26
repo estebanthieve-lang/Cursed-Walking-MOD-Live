@@ -59,6 +59,7 @@
       "label": "Dar AK-47",
       "description": "Entrega AK-47 TACZ con municion 7.62x39.",
       "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_ak47.png",
       "params": {}
     },
     {
@@ -66,6 +67,7 @@
       "label": "Dar M4A1",
       "description": "Entrega M4A1 TACZ con municion 5.56x45.",
       "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_m4a1.png",
       "params": {}
     },
     {
@@ -73,6 +75,7 @@
       "label": "Dar MP5",
       "description": "Entrega HK MP5A5 TACZ con municion 9mm.",
       "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_mp5.png",
       "params": {}
     },
     {
@@ -80,6 +83,7 @@
       "label": "Dar M249",
       "description": "Entrega M249 TACZ con municion 5.56x45.",
       "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_m249.png",
       "params": {}
     },
     {
@@ -87,6 +91,7 @@
       "label": "Dar M107",
       "description": "Entrega M107 TACZ con municion 50 BMG.",
       "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_m107.png",
       "params": {}
     },
     {
@@ -94,6 +99,31 @@
       "label": "Dar escopeta",
       "description": "Entrega M870 TACZ con municion calibre 12.",
       "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_shotgun.png",
+      "params": {}
+    },
+    {
+      "id": "give_weapon_minigun",
+      "label": "Dar Minigun",
+      "description": "Entrega Minigun TACZ con municion 5.56x45.",
+      "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_minigun.png",
+      "params": {}
+    },
+    {
+      "id": "give_weapon_rpg7",
+      "label": "Dar RPG-7",
+      "description": "Entrega RPG-7 TACZ con cohetes.",
+      "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_rpg7.png",
+      "params": {}
+    },
+    {
+      "id": "give_weapon_sfms_m4a5",
+      "label": "Dar SFMS M4A5",
+      "description": "Entrega SFMS M4A5 con municion 5.56x45.",
+      "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_weapon_sfms_m4a5.png",
       "params": {}
     },
     {
@@ -101,6 +131,7 @@
       "label": "Dar arma configurada",
       "description": "Entrega el arma definida en config/live_actions.json o el weaponKey permitido que envie la regla.",
       "type": "viewer_action",
+      "imagePath": "assets/acciones_png/give_configured_weapon.png",
       "params": {
         "weaponKey": {
           "type": "select",
