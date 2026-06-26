@@ -3,7 +3,7 @@
     "defaultPlayer": "@p",
     "allowSelectors": true,
     "allowedSelectors": ["@p", "@a", "@r", "@s"],
-    "maxQuantity": 25
+    "maxQuantity": 999
   },
   "rcon": {
     "enabled": true,
@@ -140,7 +140,6 @@
       ]
     },
     "spawn_zombie_wave": {
-      "repeat": 5,
       "commands": [
         "execute at {player} run summon minecraft:zombie ~2 ~ ~"
       ]

@@ -38,6 +38,62 @@ function Copy-DirectoryContent {
   }
 }
 
+function Merge-JsonArrayFile {
+  param(
+    [string]$Source,
+    [string]$Destination,
+    [string]$Key = "uuid"
+  )
+  if (-not (Test-Path -LiteralPath $Source)) {
+    return
+  }
+
+  $sourceItems = [System.Collections.Generic.List[object]]::new()
+  $targetItems = [System.Collections.Generic.List[object]]::new()
+  $rawSource = Get-Content -LiteralPath $Source -Raw -Encoding UTF8
+  if (-not [string]::IsNullOrWhiteSpace($rawSource)) {
+    $parsedSource = ConvertFrom-Json -InputObject $rawSource
+    foreach ($item in $parsedSource) {
+      $sourceItems.Add($item)
+    }
+  }
+  if (Test-Path -LiteralPath $Destination) {
+    $rawTarget = Get-Content -LiteralPath $Destination -Raw -Encoding UTF8
+    if (-not [string]::IsNullOrWhiteSpace($rawTarget)) {
+      $parsedTarget = ConvertFrom-Json -InputObject $rawTarget
+      foreach ($item in $parsedTarget) {
+        $targetItems.Add($item)
+      }
+    }
+  }
+
+  $merged = [System.Collections.Generic.List[object]]::new()
+  foreach ($item in $targetItems) {
+    $merged.Add($item)
+  }
+
+  foreach ($item in $sourceItems) {
+    $value = [string]$item.$Key
+    $exists = $false
+    foreach ($existing in $merged) {
+      if ([string]$existing.$Key -eq $value) {
+        $exists = $true
+        break
+      }
+    }
+    if (-not $exists) {
+      $merged.Add($item)
+    }
+  }
+
+  $json = if ($merged.Count -gt 0) {
+    $merged | ConvertTo-Json -Depth 8
+  } else {
+    "[]"
+  }
+  Set-Content -LiteralPath $Destination -Value $json -Encoding UTF8
+}
+
 function Get-ClientOnlyServerModPatterns {
   return @(
     "*ambientenvironment*",
@@ -166,6 +222,10 @@ $env:PATH = (Join-Path $env:JAVA_HOME "bin") + ";" + $env:PATH
 
 New-Item -ItemType Directory -Force -Path $serverRoot, (Join-Path $serverRoot "mods"), (Join-Path $serverRoot "config"), (Join-Path $serverRoot "logs") | Out-Null
 Copy-DirectoryContent $serverOverrides $serverRoot
+$serverWorldDatapacks = Join-Path $rootPath "defaults\server-world-datapacks"
+if (Test-Path -LiteralPath $serverWorldDatapacks) {
+  Copy-DirectoryContent $serverWorldDatapacks (Join-Path $serverRoot "world\datapacks")
+}
 $serverModsResult = Sync-ServerMods $sourceMods (Join-Path $serverRoot "mods")
 
 foreach ($fileName in @("server.properties", "eula.txt")) {
@@ -177,6 +237,8 @@ foreach ($fileName in @("server.properties", "eula.txt")) {
     }
   }
 }
+
+Merge-JsonArrayFile -Source (Join-Path $rootPath "server\ops.json") -Destination (Join-Path $serverRoot "ops.json") -Key "uuid"
 
 if (-not (Test-Path -LiteralPath $installerPath)) {
   Write-Host "Descargando Forge Server Installer:"

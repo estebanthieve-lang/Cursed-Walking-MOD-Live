@@ -11,7 +11,7 @@
   },
   "mod": {
     "id": "cursed_walking_mod_live",
-    "jarPattern": "",
+    "jarPattern": "*.jar",
     "latestJarFolder": "dist/mods",
     "packagedJarFolder": "game/mods",
     "installTargets": []

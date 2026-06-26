@@ -143,16 +143,22 @@
     {
       "id": "give_ammo_pack",
       "label": "Dar municion",
-      "description": "Entrega un pack de municion TACZ comun.",
+      "description": "Entrega packs de municion TACZ comun segun la cantidad de la regla.",
       "type": "viewer_action",
-      "params": {}
+      "params": {
+        "supportsQuantity": true,
+        "maxQuantity": 999
+      }
     },
     {
       "id": "spawn_zombie_wave",
       "label": "Invocar horda",
-      "description": "Invoca zombies cerca del jugador objetivo.",
+      "description": "Invoca la cantidad de zombies elegida en la regla cerca del jugador objetivo.",
       "type": "viewer_action",
-      "params": {}
+      "params": {
+        "supportsQuantity": true,
+        "maxQuantity": 999
+      }
     },
     {
       "id": "spawn_fast_zombie",
