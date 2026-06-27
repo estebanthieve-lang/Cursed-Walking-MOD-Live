@@ -1,2 +1,3 @@
-# Change to eula=true only when the final game owner/user accepts Minecraft's EULA.
-eula=false
+# Minecraft EULA accepted for this packaged TikTok Live local server.
+# By launching the local server, the host must comply with https://aka.ms/MinecraftEULA
+eula=true

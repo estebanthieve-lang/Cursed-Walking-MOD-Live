@@ -94,6 +94,16 @@ function Merge-JsonArrayFile {
   Set-Content -LiteralPath $Destination -Value $json -Encoding UTF8
 }
 
+function Set-MinecraftEulaAccepted {
+  param([string]$Path)
+  $content = @(
+    "# Minecraft EULA accepted for this packaged TikTok Live local server.",
+    "# By launching the local server, the host must comply with https://aka.ms/MinecraftEULA",
+    "eula=true"
+  )
+  Set-Content -LiteralPath $Path -Value $content -Encoding UTF8
+}
+
 function Get-ClientOnlyServerModPatterns {
   return @(
     "*ambientenvironment*",
@@ -237,6 +247,8 @@ foreach ($fileName in @("server.properties", "eula.txt")) {
     }
   }
 }
+
+Set-MinecraftEulaAccepted (Join-Path $serverRoot "eula.txt")
 
 Merge-JsonArrayFile -Source (Join-Path $rootPath "server\ops.json") -Destination (Join-Path $serverRoot "ops.json") -Key "uuid"
 
