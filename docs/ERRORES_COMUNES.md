@@ -133,7 +133,7 @@ Causa:
 
 Parche aplicado:
 
-- Desde el launcher `0.1.32`, al instalar o iniciar Minecraft local se mezcla `ops.json` existente con la cuenta detectada del Minecraft Launcher del PC. No borra OPs manuales.
+- Desde el launcher `0.1.33`, al instalar o iniciar Minecraft local se mezcla `ops.json` existente con la cuenta detectada del Minecraft Launcher del PC. No borra OPs manuales.
 
 ## Jugar ahora resynca demasiado
 
@@ -147,7 +147,7 @@ Causa:
 
 Parche aplicado:
 
-- Desde el launcher `0.1.32`, `Jugar ahora` no mata ni recrea el runtime Minecraft si ya esta vivo, y solo resynca mods cuando detecta instalacion incompleta.
+- Desde el launcher `0.1.33`, `Jugar ahora` no mata ni recrea el runtime Minecraft si ya esta vivo, y solo resynca mods cuando detecta instalacion incompleta.
 
 ## No conecta al servidor local
 
