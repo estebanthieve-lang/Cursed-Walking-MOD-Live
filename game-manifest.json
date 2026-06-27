@@ -2,7 +2,7 @@
   "gameId": "cursed-walking-mod-live",
   "name": "Cursed Walking MOD Live",
   "description": "Cursed Walking V3.2.3 preparado para TikTok Live Games con EventBus local, comandos RCON y acciones editables.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "endpoint": "POST http://127.0.0.1:9060/event",
   "manifestEndpoint": "GET http://127.0.0.1:9060/manifest",
   "eventBus": {

@@ -107,13 +107,19 @@ function Sync-ClientMods {
 
 function Find-Java {
   param([string]$RootPath)
-  $candidates = @(
-    (Join-Path $RootPath "tools\java\bin\java.exe"),
-    (Join-Path $env:JAVA_HOME "bin\java.exe")
-  )
+  $candidates = [System.Collections.Generic.List[string]]::new()
+  $portableJava = Join-Path $RootPath "tools\java\bin\java.exe"
+  $candidates.Add($portableJava)
+
+  if (-not [string]::IsNullOrWhiteSpace($env:JAVA_HOME)) {
+    $candidates.Add((Join-Path $env:JAVA_HOME "bin\java.exe"))
+  }
 
   foreach ($candidate in $candidates) {
     if ($candidate -and (Test-Path -LiteralPath $candidate)) {
+      $javaHome = Split-Path -Parent (Split-Path -Parent $candidate)
+      $env:JAVA_HOME = $javaHome
+      $env:PATH = (Join-Path $javaHome "bin") + ";" + $env:PATH
       return $candidate
     }
   }
