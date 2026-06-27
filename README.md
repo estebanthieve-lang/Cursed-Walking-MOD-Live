@@ -106,6 +106,7 @@ Nota: el servidor Minecraft requiere que el usuario acepte la EULA de Minecraft 
 
 - `docs\ARQUITECTURA.md`: mapa tecnico del proyecto, EventBus, RCON, manifest y runtime.
 - `docs\REGLAS_COMANDOS_MC.md`: plan para reglas con comandos Minecraft, armas propias, enemigos y seguridad.
+- `docs\ERRORES_COMUNES.md`: fallos ya vistos en instalacion/publicacion y como revisarlos.
 
 ## Estado actual
 
