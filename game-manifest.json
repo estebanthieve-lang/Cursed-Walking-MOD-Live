@@ -2,7 +2,7 @@
   "gameId": "cursed-walking-mod-live",
   "name": "Cursed Walking MOD Live",
   "description": "Cursed Walking V3.2.3 preparado para TikTok Live Games con EventBus local, comandos RCON y acciones editables.",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "endpoint": "POST http://127.0.0.1:9060/event",
   "manifestEndpoint": "GET http://127.0.0.1:9060/manifest",
   "eventBus": {
@@ -196,7 +196,8 @@
       "label": "Comando Minecraft",
       "description": "Ejecuta un comando Minecraft escrito en la regla por RCON local.",
       "type": "minecraft_command",
-      "params": {}
+      "params": {},
+      "imagePath": "assets/acciones_png/minecraft_manual_command.png"
     },
     {
       "id": "set_day",
