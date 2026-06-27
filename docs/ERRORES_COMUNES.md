@@ -106,6 +106,49 @@ Revision:
 - Reinstalar/actualizar el juego desde la app.
 - Confirmar que `scripts/preparar_servidor.ps1` copie mods de servidor y omita solo mods cliente.
 
+## Code 1 por JSON de KubeJS
+
+Sintoma:
+
+- Minecraft Launcher abre el perfil y cierra con `Codigo de error: 1`.
+- `stderr_stream.log` muestra `MalformedJsonException` en `kubejs/assets/cw/lang/en_us.json` o `en_ca.json`.
+
+Causa:
+
+- JSON invalido por coma sobrante al final de `cwtips.tips.tip1`.
+
+Parche aplicado:
+
+- Desde `v0.1.5`, los JSON de idioma de KubeJS se validan sin coma final.
+
+## Jugador no queda OP/admin
+
+Sintoma:
+
+- El jugador entra al servidor pero no puede usar comandos/admin aunque el juego deberia dejarlo OP.
+
+Causa:
+
+- `server/ops.json` puede venir vacio o con UUID viejo si cambia la cuenta de Minecraft.
+
+Parche aplicado:
+
+- Desde el launcher `0.1.32`, al instalar o iniciar Minecraft local se mezcla `ops.json` existente con la cuenta detectada del Minecraft Launcher del PC. No borra OPs manuales.
+
+## Jugar ahora resynca demasiado
+
+Sintoma:
+
+- Cada vez que se pulsa `Jugar ahora`, el launcher vuelve a preparar servidor/cliente y puede obligar a reiniciar Minecraft Launcher.
+
+Causa:
+
+- El launcher ejecutaba scripts de preparacion aunque el cliente y servidor ya estaban listos.
+
+Parche aplicado:
+
+- Desde el launcher `0.1.32`, `Jugar ahora` no mata ni recrea el runtime Minecraft si ya esta vivo, y solo resynca mods cuando detecta instalacion incompleta.
+
 ## No conecta al servidor local
 
 Sintoma:
