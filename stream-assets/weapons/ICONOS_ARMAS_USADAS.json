@@ -1,0 +1,87 @@
+{
+  "rule": "Use the real item/weapon icon from the mod first. Do not use generic silhouettes, manual screenshots, or internet images while a local mod icon exists.",
+  "sourceFolder": "stream-assets/weapons/slot_colored/x4_256_png",
+  "weapons": [
+    {
+      "weaponKey": "ak47",
+      "label": "AK-47",
+      "aliases": ["ak", "ak47", "ak-47", "tacz:ak47"],
+      "actionId": "give_weapon_ak47",
+      "gunId": "tacz:ak47",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/ak47.png",
+      "actionImage": "assets/acciones_png/give_weapon_ak47.png"
+    },
+    {
+      "weaponKey": "m4a1",
+      "label": "M4A1",
+      "aliases": ["m4", "m4a1", "tacz:m4a1"],
+      "actionId": "give_weapon_m4a1",
+      "gunId": "tacz:m4a1",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/m4a1.png",
+      "actionImage": "assets/acciones_png/give_weapon_m4a1.png"
+    },
+    {
+      "weaponKey": "mp5",
+      "label": "HK MP5A5",
+      "aliases": ["mp5", "hk mp5", "hk_mp5a5", "mp5a5", "tacz:hk_mp5a5"],
+      "actionId": "give_weapon_mp5",
+      "gunId": "tacz:hk_mp5a5",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/mp5_hk_mp5a5.png",
+      "actionImage": "assets/acciones_png/give_weapon_mp5.png"
+    },
+    {
+      "weaponKey": "m249",
+      "label": "M249",
+      "aliases": ["m249", "tacz:m249"],
+      "actionId": "give_weapon_m249",
+      "gunId": "tacz:m249",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/m249.png",
+      "actionImage": "assets/acciones_png/give_weapon_m249.png"
+    },
+    {
+      "weaponKey": "m107",
+      "label": "M107",
+      "aliases": ["m107", "barrett", "50bmg", "tacz:m107"],
+      "actionId": "give_weapon_m107",
+      "gunId": "tacz:m107",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/m107.png",
+      "actionImage": "assets/acciones_png/give_weapon_m107.png"
+    },
+    {
+      "weaponKey": "shotgun",
+      "label": "M870",
+      "aliases": ["shotgun", "escopeta", "m870", "tacz:m870"],
+      "actionId": "give_weapon_shotgun",
+      "gunId": "tacz:m870",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/shotgun_m870.png",
+      "actionImage": "assets/acciones_png/give_weapon_shotgun.png"
+    },
+    {
+      "weaponKey": "minigun",
+      "label": "Minigun",
+      "aliases": ["minigun", "tacz:minigun"],
+      "actionId": "give_weapon_minigun",
+      "gunId": "tacz:minigun",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/minigun.png",
+      "actionImage": "assets/acciones_png/give_weapon_minigun.png"
+    },
+    {
+      "weaponKey": "rpg7",
+      "label": "RPG-7",
+      "aliases": ["rpg", "rpg7", "rpg-7", "tacz:rpg7"],
+      "actionId": "give_weapon_rpg7",
+      "gunId": "tacz:rpg7",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/rpg7.png",
+      "actionImage": "assets/acciones_png/give_weapon_rpg7.png"
+    },
+    {
+      "weaponKey": "sfms_m4a5",
+      "label": "SFMS M4A5",
+      "aliases": ["sfms", "m4a5", "sfms:m4a5"],
+      "actionId": "give_weapon_sfms_m4a5",
+      "gunId": "sfms:m4a5",
+      "icon": "stream-assets/weapons/slot_colored/x4_256_png/sfms_m4a5.png",
+      "actionImage": "assets/acciones_png/give_weapon_sfms_m4a5.png"
+    }
+  ]
+}

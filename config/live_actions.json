@@ -11,6 +11,7 @@
     "port": 25582,
     "password": "cursed-live-local",
     "timeoutSeconds": 3,
+    "silenceMinecraftChat": true,
     "fallbackToQueue": true,
     "queue": "data/minecraft_commands.jsonl"
   },

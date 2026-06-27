@@ -170,6 +170,25 @@ Revision:
 - Revisar `server/logs/latest.log`.
 - Esperar a que el servidor termine de iniciar antes de entrar.
 
+## Spam de RCON, summon o advancements en el chat
+
+Sintoma:
+
+- Al probar reglas aparecen muchas lineas como `[Rcon: Gave ...]`, `[Rcon: Summoned new Zombie]` o avances del jugador.
+- Una horda x100 llena el chat con respuestas repetidas.
+
+Causa:
+
+- El servidor tenia `broadcast-rcon-to-ops` y `broadcast-console-to-ops` activos.
+- Las gamerules de feedback seguian encendidas en el mundo.
+- Minecraft necesita varios comandos internos para crear varias entidades, pero eso no debe verse como spam en chat/UI.
+
+Parche aplicado:
+
+- Desde `v0.1.6`, `server/server.properties` deja `broadcast-rcon-to-ops=false`, `broadcast-console-to-ops=false` y `log-admin-commands=false`.
+- Desde `v0.1.6`, `runtime/game_adapter.py` aplica gamerules silenciosas por RCON antes de ejecutar acciones.
+- Desde `v0.1.6`, el EventBus resume respuestas largas: una horda x100 puede ejecutar 100 comandos internos, pero no devuelve 100 respuestas completas al launcher.
+
 ## Checklist antes de publicar
 
 Antes de subir una version publica:

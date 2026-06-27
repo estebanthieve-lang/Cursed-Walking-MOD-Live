@@ -11,6 +11,14 @@ from typing import Any
 
 USERNAME_RE = re.compile(r"^[A-Za-z0-9_]{1,16}$")
 SAFE_VIEWER_RE = re.compile(r"[^A-Za-z0-9_ .-]")
+UNSAFE_COMMAND_RE = re.compile(r"[;|`$<>]")
+BLOCKED_COMMANDS = {"stop", "op", "deop", "ban", "ban-ip", "pardon", "pardon-ip", "whitelist", "save-off"}
+SILENT_SERVER_COMMANDS = (
+    "gamerule sendCommandFeedback false",
+    "gamerule commandBlockOutput false",
+    "gamerule logAdminCommands false",
+    "gamerule announceAdvancements false",
+)
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -169,15 +177,16 @@ def resolve_weapon_key(
     return key
 
 
-def weapon_commands(player: str, weapon: dict[str, Any]) -> list[str]:
+def weapon_commands(player: str, weapon: dict[str, Any], quantity: int) -> list[str]:
     gun_id = str(weapon.get("gunId") or "").strip()
     ammo_id = str(weapon.get("ammoId") or "").strip()
     ammo_amount = int(weapon.get("ammoAmount") or 64)
+    amount = max(1, int(quantity or 1))
     if not gun_id:
         raise ValueError("weapon sin gunId")
-    commands = [f'give {player} tacz:modern_kinetic_gun{{GunId:"{gun_id}"}} 1']
+    commands = [f'give {player} tacz:modern_kinetic_gun{{GunId:"{gun_id}"}} {amount}']
     if ammo_id:
-        commands.append(f'give {player} tacz:ammo{{AmmoId:"{ammo_id}"}} {ammo_amount}')
+        commands.append(f'give {player} tacz:ammo{{AmmoId:"{ammo_id}"}} {ammo_amount * amount}')
     return commands
 
 
@@ -188,20 +197,87 @@ def render_command(command: str, context: dict[str, str]) -> str:
     return rendered.strip().lstrip("/")
 
 
+def validate_manual_command(command: str) -> str:
+    rendered = command.strip().lstrip("/")
+    if not rendered:
+        raise ValueError("comando manual vacio")
+    if len(rendered) > 1000:
+        raise ValueError("comando manual demasiado largo")
+    if UNSAFE_COMMAND_RE.search(rendered):
+        raise ValueError("comando manual contiene caracteres no permitidos")
+    first_token = rendered.split(maxsplit=1)[0].lower()
+    if first_token in BLOCKED_COMMANDS:
+        raise ValueError(f"comando manual bloqueado: {first_token}")
+    return rendered
+
+
+def expand_manual_commands(
+    payload: dict[str, Any],
+    live_config: dict[str, Any],
+) -> list[str]:
+    player = resolve_target(payload, live_config)
+    viewer = clean_viewer(payload.get("viewer") or payload.get("username") or payload.get("nickname"))
+    source = payload.get("source") if isinstance(payload.get("source"), dict) else {}
+    quantity = resolve_quantity(payload, live_config)
+    context = {
+        "player": player,
+        "playername": player,
+        "viewer": viewer,
+        "viewerName": viewer,
+        "quantity": str(quantity),
+        "giftName": str(source.get("giftName") or payload.get("giftName") or ""),
+        "giftId": str(source.get("giftId") or payload.get("giftId") or ""),
+        "repeatCount": str(source.get("repeatCount") or payload.get("repeatCount") or 1),
+    }
+
+    commands: list[str] = []
+    primary = str(payload.get("manualCommand") or payload.get("command") or "")
+    if primary.strip():
+        commands.append(validate_manual_command(render_command(primary, context)))
+
+    sequence = payload.get("commandSequence")
+    if isinstance(sequence, list):
+        for step in sequence[:20]:
+            if not isinstance(step, dict):
+                continue
+            try:
+                delay_ms = int(step.get("delayMs") or step.get("delay_ms") or 0)
+            except (TypeError, ValueError):
+                delay_ms = 0
+            if delay_ms:
+                raise ValueError("commandSequence.delayMs aun no esta soportado por este EventBus")
+            try:
+                repeat = max(1, min(100, int(step.get("repeat") or 1)))
+            except (TypeError, ValueError):
+                repeat = 1
+            command = str(step.get("command") or "")
+            rendered = validate_manual_command(render_command(command, context))
+            commands.extend([rendered] * repeat)
+
+    if not commands:
+        raise ValueError("accion manual sin comandos")
+    return commands
+
+
 def expand_commands(
     payload: dict[str, Any],
     action_id: str,
     live_config: dict[str, Any],
 ) -> list[str]:
     actions = live_config.get("actions") if isinstance(live_config.get("actions"), dict) else {}
-    action_config = actions.get(action_id)
-    if not isinstance(action_config, dict):
-        raise ValueError(f"accion sin config/live_actions.json: {action_id}")
 
     weapons = live_config.get("weapons") if isinstance(live_config.get("weapons"), dict) else {}
     player = resolve_target(payload, live_config)
     viewer = clean_viewer(payload.get("viewer") or payload.get("username") or payload.get("nickname"))
     quantity = resolve_quantity(payload, live_config)
+
+    if action_id == "minecraft_manual_command":
+        return expand_manual_commands(payload, live_config)
+
+    action_config = actions.get(action_id)
+    if not isinstance(action_config, dict):
+        raise ValueError(f"accion sin config/live_actions.json: {action_id}")
+
     repeat = max(1, int(action_config.get("repeat") or 1)) * quantity
 
     commands: list[str] = []
@@ -216,7 +292,7 @@ def expand_commands(
             "weaponGunId": str(weapon.get("gunId") or ""),
             "weaponAmmoId": str(weapon.get("ammoId") or ""),
         }
-        commands.extend(render_command(command, weapon_context) for command in weapon_commands(player, weapon))
+        commands.extend(render_command(command, weapon_context) for command in weapon_commands(player, weapon, quantity))
 
     configured_commands = action_config.get("commands") or []
     if not isinstance(configured_commands, list):
@@ -272,9 +348,25 @@ def send_rcon(live_config: dict[str, Any], commands: list[str]) -> list[dict[str
         raise ValueError("RCON sin password")
     responses: list[dict[str, str]] = []
     with RconClient(host, port, password, timeout) as client:
+        if bool(rcon.get("silenceMinecraftChat", True)):
+            for command in SILENT_SERVER_COMMANDS:
+                try:
+                    client.command(command)
+                except Exception:
+                    pass
         for command in commands:
             responses.append({"command": command, "response": client.command(command)})
     return responses
+
+
+def summarize_responses(responses: list[dict[str, str]], max_items: int = 8) -> dict[str, Any]:
+    if len(responses) <= max_items:
+        return {"responses": responses}
+    return {
+        "responses": responses[:max_items],
+        "responsesTruncated": len(responses) - max_items,
+        "responseCount": len(responses),
+    }
 
 
 def handle_event(payload: dict[str, Any], root: Path, manifest: dict, config: dict) -> dict:
@@ -300,7 +392,7 @@ def handle_event(payload: dict[str, Any], root: Path, manifest: dict, config: di
             "queued": False,
             "queue": str(queue_path),
             "commands": len(commands),
-            "responses": responses,
+            **summarize_responses(responses),
         }
     except Exception as error:
         if not bool(rcon.get("fallbackToQueue", True)):
